@@ -1,0 +1,9 @@
+/.metadata/
+/.recommenders/
+.DS_Store
+#*#
+*[ca]
+*.mp4
+*.zip
+*.log
+*.mbtree
