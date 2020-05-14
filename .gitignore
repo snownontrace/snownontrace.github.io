@@ -1,3 +1,6 @@
+_site/
+.jekyll-cache/
+Gemfile.lock
 /.metadata/
 /.recommenders/
 .DS_Store
