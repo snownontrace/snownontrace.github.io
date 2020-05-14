@@ -10,3 +10,4 @@ Gemfile.lock
 *.zip
 *.log
 *.mbtree
+*.ai
