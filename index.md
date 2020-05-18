@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Open protocols for open science
+---
 
 ## Molecular cloning
 
