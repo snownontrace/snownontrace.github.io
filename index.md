@@ -1,8 +1,6 @@
 ---
 layout: default
----
-
-# Open protocols for open science
+title: Prototols
 ---
 
 ## Molecular cloning
