@@ -16,11 +16,11 @@ We use homemade Gibson Assembly mix, but you can also buy [NEB Gibson Assembly M
 
   | Stock | for 3 mL |
   |:---|---:|
-  | Water | ~500 µL |
+  | [PEG 8000](https://www.sigmaaldrich.com/catalog/product/aldrich/p2139?lang=en&region=US) | 750 mg |
   | 1M Tris-HCl, pH7.5 | 1.5 mL |
   | 100 mM [each dNTP](https://www.neb.com/products/n0446-deoxynucleotide-solutionset#Product%20Information) | 4× 30 µL |
   | 50 mM [NAD](https://www.sigmaaldrich.com/catalog/product/sial/n7004?lang=en&region=US) | 300 µL |
-  | [PEG 8000](https://www.sigmaaldrich.com/catalog/product/aldrich/p2139?lang=en&region=US) | 750 mg |
+  | Water | ~500 µL |
 
 - Make the 1.33× Assembly Master Mix (AMM). Divide into 60 µL aliquots and store at -20°C. It can be frozen and thawed for >10 times without obvious drop in activity.
 
