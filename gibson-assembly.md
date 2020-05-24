@@ -17,10 +17,10 @@ We use homemade Gibson Assembly mix, but you can also buy [NEB Gibson Assembly M
   | Stock | for 3 mL |
   |:---|---:|
   | [PEG 8000](https://www.sigmaaldrich.com/catalog/product/aldrich/p2139?lang=en&region=US) | 750 mg |
-  | 1M Tris-HCl, pH7.5 | 1.5 mL |
+  | 1M Tris-HCl, pH 7.5 | 1.5 mL |
   | 100 mM [each dNTP](https://www.neb.com/products/n0446-deoxynucleotide-solutionset#Product%20Information) | 4× 30 µL |
   | 50 mM [NAD](https://www.sigmaaldrich.com/catalog/product/sial/n7004?lang=en&region=US) | 300 µL |
-  | Water | ~500 µL |
+  | Water | ~400 µL |
 
 - Make the 1.33× Assembly Master Mix (AMM). Divide into 60 µL aliquots and store at -20°C. It can be frozen and thawed for >10 times without obvious drop in activity.
 
@@ -39,3 +39,5 @@ We use homemade Gibson Assembly mix, but you can also buy [NEB Gibson Assembly M
 ### 2. Design DNA fragments
 
 We highly recommend the free software, [ApE](https://jorgensen.biology.utah.edu/wayned/ape/), for everyday editing of DNA sequences.
+
+Piece together the desired construct you need in ApE (or your preferred sequence editor). Identify up to 6 fragments that you can obtain by either PCR amplification or enzymatic digestion from an existing plasmid, or by direct synthesis. Design primers or synthesized DNA sequences to have at least 20 bp overlapping sequences at each joint.
