@@ -51,13 +51,44 @@ We highly recommend the free software [ApE](https://jorgensen.biology.utah.edu/w
 
 * Design primers or synthesized DNA sequences to have at least 20 bp overlapping sequences at each joint.
 
+* For PCR amplification with Q5:
+
+  | Stock | for 50 µL |
+  |:---|---:|
+  | [2× Q5 master mix](https://www.neb.com/products/m0492-q5-high-fidelity-2x-master-mix#Product%20Information)	| 25 µL |
+  | Water |  18 µL |
+  | Primer 1 | 2.5 µL |
+  | Primer 2 | 2.5 µL |
+  | Template (10-20 ng/µL) | 2 µL |
+
+* DNA fragments by PCR amplification and enzymatic digestion should be gel purified following [this protocol](./gel-purification.html).
+
 ### 3. Gibson assembly of DNA fragments
 
-Google spreadsheet for calculation:
-https://docs.google.com/spreadsheets/d/170iIEUKqzTQM4_Almc94qX16m6nT9M6A7w_KjGD3vmw/edit?usp=sharing
+  - In a PCR tube, make 2.5 µL of an equi-molar mix of all DNA fragments. If a fragment is <300 bp, double or triple its amount. Use [this Google Spreadsheet](https://docs.google.com/spreadsheets/d/170iIEUKqzTQM4_Almc94qX16m6nT9M6A7w_KjGD3vmw/edit?usp=sharing) to calculate volumes to mix by entering fragment lengths and concentrations of purified fragments.
 
+    - To avoid pipetting tiny volumes, make a 5 µL mix and aliquot 2.5 µL for the reaction. If the DNA concentration is too high (>100 ng/µL), dilute the stock first.
+
+  - Add 7.5 µL of 1.33× Assembly Master Mix for a 10 µL reaction. Incubate at 50°C for 15-60 min.
+
+    - 1 hour incubation is generally regarded as optimal. For 2-fragment assembly, 15 min will likely suffice.
 
 ### 4. Transformation of Gibson assembly reaction
 
+Gibson assembly reactions are salty, so for transformation by electroporation with electrocompetent cells, it need to (1) using a very small volume (<1 µL reaction per 50 µL competent cells), (2) diluted with water, or (3) pelleted with ethanol and resuspended in water. On the other hand, transformation with chemically competent cells can be done as usual.
+
+For a typical transformation with chemically competent cells such as [NEB Stable Competent _E. coli_ cells](https://www.neb.com/products/c3040-neb-stable-competent-e-coli-high-efficiency#Product%20Information):
+
+  - Turn on a water bath set at 42°C.
+  - Thaw a tube of 50 µL chemically competent cells on ice for 10 min.
+  - Mix 5 µL Gibson assembly reaction with 50 µL competent cells.
+  - Incubate on ice for 10 min. Do not mix.
+  - Heat shock at 42°C for exactly 30 sec.
+  - Place on ice for 3 min.
+  - Spread onto a selection plate. Grow at 37°C overnight or 30°C for 24 h (for plasmids with high risk of recombination).
+
+For exceptionally large plasmids (>20 kb), electroporation may work better due to higher efficiency and higher chance to take in the large complete assembled plasmid DNA in the reaction.
+
+For a typical electroporation with electrocompetent cells such as [NEB Stable Competent _E. coli_ cells](https://www.neb.com/products/c3040-neb-stable-competent-e-coli-high-efficiency#Product%20Information):
 
 ### 5. Troubleshooting

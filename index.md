@@ -9,10 +9,13 @@ title: Prototols
 * ### [Golden gate assembly](./golden-gate-assembly.html)
 * ### [Freeze down bacteria (cryopreservation)](./freeze-down-bacteria.html)
 * ### [Miraprep (enhanced miniprep)](./miraprep.html)
+* ### [Gel purification](./gel-purification.html)
+* ### [Commonly used _E. coli_ genotypes](./commonly-used-E-coli-genotypes.html)
 
 
 ## Cell and organ culture
 
+* ### [Useful cell numbers in various culture formats](./useful-cell-numbers-in-various-culture-formats.html)
 * ### [Routine cell culture](./routine-cell-culture.html)
 * ### [Freeze down cells (cryopreservation)](./freeze-down-cells.html)
 * ### [3D spheroid cell culture](./3D-spheroid-cell-culture.html)
