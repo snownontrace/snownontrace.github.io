@@ -6,50 +6,50 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2020-07-11
 ---
 
-### _E. coli_ genotypes
+This [Addgene blog](https://blog.addgene.org/plasmids-101-common-lab-e-coli-strains) is a great read for _E. coli_ strains. You can refer to [OpenWetWare](https://openwetware.org/wiki/E._coli_genotypes) and [Addgene](https://blog.addgene.org/plasmids-101-common-lab-e-coli-strains) for a more complete list of _E. coli_ strains and genotype meaning. Here we list the ones we commonly use.
 
-Refer to [this OpenWetWare page](https://openwetware.org/wiki/E._coli_genotypes) for the meaning of relevant genotypes and a more complete list of _E. coli_ strains. Here we list the ones we commonly use.
+### Commonly used _E. coli_ strains
 
-* F<sup>-</sup>: Does not carry the F plasmid. The F plasmid allows E. coli to mate through conjugation.
-* F'[list-of-host-genes]: Carries an F plasmid that has host genes from a previous recombination event. Same as F<sup>+</sup> cells, it can also mate with F<sup>-</sup> through conjugation.
-*
+* __DH5α__: _F<sup>-</sup> endA1 glnV44 thi-1 recA1 relA1 gyrA96 deoR nupG purB20 φ80d[lacZΔM15] Δ(lacZYA-argF)U169, hsdR17(r<sub>K</sub><sup>-</sup>m<sub>K</sub><sup>+</sup>) λ<sup>-</sup>_
+* __Endura electrocompetent cells (same as HB101)__: _F<sup>-</sup> mcrB mrr hsdS20(r<sub>B</sub><sup>-</sup>m<sub>B</sub><sup>-</sup>) recA13 leuB6 ara-14 proA2 lacY1 galK2 xyl-5 mtl-1 rpsL20(Sm<sup>R</sup>) glnV44 λ<sup>-</sup>_
+* __NEB Stable__: _F' proA+B+ lacI<sup>q</sup> lacZΔM15 zzf::Tn10 (Tet<sup>R</sup>) ∆(ara-leu) 7697 araD139 fhuA ∆lacX74 galK16 galE15 e14- φ80d[lacZΔM15] recA1 relA1 endA1 nupG rpsL (Str<sup>R</sup>) rph spoT1 ∆(mrr-hsdRMS-mcrBC)_
+* __NEB Turbo__: _F' proA+B+ lacI<sup>q</sup> lacZΔM15 fhuA2 ∆(lac-proAB) glnV44 galK16 galE15  R(zgb-210::Tn10)Tet<sup>S</sup> endA1 thi-1 ∆(hsdS-mcrB)5_
+* __BJ5183__ (Hanahan D, 1983): F-. endA. sbcB-, recBC-, galK, met-, strR, thi-1, bloT, hsdR (rk- , mk-), λ-
+* __Rosetta™(DE3)pLysS__: [E. coli strain B] F– ompT gal dcm lon? hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS) pLysSRARE[T7p20 ileX argU thrU tyrU glyT thrT argW metT leuW proL orip15A] (CmR)
+* __BL21__: [E. coli strain B] F– ompT gal dcm lon hsdSB(rB–mB–) [malB+]K-12(λS)
+* __BL21(DE3)__: [E. coli strain B] F– ompT gal dcm lon hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS)
+* __BL21(DE3) pLysS__: E. coli str. B F– ompT gal dcm lon hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS) pLysS[T7p20 orip15A] (CmR)
+* __BL21(DE3) pLysE__: E. coli str. B F– ompT gal dcm lon hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS) pLysS[T7p20 orip15A] (CmR)
 
-DH5α:
+### _E. coli_ genotype meaning
 
-F<sup>-</sup> _endA1 glnV44 thi-1 recA1 relA1 gyrA96 deoR nupG purB20_ φ80d[_lacZΔM15_] Δ(_lacZYA-argF_)U169, hsdR17(_r<sub>K</sub><sup>-</sup>m<sub>K</sub><sup>+</sup>_), λ<sup>-</sup>
-
-
-Endura electrocompetent cells (same as HB101):
-
-F<sup>-</sup> mcrB mrr hsdS20(rB- mB-) recA13 leuB6 ara-14 proA2 lacY1 galK2 xyl-5 mtl-1 rpsL20(SmR) glnV44 λ-
-
-
-NEB Turbo:
-
-F' proA+B+ lacIq ∆lacZM15 / fhuA2  ∆(lac-proAB)  glnV galK16 galE15  R(zgb-210::Tn10)TetS  endA1 thi-1 ∆(hsdS-mcrB)5
-
-
-NEB Stable:
-
-F' proA+B+ lacIq ∆(lacZ)M15 zzf::Tn10 (TetR) ∆(ara-leu) 7697 araD139 fhuA ∆lacX74 galK16 galE15 e14-  Φ80dlacZ∆M15 recA1 relA1 endA1 nupG rpsL (StrR) rph spoT1 ∆(mrr-hsdRMS-mcrBC)
-
-
-BJ5183 (Hanahan D, 1983):
-
-F-. endA. sbcB-, recBC-, galK, met-, strR, thi-1, bloT, hsdR (rk- , mk-), λ-
-
-
-Rosetta™(DE3)pLysS
-E. coli str. B F– ompT gal dcm lon? hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS) pLysSRARE[T7p20 ileX argU thrU tyrU glyT thrT argW metT leuW proL orip15A](CmR)
-
-BL21
-E. coli B F– ompT gal dcm lon hsdSB(rB–mB–) [malB+]K-12(λS)
-
-BL21(DE3)
-E. coli str. B F– ompT gal dcm lon hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS)
-
-BL21(DE3) pLysS
-E. coli str. B F– ompT gal dcm lon hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS) pLysS[T7p20 orip15A](CmR)
-
-BL21(DE3) pLysE
-E. coli str. B F– ompT gal dcm lon hsdSB(rB–mB–) λ(DE3 [lacI lacUV5-T7p07 ind1 sam7 nin5]) [malB+]K-12(λS) pLysS[T7p20 orip15A](CmR)
+* __ara-14__: Cannot metabolize arabinose.
+* __deoR__: Constitutive expression of genes for deoxyribose synthesis. Allows uptake of large plasmids.
+* __Δ(lacZYA-argF)U169__: Deletion of a chromosomal region including the lac operon and argF in the allele U169 Enhances resistance to hydrogen peroxide ([reference](https://www.thermofisher.com/us/en/home/life-science/cloning/cloning-learning-center/invitrogen-school-of-molecular-biology/molecular-cloning/transformation/competent-cell-genotypes-genetic-markers.html)).
+* __endA1__: Endonuclease I mutation that eliminates non-specific digestion by Endonuclease I.
+* __F<sup>-</sup>__: Does not carry the F plasmid. The F plasmid allows E. coli to mate through conjugation.
+* __F'[list-of-host-genes]__: Carries an F plasmid that has host genes from a previous recombination event. Same as F<sup>+</sup> cells, it can also mate with F<sup>-</sup> through conjugation.
+* __galK, galK16, galK2__: Mutation in the galactokinase gene. Cannot metabolize galactose and are resistant to 2-deoxygalactose. galK16 is an IS2 insertion ~170bp downstream of the galK start codon. galK2 is an ochre mutation (G->T at base pair 571; GAA->UAA).
+* __glnV44__ (supE44): Suppression of the amber (UAG) stop codon by glutamine insertion.
+* __gyrA, gyrA96__: DNA gyrase mutation. Confers resistance to nalidixic acid.
+* __hsdR17(r<sub>K</sub><sup>-</sup>m<sub>K</sub><sup>+</sup>)__: Unmethylated DNA not degraded, but cells can still methylate DNA.
+* __hsdS(r<sub>K</sub><sup>-</sup>m<sub>K</sub><sup>-</sup>), hsdS20(r<sub>B</sub><sup>-</sup>m<sub>B</sub><sup>-</sup>)__: Unmethylated DNA not degraded AND cell cannot methylate DNA.
+* __lacY1__: Mutation in the galactoside permease gene. Blocks lactose utilization.
+* __lacZ__: β-galactosidase activity abolished.
+* __lacI<sup>q</sup>__: Mutation in the lac repressor gene for constitutive expression. Inhibits transcription from the lac promoter, which can be overcome by IPTG addition. Allows controlled gene expression from promoters that carry the lac operator. The superscript <sup>q</sup> indicates a constitutive mutation.
+* __λ<sup>-</sup>__: Deletion of λ lysogen.
+* __leuB6__: Requires leucine.
+* __mcrA__: Mutation eliminating restriction of DNA methylated at the sequence C<sup>m</sup>CGG (possibly <sup>m</sup>CG). Carried on the e14 prophage (q.v.)
+* __mcrB__: Mutation eliminating restriction of DNA methylated at the sequence R<sup>m</sup>C
+* __metB, metC__: Requires methionine.
+* __mrr__: Mutation eliminating restriction of DNA methylated at the sequence C<sup>m</sup>AG or G<sup>m</sup>AC
+* __mtl-1__: The mannitol utilization is blocked.
+* __nupG__: The gene encodes a broad-specificity transporter of purine and pyrimidine nucleosides. Driven by a proton motive force. Can transport uridine, adenosine, inosine, guanosine, thymidine and cytidine. [OpenWetWare](https://openwetware.org/wiki/E._coli_genotypes) says this is the same as deoR.
+* __φ80__: Cell carries the lambdoid prophage φ80. A defective version of this phage (φ80d[lacZΔM15_) carrying lacZM15 deletion (as well as wild-type lacI, lacYA, and flanking sequences) is present in some strains. The φ80 attachment site is just adjacent to tonB.
+* __proA2__: Requires proline.
+* __purB20__: The purB encodes a protein that is involved in step 2 of the sub-pathway that synthesizes AMP from IMP.
+* __recA, recA1, recA13__: Mutation in a DNA-dependent ATPase that is essential for recombination and general DNA repair. It Rreduces plasmid recombination and increases plasmid stability.
+* __relA, relA1__: Relaxed phenotype. Mutation eliminating stringent factor	and thus allows RNA synthesis in absence of protein synthesis.
+* __rpsL20(Sm<sup>R</sup>)__: Mutation in ribosomal protein S12 conveying streptomycin resistance.
+* __thi-1__: Mutation in thiamine metabolism. Requires exogenous thiamine for growth.
+* __xyl-5__: Mutation in a xylose metabolism gene. Blocks xylose utilization.
