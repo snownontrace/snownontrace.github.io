@@ -10,6 +10,7 @@ title: Prototols
 * ### [Freeze down bacteria (cryopreservation)](./freeze-down-bacteria.html)
 * ### [Miraprep (enhanced miniprep)](./miraprep.html)
 * ### [Gel purification](./gel-purification.html)
+* ### [PCR amplification](./PCR-amplification.html)
 * ### [Commonly used _E. coli_ genotypes](./commonly-used-E-coli-genotypes.html)
 
 
@@ -17,14 +18,14 @@ title: Prototols
 
 * ### [Useful cell numbers in various culture formats](./useful-cell-numbers-in-various-culture-formats.html)
 * ### [Routine cell culture](./routine-cell-culture.html)
-* ### [Freeze down cells (cryopreservation)](./freeze-down-cells.html)
+* ### [Freezing and thawing cells](./freezing-and-thawing-cells.html)
 * ### [3D spheroid cell culture](./3D-spheroid-cell-culture.html)
 * ### [Embryonic salivary gland culture](./embryonic-salivary-gland-culture.html)
 * ### [Fluorescence-activated cell sorting (FACS)](./fluorescence-activated-cell-sorting.html)
 * ### [Cell cloning by limited dilution](./cell-cloning-by-limited-dilution.html)
 
 
-## Cell transgenesis
+## Cell line transgenesis
 
 * ### [Lentivirus packaging](./lentivirus-packaging.html)
 * ### [Lentivirus transduction](./lentivirus-transduction.html)
@@ -39,6 +40,7 @@ title: Prototols
 
 ## Genome engineering
 
+* ### [Guide RNA design](./guide-RNA-design.html)
 * ### [Gene knockout in cell lines](./gene-knockout-in-cell-lines.html)
 * ### [Small fragment knockin in cell lines](./small-fragment-knockin-in-cell-lines.html)
 * ### [Large fragment knockin in cell lines](./large-fragment-knockin-in-cell-lines.html)
@@ -59,6 +61,12 @@ title: Prototols
 * ### [Live-cell imaging](./live-cell-imaging.html)
 * ### [Live-organ imaging](./live-organ-imaging.html)
 * ### [Microtubule gliding assay](./microtubule-gliding-assay.html)
+* ### [Oxygen scavenger](./oxygen-scavenger.html)
+
+
+## Fluorescence dye labeling
+* ### [Fluorescence dye labeling of proteins](./fluorescence-dye-labeling-of-proteins.html)
+* ### [Fluorescence dye labeling of DNA oligos](./fluorescence-dye-labeling-of-DNA-oligos.html)
 
 
 ## Bulk and single-cell RNA-seq
