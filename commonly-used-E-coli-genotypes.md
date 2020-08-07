@@ -55,7 +55,7 @@ This [Addgene blog](https://blog.addgene.org/plasmids-101-common-lab-e-coli-stra
 * __pLysE__: The pLysE plasmid encodes T7 phage lysozyme, an inhibitor for T7 polymerase which almost eliminates expression from transformed T7 promoter containing plasmids when not induced. pLysE produces higher amounts of T7 lysozyme than pLysS to further reduce basal level expression of recombinant genes by inhibiting basal levels of T7 RNA polymerase. This makes BL21(DE3)[pLysE] more suitable for expressing toxic genes.
 * __pLysS__: The pLysS plasmid encodes T7 phage lysozyme, an inhibitor for T7 polymerase which almost eliminates expression from transformed T7 promoter containing plasmids when not induced.
 * __pLysSRARE__: In addition to T7 phage lysozyme, pLysSRARE also contains tRNA genes argU, argW, ileX, glyT, leuW, proL, metT, thrT, tyrU, and thrU. The rare codons AGG, AGA, AUA, CUA, CCC, and GGA are supplemented.
-* __recA, recA1, recA13__: Mutation in a DNA-dependent ATPase that is essential for recombination and general DNA repair. It Rreduces plasmid recombination and increases plasmid stability.
+* __recA, recA1, recA13__: Mutation in a DNA-dependent ATPase that is essential for recombination and general DNA repair. It reduces plasmid recombination and increases plasmid stability.
 * __relA, relA1__: Relaxed phenotype. Mutation eliminating stringent factor	and thus allows RNA synthesis in absence of protein synthesis.
 * __rpsL20(Sm<sup>R</sup>)__: Mutation in ribosomal protein S12 conveying streptomycin resistance.
 * __thi-1__: Mutation in thiamine metabolism. Requires exogenous thiamine for growth.
