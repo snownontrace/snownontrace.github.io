@@ -20,9 +20,9 @@ We use homemade Gibson Assembly mix, but you can also buy [NEB Gibson Assembly M
   |:---|---:|---:|
   | [PEG 8000](https://www.sigmaaldrich.com/catalog/product/aldrich/p2139?lang=en&region=US) | 750 mg | 1.5 g |
   | [1 M Tris-HCl, pH 7.5](https://www.thermofisher.com/order/catalog/product/15567027#/15567027) | 1.5 mL | 3 mL |
-  | [1 M MgCl<sub>2</sub>](https://www.sigmaaldrich.com/catalog/search?term=M1028-100mL&interface=All&N=0&lang=en&region=US&focus=product) | 150 µL | 300 µL |
-	| 1M [DTT](https://www.sigmaaldrich.com/catalog/product/roche/dttro?lang=en&region=US) | 150 µL | 300 µL |
-  | [100 mM each dNTP](https://www.neb.com/products/n0446-deoxynucleotide-solutionset#Product%20Information) | 4× 30 µL | 4× 60 µL |
+  | [1 M MgCl<sub>2</sub>](https://www.thermofisher.com/order/catalog/product/AM9530G#/AM9530G) | 150 µL | 300 µL |
+	| 1 M [DTT](https://www.sigmaaldrich.com/catalog/product/roche/dttro?lang=en&region=US) | 150 µL | 300 µL |
+  | [100 mM each dNTP](https://www.thermofisher.com/order/catalog/product/10297018#/10297018) | 4× 30 µL | 4× 60 µL |
   | 100 mM [NAD](https://www.sigmaaldrich.com/catalog/product/sigma/n0632?lang=en&region=US) | 150 µL | 300 µL |
   | Water | ~250 µL | ~500 µL |
 
