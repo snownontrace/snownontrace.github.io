@@ -7,7 +7,7 @@ title: Prototols
 
 * ### [Gibson assembly](./gibson-assembly.html)
 * ### [Golden gate assembly](./golden-gate-assembly.html)
-* ### [Freeze down bacteria (cryopreservation)](./freeze-down-bacteria.html)
+* ### [Freezing and streaking bacteria](./freezing-and-streaking-bacteria.html)
 * ### [Miraprep (enhanced miniprep)](./miraprep.html)
 * ### [Gel purification](./gel-purification.html)
 * ### [PCR amplification](./PCR-amplification.html)
