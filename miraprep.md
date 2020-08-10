@@ -6,7 +6,7 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2020-08-09
 ---
 
-[Miraprep](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0160509) uses a simple trick to greatly improve the DNA yield using a miniprep kit. From 2 mL terrific broth culture, we routinely get 30-50 µg plasmid DNA. For comparison, the average yield of regular miniprep is 10-20 µg.
+[Miraprep](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0160509) uses a simple trick to greatly improve the DNA yield using a miniprep kit. From 2 mL terrific broth (TB) culture, we routinely get 30-50 µg plasmid DNA. For comparison, the average yield of a regular miniprep from 2 mL TB culture is 10-20 µg.
 
 If you are very familiar with miniprep, the miraprep trick is to _add an equal volume of ethanol to the supernatant before loading it onto the column_, whereas all other steps remain essentially the same. The ethanol is thought to overcome the typical binding capacity of silica columns by condensing DNA into micro-precipitates.
 
