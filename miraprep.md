@@ -20,7 +20,7 @@ We usually use the [Qiagen miniprep kit](https://www.qiagen.com/us/products/top-
 
 1. Pour bacterial suspension into pre-labeled [2 mL tubes](https://online-shop.eppendorf.us/US-en/Laboratory-Consumables-44512/Tubes-44515/Eppendorf-Safe-Lock-Tubes-PF-8863.html) (eppendorf, catalog # 022363352). Centrifuge at 9,000 rpm for 1 min to pellet bacterial cells. Discard the supernatant by pouring into a liquid waste container.
 
-    - If more than 4 mL was used, split into multiple 2 mL tubes.
+    - If more than 2 mL was used, split into multiple 2 mL tubes.
     - For intermediate tubes, simply label them with 1, 2, 3 ... can save a lot of labeling time, especially when processing many samples. Just make sure plasmids are ordered in a natural way to avoid trouble of decoding at the last step.
 
 1. Add 250 µL P1 resuspension buffer (with 100 µg/mL RNase A) into each tube.
