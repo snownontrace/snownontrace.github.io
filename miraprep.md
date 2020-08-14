@@ -42,7 +42,14 @@ We usually use the [Qiagen miniprep kit](https://www.qiagen.com/us/products/top-
 
 1. Centrifuge at ≥ 13,000 rpm for 10 min to pellet cell debris.
 
+1. During centrifugation, prepare a new set of 2 mL tubes on a rack and label them.
+
+1. After centrifugation, pipet 800 µL supernatant into the new tubes. Try to avoid precipitates as much as possible.
+
+1. Centrifuge again at ≥ 13,000 rpm for 5-10 min to pellet carryover precipitates.
+
     - During the centrifugation, prepare a new set of 2 mL tubes and a set of spin columns following the next 2 steps.
+    - Carryover precipitates appear to be the main source of contamination that will give inflated measurements of DNA concentration.
 
 1. Arrange a new set of 2 mL tubes on a rack, add 800 µL ethanol into each tube, close the tubes and label them.
 
