@@ -36,7 +36,9 @@ title: Prototols
 ## Transcription modulation
 
 * ### [Inducible CRISPRi and CRISPRa](./inducible-CRISPRi-and-CRISPRa.html)
+* ### [Guide RNA design for CRISPRi and CRISPRa](./guide-RNA-design-CRISPRi-CRISPRa.html)
 * ### [Gene knockdown with CasRx](./gene-knockdown-with-CasRx.html)
+* ### [Guide RNA design for CasRx](./guide-RNA-design-CasRx.html)
 
 
 ## Genome engineering
@@ -49,11 +51,9 @@ title: Prototols
 * ### [Gene knockout in _C. elegans_](./gene-knockout-in-C-elegans.html)
 * ### [Small fragment knockin in _C. elegans_](./small-fragment-knockin-in-C-elegans.html)
 * ### [Large fragment knockin in _C. elegans_](./large-fragment-knockin-in-C-elegans.html)
-* ### [Base editing in _C. elegans_](./base-editing-in-C-elegans.html)
 * ### [Gene knockout in mice](./gene-knockout-in-mice.html)
 * ### [Small fragment knockin in mice](./small-fragment-knockin-in-mice.html)
 * ### [Large fragment knockin in mice](./large-fragment-knockin-in-mice.html)
-* ### [Base editing in mice](./base-editing-in-mice.html)
 
 
 ## Microscopy
