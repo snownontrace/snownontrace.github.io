@@ -1,14 +1,12 @@
 ---
 layout: protocols
-title: Miraprep (enhanced miniprep)
+title: Miniprep (regular)
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2020-10-25
 ---
 
-[Miraprep](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0160509) uses a simple trick to greatly improve the DNA yield using a miniprep kit. From 2 mL terrific broth (TB) culture, we routinely get 30-50 µg plasmid DNA. For comparison, the average yield of a regular miniprep from 2 mL TB culture is 10-20 µg.
-
-If you are very familiar with miniprep, the miraprep trick is to _add an equal volume of ethanol to the supernatant before loading it onto the column_, whereas all other steps remain essentially the same. The ethanol is thought to overcome the typical binding capacity of silica columns by condensing DNA into micro-precipitates.
+Sometimes we still fall back to the good old regular Miniprep, when RNA contamination gets out of control using [Miraprep](./miraprep.html). Although the yield is lower, the quality from regular Miniprep is robust.
 
 ### 1. Reagents
 
@@ -16,19 +14,19 @@ We usually use the [Qiagen miniprep kit](https://www.qiagen.com/us/products/top-
 
 ### 2. Procedure
 
-1. Inoculate each bacterial colony into 2-4 mL [terrific broth](https://www.thermofisher.com/order/catalog/product/A1374301#/A1374301) with appropriate antibiotics in a [14 mL round bottom Falcon tube](https://www.fishersci.com/shop/products/falcon-round-bottom-polypropylene-tubes-7/1495911b). Culture in a 37°C shaker incubator at 250 rpm overnight.
+1. Inoculate each bacterial colony into 2.5 mL [terrific broth](https://www.thermofisher.com/order/catalog/product/A1374301#/A1374301) with appropriate antibiotics in a [14 mL round bottom Falcon tube](https://www.fishersci.com/shop/products/falcon-round-bottom-polypropylene-tubes-7/1495911b). Culture in a 37°C shaker incubator at 250 rpm overnight.
 
-1. Pour bacterial suspension into pre-labeled [2 mL tubes](https://online-shop.eppendorf.us/US-en/Laboratory-Consumables-44512/Tubes-44515/Eppendorf-Safe-Lock-Tubes-PF-8863.html) (eppendorf, catalog # 022363352). Centrifuge at 9,000 rpm for 1 min to pellet bacterial cells. Discard the supernatant by pouring into a liquid waste container.
+    - We usually use 2 mL for miniprep and the remaining 0.5 mL for cryopreservation by making a glycerol stock (see [Freezing and streaking bacteria](./freezing-and-streaking-bacteria.html)).
 
-    - If more than 2 mL was used, split into multiple 2 mL tubes.
-    - For intermediate tubes, simply label them with 1, 2, 3 ... can save a lot of labeling time, especially when processing many samples. Just make sure plasmids are ordered in a natural way to avoid trouble of decoding at the last step.
+1. Pour bacterial suspension into pre-labeled [2 mL tubes](https://online-shop.eppendorf.us/US-en/Laboratory-Consumables-44512/Tubes-44515/Eppendorf-Safe-Lock-Tubes-PF-8863.html) (Eppendorf, catalog # 022363352). Centrifuge at 9,000 rpm for 1 min to pellet bacterial cells. Discard the supernatant by pouring into a liquid waste container.
+
+    - For intermediate tubes, simply label them with 1, 2, 3 ... can save labeling time, especially when processing many samples. Just make sure plasmids are ordered in a natural way to avoid trouble of decoding at the last step.
 
 1. Add 250 µL P1 resuspension buffer (with 100 µg/mL RNase A) into each tube.
 
-    - Extra fresh RNase A may need to be supplemented to minimize RNA contamination in the final prep.
     - When processing multiple tubes, open all tubes on a rack and use a [repeater pipette](https://online-shop.eppendorf.us/US-en/Manual-Liquid-Handling-44563/Manual-Pipetting--Dispensing-44564/Repeater-M4-PF-44619.html) can be a time-saver.
 
-1. Resuspend the pellet by vortexing or scratching each tube against a tube rack for a few times. Although scratching can be annoyingly noisy, it is much faster.
+1. Resuspend the pellet by vortexing or scratching each tube against a tube rack for a few times. Although scratching can be noisy, it is much faster.
 
 1. Add 250 µL P2 lysis buffer into each tube. Invert the tubes 4-6 times or more until the solution becomes viscous and somewhat clear (it will never become very clear if too much bacteria were used -- avoid using too much bacteria for each prep).
 
@@ -43,24 +41,13 @@ We usually use the [Qiagen miniprep kit](https://www.qiagen.com/us/products/top-
 
 1. Centrifuge at ≥ 13,000 rpm for 10 min to pellet cell debris.
 
-1. During centrifugation, prepare a new set of 2 mL tubes on a rack and label them.
-
-1. After centrifugation, pipet 800 µL supernatant into the new tubes. Try to avoid precipitates as much as possible.
-
-1. Centrifuge again at ≥ 13,000 rpm for 5-10 min to pellet carryover precipitates.
-
-    - During the centrifugation, prepare a new set of 2 mL tubes and a set of spin columns following the next 2 steps.
-    - Carryover precipitates appear to be the main source of contamination that will give inflated measurements of DNA concentration.
-
-1. Arrange a new set of 2 mL tubes on a rack, add 800 µL ethanol into each tube, close the tubes and label them.
-
-1. Label a set of spin columns on the columns themselves (instead of on the waste collection tubes).
+1. During centrifugation, a set of spin columns on the columns themselves (instead of on the waste collection tubes).
 
     - If processing multiple tubes, use a [vacuum manifold](https://www.qiagen.com/us/products/discovery-and-translational-research/lab-essentials/vacuum-manifolds-and-accessories/qiavac-24-plus/#orderinginformation) can be a time-saver. Place labeled columns on the vacuum manifold.
 
-1. After spinning, pour the supernatant into label-matched tubes containing 800 µL ethanol. Invert 4-6 times to mix.
+1. After spinning, pour the supernatant into label-matched columns.
 
-1. Load half of the supernatant/ethanol mix onto a spin column by pouring. Centrifuge at ≥ 13,000 rpm for 1 min or use vacuum to drive it through the column. Repeat for the remaining half of the mix.
+1. Centrifuge at ≥ 13,000 rpm for 1 min or use vacuum to drive it through the column.
 
 1. Wash each column using 750 µL PE buffer.
 
