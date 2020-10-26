@@ -10,6 +10,8 @@ date: 2020-10-25
 
 We usually use the [Qiagen Gel Extraction kit](https://www.qiagen.com/us/products/discovery-and-translational-research/dna-rna-purification/dna-purification/dna-clean-up/qiaquick-gel-extraction-kit/#orderinginformation) (Qiagen, 28704) that contains all required solutions and columns. However, you can also make all solutions according to [the OpenWetWare recipe](https://openwetware.org/wiki/Qiagen_Buffers) and use [cheaper columns](http://www.epochlifescience.com/Product/SpinColumn/minispin.aspx).
 
+For DNA fragments expected to have low yields, we use [NEB Monarch columns](https://www.neb.com/products/t1034-monarch-dna-cleanup-columns-5ug#Product%20Information) and a smaller volume of elution buffer (5-10 µL) to increase the DNA concentration.
+
 ### 2. Procedure
 
 1. Make 1% [agarose](https://www.sigmaaldrich.com/catalog/product/sigma/a9539?lang=en&region=US) (Sigma-Aldrich, A9539) in [TAE](https://qualitybiological.com/product/tae-buffer-10x/) buffer. Heat in a microwave to dissolve the agarose.
