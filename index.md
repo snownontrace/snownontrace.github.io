@@ -47,7 +47,6 @@ title: Prototols
 * ### [Gene knockout in cell lines](./gene-knockout-in-cell-lines.html)
 * ### [Small fragment knockin in cell lines](./small-fragment-knockin-in-cell-lines.html)
 * ### [Large fragment knockin in cell lines](./large-fragment-knockin-in-cell-lines.html)
-* ### [Base editing in cell lines](./base-editing-in-cell-lines.html)
 * ### [Gene knockout in _C. elegans_](./gene-knockout-in-C-elegans.html)
 * ### [Small fragment knockin in _C. elegans_](./small-fragment-knockin-in-C-elegans.html)
 * ### [Large fragment knockin in _C. elegans_](./large-fragment-knockin-in-C-elegans.html)
