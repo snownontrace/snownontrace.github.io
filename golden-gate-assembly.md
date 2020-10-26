@@ -83,4 +83,4 @@ It is usually sufficient to transform 1 µL ligation reaction using 10-20 µL co
   1. Heat shock at 42°C for exactly 30 sec.
   1. Place on ice for 3 min.
   1. Add 50 µL clean broth (e.g., LB) to each tube or well, and spread cells onto an ampicillin selection plate.
-	1. Grow at 37°C overnight or 30°C for 24 h (for plasmids with high risk of recombination).
+  1. Grow at 37°C overnight or 30°C for 24 h (for plasmids with high risk of recombination).
