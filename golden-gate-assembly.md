@@ -8,23 +8,32 @@ date: 2020-10-25
 
 [Site under construction]
 
-Golden Gate Assembly uses a type IIS enzyme to make sticky ends.
+[Golden Gate Assembly](https://www.neb.com/golden-gate/golden-gate) uses type IIS restriction enzymes to make sticky ends and allows many fragments to be ligated together in one reaction. However, we almost exclusively use Golden Gate Assembly to ligate a pair of annealed guide RNA oligos into a vector digested with a type IIS enzyme. Here, we demonstrate an example using the [lentiCRISPR v2](https://www.addgene.org/52961/) vector and Cas9 guide RNA(s).
 
 <img src="/assets/img/Golden-gate-assembly-01.png" alt="Golden Gate Assembly schematics" />
 
-### 1. Prepare linearized vector
+### 1. Linearize backbone vectors
 
-Digest pW212 (or pW211, 213 or 214 depending on the reporter color, antibiotic selection and the sgRNA backbone to use) with Esp3I (isoschizomer of BsmBI) to get vector backbone.
+* Digest the [lentiCRISPR v2](https://www.addgene.org/52961/) vector with [Esp3I](https://www.neb.com/products/r0734-esp3i#Product%20Information) (isoschizomer of BsmBI). Set up a 50 μL digestion reaction in a 1.5 mL tube:
 
-(1-1) Set up a 50 μL digestion reaction in a 1.5 mL tube:
-H2O		34.5 μL
-10x Buffer	5 μL
-pW212	10 μL (5-10 ug will be enough for many constructs)
-Esp3I		0.5 μL (5 units)
+	| Stock | for 50 µL |
+	|:---|---:|
+	| Water	|	34.5 |
+	| 10× CutSmart Buffer | 5 |
+	| Plasmid (1 µg/µL) | 10 |
+	| Esp3I (10 U/µL)	|	0.5 μL |
 
-(1-2) Incubate the reaction at 37°C for 1-2 hours.  During the incubation, make 1% agarose gel with 0.0001% crystal violet (stock is 0.2%, use at 2000x) for gel extraction.
+* Incubate the reaction at 37°C for 1-2 hours.
 
-(1-3) After incubation, run the reaction on the crystal violet gel at 100V for 20-30 min.  For pW212, two bands at 9370 bp and 1873 bp are expected.  Cut the larger band at 9370 bp and purify with the Qiagen gel purification kit.  Purified DNA fragments can be stored at -20°C and used for many freeze-thaws.
+* During the incubation, make 1% agarose gel with 0.0001% crystal violet (stock is 0.2%, use at 2000x) for gel extraction.
+
+* After incubation, run the reaction using the crystal violet gel at 100V for 20-30 min.
+
+	- For the lentiCRISPR v2 vector, we are expecting 2 bands at 13 kb and 1873 bp (filler sequence).
+
+* Cut the larger band at 13 kb and purify with the Qiagen gel purification kit.
+
+	- Purified DNA fragments can be stored at -20°C and used for many freeze-thaws.
 
 ### 2. Anneal oligo pairs
 
