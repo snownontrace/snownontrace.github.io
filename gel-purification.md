@@ -16,7 +16,7 @@ We usually use the [Qiagen Gel Extraction kit](https://www.qiagen.com/us/product
 
 1. Cool down the agarose solution for a little, add 0.0001% crystal violet (e.g. Sigma-Aldrich, C6158).
 
-    - Crystal violet: prepare the stock solution at 0.2% in water. Use at 2000× (50 µL in 100 mL).
+    - Prepare crystal violet stock solution at 0.2% in water in a 50 mL tube. Wrap with foil and store at room temperature. Use at 2000× (50 µL in 100 mL).
     - We don't use ethidium bromide or SYBR dyes for gel extraction. Using crystal violet has the unique advantage to visualize gel bands under ambient light. It indeed is less sensitive. However, if your gel band cannot be seen using crystal violet, you probably need to get more DNA by cutting more plasmids or optimize PCR conditions.
 
 1. Load the DNA samples with the orange loading dye (or any other preferred loading dye). Run the gel in TAE buffer. Usually we run the gel at 100 V for 20-30 min. Gel bands should be visible under ambient light after a few minutes.
