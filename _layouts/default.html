@@ -19,6 +19,10 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
+          {% if site.github.is_user_page %}
+          <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+          {% endif %}
+
           {% if site.logo %}
             <img src="{{site.logo | relative_url}}" alt="Logo" />
           {% endif %}
