@@ -1,6 +1,5 @@
 title: Prototols
-logo: /assets/img/logo.png
-description: Open protocols for open science.
+description: The GitHub Pages of snownontrace.
 show_downloads: false
-google_analytics: UA-166777659-1
+google_analytics:
 theme: jekyll-theme-slate
