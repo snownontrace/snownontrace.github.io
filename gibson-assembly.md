@@ -8,7 +8,7 @@ date: 2020-07-11
 
 [Gibson Assembly](https://doi.org/10.1038/nmeth.1318) uses a mixture of DNA 5’-exonuclease, polymerase and ligase to ligate 2~6 fragments with ≥ 20 bp overlapping ends into a circular plasmid in one step of 1-hour incubation at 50°C. This method gives us a great deal of freedom and allows scarless ligation of arbitrary fragments, which can be obtained from __PCR__, __enzymatic digestion__ or __synthesis__.
 
-<img src="/assets/img/Gibson-assembly-01.png" alt="Gibson assembly schematics" />
+<img src="/assets/images/Gibson-assembly-01.png" alt="Gibson assembly schematics" />
 
 ### 1. Prepare the Gibson Assembly Mix
 

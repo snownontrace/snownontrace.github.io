@@ -10,7 +10,7 @@ Unlike restriction enzymes recognizing palindrome sequences, type IIS restrictio
 
 On the other hand, Golden Gate Assembly is perfect for introducing variable small fragments of DNA, such as guide RNAs, into a common vector backbone. It is convenient to parallel process multiple guide RNAs by ordering pairs of DNA oligos with matching sticky ends to vectors linearized by type IIS enzymes. Here, we demonstrate an example of introducing Cas9 guide RNAs to the [lentiCRISPR v2](https://www.addgene.org/52961/) vector.
 
-<img src="/assets/img/Golden-gate-assembly-01.png" alt="Golden Gate Assembly schematics" />
+<img src="/assets/images/Golden-gate-assembly-01.png" alt="Golden Gate Assembly schematics" />
 
 ### 1. Linearizing vectors
 
