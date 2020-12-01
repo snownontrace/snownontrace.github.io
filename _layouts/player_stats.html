@@ -16,7 +16,12 @@
     <div id="header_wrap" class="outer">
       <header class="inner">
 
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+        {% endif %}
+
         <h1 id="project_title">{{ page.title | default: site.title }}</h1>
+        <p> <a href="{{ "/" | absolute_url }}"> Go Back to Homepage </a></p>
 
         {% if site.show_downloads %}
           <section id="downloads">
@@ -37,7 +42,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p><small>Last updated on {{ page.date }}</p>
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
