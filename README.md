@@ -4,7 +4,7 @@ This website hosts useful protocols for biological benchwork and data analysis. 
 
 ### How to preview Github pages using jekyll?
 
-Note: this website uses the Github Pages theme [minimal](https://github.com/pages-themes/minimal).
+Note: this website uses the Github Pages theme [slate](https://github.com/pages-themes/slate).
 
 1. Follow [instructions](https://jekyllrb.com/docs/installation/) to install jekyll.
 1. Navigate into the website directory (e.g., `cd ~/Github/snownontrace.github.io`).
