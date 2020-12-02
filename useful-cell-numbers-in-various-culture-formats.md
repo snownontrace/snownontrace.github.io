@@ -25,7 +25,7 @@ Different cell lines can have different sizes and growth properties that will af
 
 | Cells / mL | µL for 10% | 20% | 30% | 50% | 100% |
 |---:|---:|---:|---:|---:|---:|
-| 5×10$^{5}$ | 25 | 50 | 75 | 125 | 250 |
+| 5×10<sup>5</sup> | 25 | 50 | 75 | 125 | 250 |
 | 6×10<sup>5</sup> | 21 | 42 | 63 | 104 | 208 |
 | 7×10<sup>5</sup> | 18 | 36 | 54 | 89 | 179 |
 | 8×10<sup>5</sup> | 16 | 31 | 47 | 78 | 156 |
