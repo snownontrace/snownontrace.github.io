@@ -45,15 +45,15 @@ The choices of fixative depends on what you want to stain. In most cases, 4% PFA
     - Replace the fixative with 100% methanol for long-term storage at -20°C. Be careful not to discard the sample accidentally. It might be OK to leave in the acetone-methanol mixture.
 
 
-### 2. Permeabilization
+### 2. (Only for acetone-methanol fixed samples) Re-hydration
 
 * Before staining acetone-methanol fixed tissues, I usually do a re-hydration step by incubating the samples in a series of 70%, 50%, 30% and 0% methanol in PBSTx on ice, 10 min each step.
 
 
-### 3. Blocking
+Note: this step may not be necessary, but I do it out based on my experience with single-molecule RNA FISH staining that involves de-hydration and re-hydration.
 
 
-### 4. Staining and washing
+### 3. Permeabilization, Blocking, Staining and Washing
 
 2. Wash in PBSTx for 15 min at RT with gentle rocking. At this stage, split samples into sample baskets immersed in 1 mL PBSTx in the wells of a 24-well plate according to experimental and staining conditions.
 3. Block in 5% normal donkey serum diluted in PBSTx for at least 1 hour at RT with gentle rocking.
