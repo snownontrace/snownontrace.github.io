@@ -18,26 +18,36 @@ The choices of fixative depends on what you want to stain. In most cases, 4% PFA
   | [16% PFA](https://www.emsdiasum.com/microscopy/products/chemicals/paraformaldehyde.aspx) (Electron Microscopy Sciences, 15170) | 250 µL | 2.5 mL |
   | [10× PBS](https://www.fishersci.com/shop/products/lonza-accugene-pbs-10x-pbs-1l/bma51226) (e.g., Lonza, 51226) | 100 µL | 1 mL |
 
-* To fix mouse embryonic organs such as salivary glands, lungs and kidneys cultured on polycarbonate filters with PFA:
+* To fix mouse embryonic organs such as salivary glands, lungs and kidneys cultured on polycarbonate filters:
 
-  - Replace culture media under the filter with 200 µL 4% PFA fixative. This volume is assuming the filter was cultured in a 50-mm MatTek dish with 14-mm glass-bottom opening (MatTek, P50G-1.5-14-F).
-  - Incubate at RT (room temperature) for 30 min to 1 hour, or overnight at 4°C, with gentle rocking.
+  1. With PFA fixation:
+    - Replace culture media under the filter with 200 µL 4% PFA in 1× PBS. This volume is assuming the filter was cultured in a 50-mm MatTek dish with 14-mm glass-bottom opening (MatTek, P50G-1.5-14-F).
+    - Incubate at RT (room temperature) for 30 min to 1 hour, or overnight at 4°C, with gentle rocking.
 
-* To fix mouse embryonic organs cultured on polycarbonate filters with acetone and methanol:
+  1. With acetone and methanol:
+    - Pre-fill and pre-chill a 1.5 mL tube with 1 mL 1:1 mixture of acetone and methanol at -20°C.
+    - Use a pair of forceps to grab the filter and quickly immerse it into the acetone-methanol fixative in the 1.5 mL tube.
+    - Incubate at -20°C for 30 min to 1 hour.
+    - Replace the fixative with 100% methanol for long-term storage at -20°C. It might be OK to leave in the acetone-methanol mixture.
 
-  - Pre-fill and pre-chill a 1.5 mL tube with 1 mL 1:1 mixture of acetone and methanol at -20°C.
-  - Use a pair of forceps to grab the filter and quickly immerse it into the acetone-methanol fixative in the 1.5 mL tube.
-  - Incubate at -20°C for 30 min to 1 hour.
-  - Replace the fixative with 100% methanol for long-term storage at -20°C. It might be OK to leave in the acetone-methanol mixture as well.
+* To fix 3D spheroid cultures cultured in sticky solutions with extracellular matrix such as Matrigel, first rinse spheroids several times in 1× PBS or HBSS in clean 35 mm dishes to get rid of the gel chunks often found to attach to the spheroids. After that:
 
-* To fix 3D spheroids cultured in sticky solutions supplemented with extracellular matrix such as Matrigel, first rinse the spheroids several times in 1× PBS or HBSS in clean 35 mm dishes to get rid of the gel chunks often found to attach to the spheroids.
+  1. With PFA fixation:
+    - Transfer spheroids into sample baskets (one basket per staining group; Intavis, 12.440) using low-retention pipette tips (the tips may need to be cut for larger opening; Rainin, 30389187 or 30389190).
+    - Pre-fill a well in a 24-well plate (e.g. Corning, 3524) with 1 mL 4% PFA in 1× PBS.
+    - Immerse the sample basket in 1 mL fixative in the 24-well plate.
+    - Incubate at RT (room temperature) for 30 min to 1 hour, or overnight at 4°C, with gentle rocking.
 
-1. For most antigens, fix samples in 4% PFA in PBSTx (1x PBS with 0.2% Triton-X-100) for 30 min to 1 hour at RT, or overnight at 4 C with gentle rocking.
+  1. With acetone and methanol:
+    - Pre-fill and pre-chill a 1.5 mL tube with 1 mL 1:1 mixture of acetone and methanol at -20°C.
+    - Using low-retention pipette tips (the tips may need to be cut for larger opening; Rainin, 30389187 or 30389190) to transfer spheroids into the acetone-methanol fixative in the 1.5 mL tube.
+    - Incubate at -20°C for 30 min to 1 hour.
+    - Replace the fixative with 100% methanol for long-term storage at -20°C. Be careful not to discard the sample accidentally. It might be OK to leave in the acetone-methanol mixture.
 
-- For certain antigens, such as keratins, fix samples in cold 1:1 mixture of acetone and methanol for 30 min to 1 hour at -20 C. Transfer to 100% methanol for storage at -20 C.
-- Before staining acetone-methanol fixed tissues, I usually do a re-hydration step by incubating the samples in a series of 70%, 50%, 30% and 0% methanol in PBSTx on ice, 10 min each step.
 
 ### 2. Permeabilization
+
+* Before staining acetone-methanol fixed tissues, I usually do a re-hydration step by incubating the samples in a series of 70%, 50%, 30% and 0% methanol in PBSTx on ice, 10 min each step.
 
 
 ### 3. Blocking
