@@ -24,6 +24,18 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+sup {
+    font-size: 65%;
+    vertical-align: super;
+    font-weight: bold;
+}
+
+sub {
+    font-size: 65%;
+    vertical-align: sub;
+    font-weight: bold;
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
