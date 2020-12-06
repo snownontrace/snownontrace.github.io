@@ -8,7 +8,7 @@ date: 2020-12-03
 
 ### 1. Sample fixation
 
-The choices of fixative depends on what you want to stain. In most cases, 4% PFA (paraformaldehyde) works well. However, certain antigens are known to NOT work with PFA fixation, noticeably keratins. If you want to stain keratins, fix samples in cold 1:1 mixture of acetone and methanol instead.
+The choice of fixatives depends on what you want to stain. In most cases, 4% PFA (paraformaldehyde) works well. However, certain antigens are known to NOT work with PFA fixation, noticeably keratins. If you want to stain keratins, fix samples in cold 1:1 mixture of acetone and methanol instead.
 
 * To make 4% PFA in 1× PBS:
 
