@@ -13,3 +13,5 @@ date: 2020-11-30
 | 1 | Example | 49 | 88.9% | 2.88 | 9 | 1 | 2 | 0 | 100.0% |
 
 </div>
+
+<img src="/assets/images/player_history_plot.png" alt="Plot of player level history" />
