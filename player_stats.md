@@ -23,3 +23,5 @@ date: 2020-12-10
 | 11 | Yangbin <br> Gao | 0 | 0.0% | 0.00 | 4 | 0 | 0 | 0.0% |
 
 </div>
+
+<img src="/assets/images/player_history_plot.png" alt="Plot of player level history" />
