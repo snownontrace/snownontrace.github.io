@@ -6,6 +6,8 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2020-11-30
 ---
 
+[This spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449) hosts the raw game records.
+
 <div class="table-wrapper" markdown="block">
 
 | <br><br><br>Rank | <br><br><br>Player | <br> Lifetime <br> levels <br> up | <br><br> Winning <br> rate | <br> Average <br> levels <br> up | <br> Total <br> games <br> played | Games <br> played <br> as <br> MVP | Games <br> played <br> as <br> dealer | N_games <br> short <br> staffed <br> as dealer | Winning <br> rate <br> as <br> dealer |
