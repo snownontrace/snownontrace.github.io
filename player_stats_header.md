@@ -6,7 +6,7 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2020-11-30
 ---
 
-[This spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449) hosts the raw game records.
+[Spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449) [Play Room](https://playingcards.io/a3775q) [Zoom](https://ucsf.zoom.us/j/91360570376?pwd=SmN6aFNPY3UzdEp3M0tmQ1ViUkdQUT09)
 
 <div class="table-wrapper" markdown="block">
 
@@ -17,6 +17,3 @@ date: 2020-11-30
 </div>
 
 <img src="/assets/images/player_history_plot.png" alt="Plot of player level history" />
-
-#### [Link to Play Room](https://playingcards.io/a3775q)
-#### [Current Zoom Link](https://ucsf.zoom.us/j/91360570376?pwd=SmN6aFNPY3UzdEp3M0tmQ1ViUkdQUT09)
