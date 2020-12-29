@@ -15,3 +15,6 @@ date: 2020-11-30
 </div>
 
 <img src="/assets/images/player_history_plot.png" alt="Plot of player level history" />
+
+1. [Link to Play Room](https://playingcards.io/a3775q)
+1. [Current Zoom Link](https://ucsf.zoom.us/j/91360570376?pwd=SmN6aFNPY3UzdEp3M0tmQ1ViUkdQUT09)
