@@ -3,7 +3,7 @@ layout: player_stats
 title: Player Statistics
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-date: 2021-01-17
+date: 2021-01-23
 ---
 
 #### [Spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449)
@@ -14,14 +14,14 @@ date: 2021-01-17
 
 | <br><br><br>Rank | <br><br><br>Player | <br> Lifetime <br> levels <br> up | <br><br> Winning <br> rate | <br> Average <br> levels <br> up | <br> Total <br> games <br> played | Games <br> played <br> as <br> MVP | Games <br> played <br> as <br> dealer | N_games <br> short <br> staffed <br> as dealer | Winning <br> rate <br> as <br> dealer |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Zheng <br> Li | 201 | 60.7% | 2.72 | 122 | 5 | 20 | 0 | 60.0% |
-| 2 | Qingzhi <br> Liu | 195 | 54.2% | 3.36 | 107 | 5 | 17 | 3 | 52.9% |
-| 3 | Di <br> Wu | 167 | 45.5% | 2.98 | 123 | 5 | 19 | 0 | 42.1% |
-| 4 | Xu <br> Zhang | 161 | 45.8% | 2.98 | 118 | 4 | 17 | 0 | 41.2% |
-| 5 | Hai <br> Yang | 150 | 48.1% | 3.00 | 104 | 7 | 18 | 1 | 38.9% |
-| 6 | Shaohe <br> Wang | 150 | 47.2% | 2.59 | 123 | 2 | 21 | 1 | 42.9% |
+| 1 | Qingzhi <br> Liu | 205 | 55.4% | 3.31 | 112 | 5 | 18 | 3 | 55.6% |
+| 2 | Zheng <br> Li | 203 | 59.8% | 2.67 | 127 | 5 | 20 | 0 | 60.0% |
+| 3 | Di <br> Wu | 176 | 46.1% | 2.98 | 128 | 5 | 20 | 0 | 40.0% |
+| 4 | Xu <br> Zhang | 169 | 47.2% | 2.91 | 123 | 5 | 19 | 0 | 47.4% |
+| 5 | Hai <br> Yang | 152 | 46.8% | 2.98 | 109 | 7 | 18 | 1 | 38.9% |
+| 6 | Shaohe <br> Wang | 150 | 46.1% | 2.54 | 128 | 3 | 22 | 2 | 40.9% |
 | 7 | Minghai <br> Qin | 123 | 53.3% | 3.08 | 75 | 1 | 11 | 1 | 72.7% |
-| 8 | Yanni <br> Lin | 64 | 41.8% | 2.78 | 55 | 6 | 4 | 1 | 50.0% |
+| 8 | Yanni <br> Lin | 67 | 43.9% | 2.68 | 57 | 7 | 4 | 1 | 50.0% |
 | 9 | Qin <br> Peng | 51 | 75.0% | 3.40 | 20 | 2 | 2 | 0 | 100.0% |
 | 10 | Sibo <br> Tao | 14 | 80.0% | 3.50 | 5 | 0 | 0 | 0 | 0.0% |
 | 11 | Yangbin <br> Gao | 0 | 0.0% | 0.00 | 4 | 0 | 0 | 0 | 0.0% |
