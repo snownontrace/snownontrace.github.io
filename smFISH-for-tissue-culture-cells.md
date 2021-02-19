@@ -114,4 +114,6 @@ To quench autofluorescence with TrueBlack:
 
 ### 6. Quantification
 
-- I have included detailed instructions 
+- Please refer to the "Semi-Automated smFISH Image Analysis Using ImageJ Macros" section of [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6500779/).
+
+- For 2D cultured cells, it is easier and probably more appropriate to count dots on maximum intensity projections of the images.
