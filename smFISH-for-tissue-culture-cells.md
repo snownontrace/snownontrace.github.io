@@ -99,20 +99,19 @@ To quench autofluorescence with TrueBlack:
   1. During the incubation, dilute probes in Hybridization Buffer for a final 50 nM total concentration (1:500 from 25 µM stock).
   1. Add 250 µL probe solution to each well.
   1. Incubate in dark at 37 °C for at least 4 hours (can be up to 16 hours; rocking is optional).
-
-    To avoid cross-contamination between wells especially when different probe sets are used for neighboring wells, DO NOT close the lid during the incubation. Instead, place the slide in a humidified chamber for the incubation.
-
+    - To avoid cross-contamination between wells especially when different probe sets are used for neighboring wells, DO NOT close the lid during the incubation. Instead, place the slide in a humidified chamber for the incubation.
   1. Wash 2× with 250 µL smFISH Wash Solution for 5 min at room temperature with gentle rocking.
   1. During the wash, dilute DAPI in the smFISH Wash Solution (50 ng/mL). This low amount of DAPI is to avoid bright nuclear staining that bleed into other channels as higher-than-usual laser power and/or longer-than-usual exposure time is needed to image the intrinsically dim smFISH signal. It may be worth trying 50 ng/mL and 500 ng/mL DAPI in parallel (I have used 500 ng/mL DAPI for smFISH of whole-mount embryonic organs and they are fine).
   1. Wash once with 250 µL PBS for 5 min at room temperature with gentle rocking.
   1. Aspirate off the PBS and add 250 µL Imaging Solution (700 mM NAC, pH 7.4) to each well. It is now ready for imaging.
-
-    Alternatively, you can use PBS with traditional oxygen scavenger (e.g. GLOX buffer) or overflow the wells with some mounting medium (can be quite wasteful) for imaging.
+    - Alternatively, you can use PBS with traditional oxygen scavenger (e.g. GLOX buffer) or overflow the wells with some mounting medium (can be quite wasteful) for imaging.
 
 
 ### 5. Imaging
 
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6500779/
+- There has been some conventional wisdom claiming you have to image smFISH samples using wide-filed epifluorescence microscopy instead of confocal microscopy. However, the key is rather to gain enough optical resolution and contrast. In my experience, confocal microscopy does work for imaging smFISH samples and it is the only viable way to image thick tissue samples such as whole-mount embryonic organs. For detailed guidelines of imaging smFISH samples with confocal microscopy, refer to the "Fluorescence Confocal Microscopy Imaging of smFISH Samples" section of [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6500779/).
 
 
 ### 6. Quantification
+
+- I have included detailed instructions 
