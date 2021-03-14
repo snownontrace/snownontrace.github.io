@@ -3,7 +3,7 @@ layout: player_stats
 title: Player Statistics
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-date: 2021-03-13
+date: 2021-03-14
 ---
 
 #### [Spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449)
