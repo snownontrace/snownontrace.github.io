@@ -3,11 +3,7 @@ layout: player_stats
 title: Player Statistics
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-<<<<<<< HEAD
 date: 2021-03-20
-=======
-date: 2021-03-14
->>>>>>> bcdbd8286be8ccd20810c9c4e748afbae2c41f6c
 ---
 
 #### [Spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449)
@@ -18,21 +14,12 @@ date: 2021-03-14
 
 | <br><br><br>Rank | <br><br><br>Player | <br> Lifetime <br> levels <br> up | <br><br> Winning <br> rate | <br> Average <br> levels <br> up | <br> Total <br> games <br> played | Games <br> played <br> as <br> MVP | Games <br> played <br> as <br> dealer | N_games <br> short <br> staffed <br> as dealer | Winning <br> rate <br> as <br> dealer |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-<<<<<<< HEAD
-| 1 | Xu <br> Zhang | 283 | 52.5% | 2.72 | 198 | 11 | 36 | 1 | 50.0% |
+| 1 | Xu <br> Zhang | 284 | 52.8% | 2.70 | 199 | 11 | 37 | 1 | 51.4% |
 | 2 | Qingzhi <br> Liu | 279 | 51.4% | 2.94 | 185 | 11 | 33 | 3 | 48.5% |
-| 3 | Zheng <br> Li | 277 | 55.0% | 2.50 | 202 | 6 | 31 | 0 | 64.5% |
-| 4 | Hai <br> Yang | 267 | 51.1% | 2.84 | 184 | 13 | 34 | 1 | 52.9% |
-| 5 | Di <br> Wu | 259 | 48.0% | 3.16 | 171 | 11 | 29 | 0 | 37.9% |
-| 6 | Shaohe <br> Wang | 199 | 43.8% | 2.84 | 160 | 7 | 25 | 2 | 36.0% |
-=======
-| 1 | Xu <br> Zhang | 282 | 52.3% | 2.74 | 197 | 11 | 36 | 1 | 50.0% |
-| 2 | Qingzhi <br> Liu | 279 | 51.4% | 2.94 | 185 | 11 | 33 | 3 | 48.5% |
-| 3 | Zheng <br> Li | 276 | 54.7% | 2.51 | 201 | 6 | 30 | 0 | 63.3% |
-| 4 | Hai <br> Yang | 267 | 51.4% | 2.84 | 183 | 13 | 34 | 1 | 52.9% |
-| 5 | Di <br> Wu | 259 | 48.2% | 3.16 | 170 | 11 | 29 | 0 | 37.9% |
-| 6 | Shaohe <br> Wang | 199 | 44.0% | 2.84 | 159 | 7 | 25 | 2 | 36.0% |
->>>>>>> bcdbd8286be8ccd20810c9c4e748afbae2c41f6c
+| 3 | Zheng <br> Li | 278 | 55.2% | 2.48 | 203 | 6 | 31 | 0 | 64.5% |
+| 4 | Hai <br> Yang | 267 | 50.8% | 2.84 | 185 | 13 | 34 | 1 | 52.9% |
+| 5 | Di <br> Wu | 259 | 47.7% | 3.16 | 172 | 11 | 29 | 0 | 37.9% |
+| 6 | Shaohe <br> Wang | 199 | 43.5% | 2.84 | 161 | 7 | 25 | 2 | 36.0% |
 | 7 | Minghai <br> Qin | 123 | 53.3% | 3.08 | 75 | 1 | 11 | 1 | 72.7% |
 | 8 | Yanni <br> Lin | 119 | 45.6% | 2.90 | 90 | 10 | 8 | 2 | 37.5% |
 | 9 | Qin <br> Peng | 51 | 75.0% | 3.40 | 20 | 2 | 2 | 0 | 100.0% |
