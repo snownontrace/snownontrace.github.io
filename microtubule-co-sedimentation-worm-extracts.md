@@ -3,7 +3,7 @@ layout: protocols
 title: Microtubule co-sedimentation from worm extracts
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-date: 2020-10-25
+date: 2021-04-07
 ---
 
 1. Please use detailed protocols described in [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3319706/) to make large amount of worm material that has been drop frozen in liquid nitrogen as frozen droplets ("worm beads") stored at -80°C.
