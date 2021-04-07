@@ -100,14 +100,14 @@ date: 2021-04-07
 	- On ice, supplement 5 µL 100 mM DTT and 10 µL 100 mM GTP to 1 mL HSS worm lysate (HSS++).
 	- On ice, set up the following experimental groups. The group including exogenous microtubules is optional. If omitting this group, BRB80 is unnecessary to add. Volumes are in µL. Final concentration of supplements: 0.5 mM DTT, 1 mM GTP, 10 ug/mL nocodazole or 20 uM taxol.
 
-	| Stock | no-MT-1 | no-MT-2 |	endo-MT |	exo-MT |
-	|:---|---:|---:|---:|---:|
-	| HSS++	|	203 | 203 | 203 | 203 |
-	| DMSO | 0.4 | - | - | - |
-	| Nocodazole 0.5 mg/mL | - | 0.4 | - | - |
-	| Taxol 10 mM | - | - | 0.4 | 0.4 |
-	| BRB80++ | 20 | 20 | 20 | - |
-	| Exo-MT ~20 µM | - | - | - | 20 |
+		| Stock | no-MT-1 | no-MT-2 |	endo-MT |	exo-MT |
+		|:---|---:|---:|---:|---:|
+		| HSS++	|	203 | 203 | 203 | 203 |
+		| DMSO | 0.4 | - | - | - |
+		| Nocodazole 0.5 mg/mL | - | 0.4 | - | - |
+		| Taxol 10 mM | - | - | 0.4 | 0.4 |
+		| BRB80++ | 20 | 20 | 20 | - |
+		| Exo-MT ~20 µM | - | - | - | 20 |
 
 	- Incubate all samples at room temperature (22~23°C) for 10 min to allow polymerization of the endogenous tubulin. The nocodazole in no-MT-2 group should prevent microtubule polymerization.
 	- Transfer samples back to ice and incubate for 15 min. The cold temperature should depolymerize microtubules not protected by taxol in the no-MT-1 group.
@@ -117,6 +117,6 @@ date: 2021-04-07
 	- After centrifugation, take a SUPE (supernatant) sample by carefully removing 60 µL from the top and transfer into a pre-cooled 1.5 mL tube on ice. Add 20 µL 4x sample buffer.
 	- Wash the sample/cushion interface three times. For each wash, remove the supernatant until the sample/cushion interface and add back 250 µL Worm Lysis Buffer. This washing step is to clean up the wall of centrifuge tubes that contacted the high-concentration lysate.
 	- Aspirate the cushion and resuspend the pellet with 200 µL 1x SDS-PAGE sample buffer (PELLET).
-	- Keep collected samples in sample buffers at -20°C if not loading them onto an SDS-PAGE gel on the same day.
+	- Denature all collected samples in sample buffer for 5 min at 95°C. Store them at -20°C if not running SDS-PAGE on the same day.
 
 1. Run SDS-PAGE gel(s) of CRUDE, LSS, HSS, SUPE (1-4) and PELLET (1-4) samples for Coomassie staining and/or Western blotting analysis.
