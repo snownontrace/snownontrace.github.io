@@ -6,48 +6,64 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2020-10-25
 ---
 
-7/1
-1. Start the worm culture for OD872 and OD894. ~11:30am.
-Basically, I rinsed 15 plates of OD872 and OD894 with 15 mL M9 per 5 plates of worms. Pellet them down, resuspend in ~40 mL M9 for each genotype. Seed 13 mL in each 500 mL culture.
-Let worms grow at 20C with 200 rpm shaking.
+1. Please use detailed protocols described in [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3319706/) to make large amount of worm material that has been drop frozen in liquid nitrogen as frozen droplets ("worm beads") stored at -80°C.
 
-7/4
-2. Harvest liquid culture of OD872 and OD894 worms. These are mixed stages of worms rather than synchronized worms.
-For each genotype, I have 3x500mL culture. I combined all the 3 flasks, kept half of them for hatching and carrying on another round of liquid culture, while drop-freezing half of these mixed stages of worms.
+1. Prepare or purchase general stock buffer reagents, including:
 
-7/5
-5. Seed hatched L1 worms of OD872 and OD894 for round two liquid culture. Yeah!
+- 1 M Hepes-KOH (pH 7.6; use KOH for pH adjustment); store at 4°C
+- 1 M Pipes-KOH (pH 6.8; use KOH for pH adjustment); store at 4°C
+- 3 M KCl; store at room temperature
+- 1 M MgCl<sub>2</sub>; store at room temperature
+- 0.5 M EGTA (pH 8.0); store at room temperature
+- 1 M DTT; store as frozen aliquots at -20°C
+- 1 mg/mL Pepstatin A (in ethanol; may add 5% acetic acid); store at -20°C
+- 100 mM GTP (e.g., )
+- 10 mM Taxol (e.g., )
+- 10 mg/mL Nocodazole (in DMSO; )
 
-7/7
-2. ~6pm I checked the synchronized liquid worm culture of OD872 and OD894. The growth looks pretty good. All worms are L4’ish and healthy. I shifted the temperature from 20C down to 17C to ensure that they do not overgrow. Tomorrow morning I will harvest them!
+1. Prepare buffers for making worm lysate.
 
-7/8
-1. Harvest OD872 and OD894 synchronized adult worms. They are slightly older than I would like, but should be good for my purpose.
-While spinning down the worms, I noticed that OD872 worms are much harder than OD894 to pellet as a compact mass. 600g for 3 min is sufficient for OD894 worms to sit on the bottom so that it is safe to pour off the supernatent, while for OD872 the worms are still kind of loose and very easy to disturb. Does it indicate that OD872 worms are less dense or the cuticle is somehow defective? I think it is interesting.
+- Worm lysis buffer (50 mM Hepes-KOH, pH 7.6, 1 mM MgCl<sub>2</sub>, 1 mM EGTA, 75 mM KCl, 0.5 mM DTT; add proteinase inhibitors before use; store on ice):
 
+	| Stock | for 10 mL | for 50 mL |
+	|:---|---:|---:|
+	| H<sub>2</sub>O	|	9.2 mL |	46 mL |
+	| 1 M Hepes-KOH, pH 7.6 | 0.5 mL | 2.5 mL |
+	| 3 M KCl | 0.25 mL | 1.25 mL |
+	| 1 M MgCl<sub>2</sub> | 10 µL | 50 µL |
+	| 0.5 M EGTA, pH 8.0 | 20 µL | 100 µL |
+	| 1 M DTT | 5 µL | 25 µL |
+	| 1 mg/mL Pepstatin A | 10 µL | 50 µL |
 
-Make Buffers:
-1 x worm lysis buffer:
-50 mM Hepes-KOH, pH 7.6, 1 mM MgCI2, 1 mM Na3 EGTA, 75 mM KCl, 0.5 mM DTT; add proteinase inhibitors before use
+	Add 1 tablet of protease inhibitors (MilliporeSigma, 11836170001) per 10 mL buffer. Vortex to dissolve the tablet. Store on ice.
 
-Glycerol Cushion:
-50 mM Hepes-KOH, pH 7.6, 1 mM MgCI2, 1 mM Na3 EGTA, 40% glycerol, 75 mM KCl, 0.5 mM DTT and proteinase inhibitors
+- Glycerol cushion (40% glycerol, 50 mM Hepes-KOH, pH 7.6, 1 mM MgCl<sub>2</sub>, 1 mM EGTA, 75 mM KCl, 0.5 mM DTT; add proteinase inhibitors before use; store on ice):
 
-BRB80 buffer (microtubule assembly buffer): 80 mM Pipes-KOH, pH 6.8, 1 mM MgCi2, 1 mM Na3 EGTA. BRB80X buffer: BRB80 supplemented with 0.5 mM DTT, 1 mM GTP,  5 uM taxol, and protease inhibitors
+	| Stock | for 10 mL |
+	|:---|---:|
+	| 50% Glycerol | 8 mL |
+	| H<sub>2</sub>O	|	1.2 mL |
+	| 1 M Hepes-KOH, pH 7.6 | 0.5 mL |
+	| 3 M KCl | 0.25 mL |
+	| 1 M MgCl<sub>2</sub> | 10 µL |
+	| 0.5 M EGTA, pH 8.0 | 20 µL |
+	| 1 M DTT | 5 µL |
+	| 1 mg/mL Pepstatin A | 10 µL |
 
-	50 mL Lysis Buffer		10 mL Cushion
-1 M Hepes-K 7.6	2.5 mL				500 uL
-1 M MgCl2		50 uL				10 uL
-500 mM EDTA	100 uL				20 uL
-1 M DTT		25 uL				5 uL
-3 M KCl		1250 uL			250 uL
-1 mg/mL PepstatinA	50 uL				10 uL
-50% Glycerol		-				8 mL
-H2O			46 mL				1.2 mL
+	Add 1 tablet of protease inhibitors (MilliporeSigma, 11836170001) per 10 mL buffer. Vortex to dissolve the tablet. Store on ice.
 
-Make Worm Lysate
-1.  Weigh out 1 g of frozen adults and add 1.5 mL of Lysis Buffer (plus protease inhibitors).
-The total volume is ~2.5 mL.
+- BRB80 buffer (80 mM Pipes-KOH, pH 6.8, 1 mM MgCl<sub>2</sub>, 1 mM EGTA; store on ice or at 4°C)
+
+	| Stock | for 10 mL |
+	|:---|---:|
+	| H<sub>2</sub>O	|	1.2 mL |
+	| 1 M Hepes-KOH, pH 7.6 | 0.5 mL |
+	| 1 M MgCl<sub>2</sub> | 10 µL |
+	| 0.5 M EGTA, pH 8.0 | 20 µL |
+
+1. Make Worm Lysate.
+
+1.  Weigh out ~1 g of frozen adults and add 1.5 mL of Lysis Buffer (plus protease inhibitors). The total volume is ~2.5 mL.
 
 2.  Setup sonication ice-water bath and sonicate. Since the volume is small, I need to do it in a 15 mL conical and use a fine sonication tip. Use Bradford reagent to monitor the release of proteins during sonication.
 - 30% amplitude for 1 min total (0.5 s on, 0.5 s off)
@@ -56,7 +72,7 @@ The total volume is ~2.5 mL.
 3.  Transfer crude extract and spin at 20,000 g (for TLA100.3 this is equivalent to 21706 rpm, so I used 22 krpm) for 10 min at 2° C, DECEL = 5.
 (Save a LSS sample)
 
-4.  Remove sup and pellet at 50,000 g (for TLA100.3 this is equivalent to 34321 rpm, so I used 34 krpm) for 20 min at 2° C.  Try to avoid any lipid and repellet if too cloudy.
+4.  Remove sup and pellet at 50,000 g (for TLA100.3 this is equivalent to 34321 rpm, so I used 34 krpm) for 20 min at 2°C.  Try to avoid any lipid and repellet if too cloudy.
 (Save a HSS sample)
 
 5.  Collect supe into a tube on ice.
@@ -67,7 +83,8 @@ BSA Standards (mg/mL)	CRUDE	HSS
 A595	.136	.275	.521	1.014	1.053		.847
 Therefore, the CRUDE is ~20 mg/mL, HSS is ~16 mg/mL.
 
-Co-pellet MAPs with taxol-stabilized MTs
+1. Co-pellet MAPs with taxol-stabilized MTs
+
 1. Use 200 uL HSS for each pelleting condition.
 (1) Supplement with (final) 0.5 mM DTT, 1 mM GTP, 10 ug/mL nocodazole or 20 uM taxol.
 Sample volume: 200 uL
@@ -92,13 +109,3 @@ Protein		-		-		-		20		20		20
 4. Aspirate the supe and resuspend the pellet with equal volume of 1x sample buffer (200 uL).
 
 Keep the samples at -20 for SDS-PAGE later.
-
-3. Gel filtration analysis with the HSS worm lysate.
-After the gel filtration, I collected all the samples from the void volume peak to the second last fraction. That was fractions 16-47 (32 samples).
-First I took 60 uL of each fraction, added in 20 uL 4x sample buffer (this is the diluted sample). Then I took 400 uL of each fraction, added in 100 uL of 100% TCA for TCA precipitation. I mixed each sample by vortex, leave all tubes on ice in the cold room for O/N.
-Note: there is an offset volume between the UV peaks and the elution volume, I need to account for it when calculating the elution volume.
-
-4. Sucrose gradient analysis with the HSS worm lysate.
-Standards: mix Yao’s standar, 10 mg/mL aldolase and 10 mg/mL catalase equal-volume.
-HSS worm lysate: load 100 uL as it is.
-After 8 hours spin down at 50 krpm, there is a sizable pellet at the bottom of the HSS worm lysate sample. I collected all the samples by 150 uL fractions, put at -20.
