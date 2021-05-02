@@ -11,23 +11,23 @@ date: 2021-05-02
 ---
 
 #### 体重（千克）；蓝色：早起；灰色：睡前
-#### 横坐标表示从测量开始的天数（起始：2021年3月25日）
+横坐标表示从测量开始的天数（起始：2021年3月25日）
 <img src="/assets/images/body_weight_plot.png" alt="Plot of body weight record" />
 
 #### 腰围（厘米）
-#### 横坐标表示从测量开始的天数（起始：2021年4月30日）
+横坐标表示从测量开始的天数（起始：2021年4月30日）
 <img src="/assets/images/waist_perimeter_plot.png" alt="Plot of waist perimeter record" />
 
 #### 体温（摄氏度）
-#### 横坐标表示从测量开始的天数（起始：2021年4月5日）
+横坐标表示从测量开始的天数（起始：2021年4月5日）
 <img src="/assets/images/body_temperature_plot.png" alt="Plot of body temperature record" />
 
 #### 血压（毫米汞柱）
-#### 横坐标表示从测量开始的天数（起始：2021年4月5日）
+横坐标表示从测量开始的天数（起始：2021年4月5日）
 <img src="/assets/images/blood_pressure_plot.png" alt="Plot of blood pressure record" />
 
 #### 脉搏（每分钟脉搏数）
-#### 横坐标表示从测量开始的天数（起始：2021年4月5日）
+横坐标表示从测量开始的天数（起始：2021年4月5日）
 <img src="/assets/images/pulse_rate_plot.png" alt="Plot of pulse rate record" />
 
 ## Source Data
