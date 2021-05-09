@@ -98,3 +98,4 @@ date: 2020-12-01
 * ### [Siegel-Monty oligomerization analysis](./Siegel-Monty-oligomerization-analysis.html)
 * ### [Microtubule polymerization](./microtubule-polymerization.html)
 * ### [Microtubule co-sedimentation](./microtubule-co-sedimentation.html)
+* ### [Microtubule co-sedimentation from worm exacts](./microtubule-co-sedimentation-worm-extracts.html)
