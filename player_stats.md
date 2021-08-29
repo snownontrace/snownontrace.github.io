@@ -14,12 +14,12 @@ date: 2021-08-28
 
 | <br><br><br>Rank | <br><br><br>Player | <br> Lifetime <br> levels <br> up | <br><br> Winning <br> rate | <br> Average <br> levels <br> up | <br> Total <br> games <br> played | Games <br> played <br> as <br> MVP | Games <br> played <br> as <br> dealer | N_games <br> short <br> staffed <br> as dealer | Winning <br> rate <br> as <br> dealer |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Xu <br> Zhang | 513 | 55.0% | 2.67 | 349 | 20 | 67 | 2 | 52.2% |
-| 2 | Hai <br> Yang | 464 | 53.6% | 2.86 | 302 | 26 | 59 | 2 | 57.6% |
-| 3 | Di <br> Wu | 444 | 47.8% | 2.85 | 324 | 35 | 54 | 0 | 50.0% |
-| 4 | Zheng <br> Li | 439 | 52.4% | 2.53 | 330 | 15 | 52 | 1 | 55.8% |
-| 5 | Qingzhi <br> Liu | 430 | 50.8% | 2.76 | 305 | 16 | 54 | 4 | 46.3% |
-| 6 | Shaohe <br> Wang | 382 | 44.4% | 2.77 | 311 | 15 | 50 | 3 | 42.0% |
+| 1 | Xu <br> Zhang | 521 | 55.2% | 2.66 | 355 | 20 | 68 | 2 | 52.9% |
+| 2 | Hai <br> Yang | 465 | 53.4% | 2.85 | 305 | 26 | 59 | 2 | 57.6% |
+| 3 | Di <br> Wu | 450 | 48.2% | 2.82 | 330 | 35 | 55 | 0 | 50.9% |
+| 4 | Zheng <br> Li | 443 | 52.1% | 2.52 | 336 | 15 | 54 | 1 | 55.6% |
+| 5 | Qingzhi <br> Liu | 438 | 51.1% | 2.74 | 311 | 16 | 55 | 4 | 45.5% |
+| 6 | Shaohe <br> Wang | 384 | 44.2% | 2.74 | 317 | 15 | 51 | 3 | 41.2% |
 | 7 | Yanni <br> Lin | 144 | 47.6% | 2.88 | 105 | 10 | 11 | 2 | 36.4% |
 | 8 | Minghai <br> Qin | 127 | 52.6% | 3.10 | 78 | 1 | 11 | 1 | 72.7% |
 | 9 | Qin <br> Peng | 72 | 59.5% | 2.88 | 42 | 4 | 4 | 0 | 75.0% |
