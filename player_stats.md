@@ -3,7 +3,7 @@ layout: player_stats
 title: Player Statistics
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-date: 2021-09-22
+date: 2021-10-02
 ---
 
 #### [Spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449)
@@ -14,12 +14,12 @@ date: 2021-09-22
 
 | <br><br><br>Rank | <br><br><br>Player | <br> Lifetime <br> levels <br> up | <br><br> Winning <br> rate | <br> Average <br> levels <br> up | <br> Total <br> games <br> played | Games <br> played <br> as <br> MVP | Games <br> played <br> as <br> dealer | N_games <br> short <br> staffed <br> as dealer | Winning <br> rate <br> as <br> dealer |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 1 | Xu <br> Zhang | 537 | 55.4% | 2.67 | 363 | 20 | 70 | 2 | 52.9% |
-| 2 | Hai <br> Yang | 477 | 53.6% | 2.89 | 308 | 26 | 60 | 2 | 58.3% |
-| 3 | Zheng <br> Li | 459 | 52.0% | 2.55 | 344 | 15 | 56 | 1 | 53.6% |
-| 4 | Qingzhi <br> Liu | 458 | 51.4% | 2.78 | 319 | 16 | 56 | 4 | 46.4% |
-| 5 | Di <br> Wu | 450 | 47.3% | 2.80 | 338 | 35 | 55 | 0 | 50.9% |
-| 6 | Shaohe <br> Wang | 400 | 44.3% | 2.78 | 325 | 15 | 53 | 3 | 43.4% |
+| 1 | Xu <br> Zhang | 545 | 55.1% | 2.66 | 372 | 20 | 70 | 2 | 52.9% |
+| 2 | Hai <br> Yang | 497 | 53.6% | 2.92 | 317 | 26 | 62 | 3 | 59.7% |
+| 3 | Qingzhi <br> Liu | 473 | 51.2% | 2.82 | 326 | 16 | 58 | 4 | 46.6% |
+| 4 | Zheng <br> Li | 470 | 51.8% | 2.56 | 353 | 15 | 58 | 1 | 53.4% |
+| 5 | Di <br> Wu | 467 | 47.3% | 2.84 | 347 | 35 | 56 | 0 | 51.8% |
+| 6 | Shaohe <br> Wang | 414 | 44.6% | 2.78 | 334 | 15 | 55 | 3 | 45.5% |
 | 7 | Yanni <br> Lin | 144 | 47.6% | 2.88 | 105 | 10 | 11 | 2 | 36.4% |
 | 8 | Minghai <br> Qin | 127 | 52.6% | 3.10 | 78 | 1 | 11 | 1 | 72.7% |
 | 9 | Qin <br> Peng | 72 | 59.5% | 2.88 | 42 | 4 | 4 | 0 | 75.0% |
