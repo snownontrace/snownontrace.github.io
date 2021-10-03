@@ -7,7 +7,7 @@ date: 2020-11-30
 ---
 
 #### [Spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449)
-#### [Play Room](https://playingcards.io/a3775q)
+#### [Play Room](https://playingcards.io/uersg5)
 #### [Zoom](https://ucsf.zoom.us/j/91360570376?pwd=SmN6aFNPY3UzdEp3M0tmQ1ViUkdQUT09)
 
 <div class="table-wrapper" markdown="block">
