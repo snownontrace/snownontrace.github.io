@@ -31,12 +31,15 @@ Plasmids for transfection:
 - VSV-G envelope plasmid [pMD2.G](https://www.addgene.org/12259/)
 - Your lentiviral transfer plasmids (e.g., sgRNA-expressing plasmids made from [pW212](https://www.addgene.org/170810/))
 
-Reagents for transfection:
+Reagents for transfection, concentrating, and titer estimation:
 
 - 1 M HEPES-NaOH, pH 7.50
 - 5 M NaCl
 - 150 mM Na<sub>2</sub>HPO<sub>4</sub>
 - 2 M CaCl<sub>2</sub>
+- 0.45 µm Steriflip filter (MilliporeSigma, SE1M003M00)
+- 5x PEG-it reagent (System Biosciences, LV825A-1)
+- Lenti-X GoStix Plus (Takara, 631281)
 
 1. To make 0.3 M CaCl<sub>2</sub>, mix 30 mL 2 M CaCl<sub>2</sub> with 170 mL H<sub>2</sub>O (Millipore purified water or Ultrapure water). Filter sterilize and keep at 4°C.
 
@@ -75,25 +78,49 @@ After adjusting pH and volume, filter sterilize and keep at 4°C. Periodically c
 	- Warm up enough DMEM Complete medium at 37°C. Each 10-cm dish will cost 24 mL medium in total, whereas each 15-cm dish will cost 60 mL medium in total.
 	- Thaw an aliquot of 25 mM chloroquine (1000x) that is sufficient for the medium.
 
-- In a tissue culture hood, add chloroquine to DMEM Complete medium for a final 25 µM concentration. Replace medium in each dish with 8 mL (for 10-cm dish) or 20 mL (for 15-cm dish) fresh medium with 25 uM chloroquine. Put the cells back in the incubator.
-- For each dish to transfect, prepare two 15 mL tubes: (1) remove their lids; (2) label one tube with the transfer plasmid to transfect.
-- In the unlabeled set of 15 mL tubes, add 1 mL 2x HBS (for 10-cm dish) or 2.25 mL 2x HBS (for 15-cm dish).
-- In the labeled set of 15 mL tubes, add 10 µg (for 10-cm dish) or 22.5 µg (for 15-cm dish) each of the lentiviral transfer plasmid, psPAX2 and pMD2.G.
-- Take up to 4 dishes each time to the hood. Proceed one by one for transfection.
-- For each dish to transfect, add 1 mL 0.3 M CaCl<sub>2</sub> to the 15 mL tube containing the plasmid DNA mixture, pipet to mix well.
-- Add this mixture into the tube containing 2× HBS dropwise.  Pipet to mix well.
-(5) Immediately add this mixture dropwise into a 10-cm dish for transfection.  Replace medium with 8 mL fresh medium + 25 uM chloroquine after 6-12 hours of transfections (can be overnight).
+- Transfection for 10-cm dish:
+	- In a tissue culture hood, add chloroquine to DMEM Complete medium for a final 25 µM concentration. Replace medium in each dish with 8 mL fresh medium with 25 µM chloroquine. Put the cells back in the incubator.
+	- For each dish to transfect, prepare two 15 mL tubes: (1) remove their lids; (2) label one tube with the transfer plasmid to transfect.
+	- In the unlabeled set of 15 mL tubes, add 1 mL 2x HBS to each tube.
+	- In the labeled set of 15 mL tubes, add 10 µg each of the lentiviral transfer plasmid, psPAX2 and pMD2.G.
+	- Take up to 4 dishes each time to the hood. Process them one by one for transfection.
+	- For each transfection, use a 5 mL pipet to add 1 mL 0.3 M CaCl<sub>2</sub> to the 15 mL tube containing the plasmid DNA mixture. Pipet to mix well. Add this mixture into the tube containing 2× HBS __drop by drop__. Pipet to mix well.
+	- Immediately add this mixture __drop by drop__ into a 10-cm dish for transfection.
+	- After 6-12 hours of transfections (can be overnight), replace medium with 8 mL fresh medium + 25 µM chloroquine.
 
-Day 3-4: Collect virus-containing supernatant
-(1) At ~24 hour post the first medium change, collect the supernatant into a 50 mL tube, and add back 8 mL fresh medium + 25 uM chloroquine.  Store at 4°C.
-(2) After another 24 hours, collect the supernatant into the same 50 mL tube stored at 4°C.
-For new constructs, the lenti-Go-Stix can be used as a handy tool to estimate the viral titer at this point.
-(3) Filter the pooled supernatant through a 0.45 um filter (use SteriFlip for convenience).  If not concentrating, the filtered solution can be directly used, or stored at -80°C after freezing in liquid N2 or dry ice.
-(4) Add ~4 mL 5× PEG-it reagent (System Biosciences, LV825A-1), mix well by pipetting.  Refrigerate for at least 12 hours at 4°C.  Virus solution with PEG is stable for up to 5 days at 4°C.
+- Transfection for 15-cm dish:
+	- In a tissue culture hood, add chloroquine to DMEM Complete medium for a final 25 µM concentration. Replace medium in each dish with 20 mL fresh medium with 25 µM chloroquine. Put the cells back in the incubator.
+	- For each dish to transfect, prepare two 15 mL tubes: (1) remove their lids; (2) label one tube with the transfer plasmid to transfect.
+	- In the unlabeled set of 15 mL tubes, add 2.25 mL 2x HBS to each tube.
+	- In the labeled set of 15 mL tubes, add 22.5 µg each of the lentiviral transfer plasmid, psPAX2 and pMD2.G.
+	- Take up to 4 dishes each time to the hood. Process them one by one for transfection.
+	- For each transfection, use a 5 mL pipet to add 2.25 mL 0.3 M CaCl<sub>2</sub> to the 15 mL tube containing the plasmid DNA mixture. Pipet to mix well. Add this mixture into the tube containing 2× HBS __drop by drop__. Pipet to mix well.
+	- Immediately add this mixture __drop by drop__ into a 15-cm dish for transfection.
+	- After 6-12 hours of transfections (can be overnight), replace medium with 8 mL fresh medium + 25 µM chloroquine.
 
-Day 5: Collect concentrated virus
-(1) Pre-cool the swinging-bucket centrifuge in the equipment room to 4°C.  Spin at 1500× g for 30 min at 4°C to collect the virus.  *Keep the tube on ice during transfer.
-(2) Remove the supernatant as much as possible by aspirating.
-(3) Resuspend the pellet with 1/10 to 1/100 of the original viral solution volume of medium (DMEM/F12 + PenStrep).  Store at -80°C.  I typically use 500 uL.
-The lenti-Go-Stix can be used to estimate the viral titer at this point after 1:100 dilution of the viral stock.
-Aliquoting can be done but is not necessary, as PEG provides cryoprotection for the solution, and data has shown freeze-thaw for up to 5 times do not seem to affect the virus titer.
+### Day 3-4: Collect virus-containing supernatant
+
+- Warm up medium with 25 µM chloroquine prepared on the day of transfection.
+- At ~24 hour post the first medium change, collect the supernatant into a 50 mL tube, and add back 8 mL fresh medium + 25 µM chloroquine (or 20 mL for 15-cm dish). Store at 4°C.
+- After another 24 hours, collect the supernatant into the same 50 mL tube stored at 4°C.
+	- When testing new constructs, the Lenti-X GoStix Plus (Takara, 631281) can be used as a handy tool to estimate the viral titer at this point. The Lenti-X GoStix Plus can also be used to examine the titer after the virus is concentrated.
+- Filter the pooled supernatant through a 0.45 µm SteriFlip filter.
+	- If not concentrating the virus, the filtered solution can be directly used, or stored at -80°C after freezing in liquid N<sub>2</sub> or dry ice.
+- To concentrate virus, add ~4 mL 5x PEG-it reagent (or ~10 mL for 15-cm dish format), mix well by pipetting or inverting. Refrigerate for at least 12 hours at 4°C. Virus solution with PEG is stable for up to 5 days at 4°C.
+
+### Day 5: Collect concentrated virus
+
+- Check the virus + PEG solution. With PEG and refrigerating, it should become turbid as virus precipitates from the solution.
+- Pre-cool a swinging-bucket centrifuge to 4°C.
+- Spin virus + PEG solution at 1500x g for 30 min at 4°C to pellet the virus.
+	- There should be a visible light yellow to white colored pellet.
+	- Keep the tubes on ice during transfer.
+
+- In a tissue culture hood, remove the supernatant as much as possible by aspirating while tilting the 50 mL tube. Be careful not to touch the pellet.
+- Resuspend the pellet with 1/10 to 1/100 of the original viral solution volume of DMEM/F12 medium (OK with PenStrep). I typically use 500 µL.
+	- The Lenti-X GoStix Plus (Takara, 631281) can be used to estimate the viral titer at this point after 1:100 dilution of the viral stock.
+	- Empirically, a GoStix value of 50 is equivalent to ~5 x 10<sup>5</sup> IFU/mL.
+	- The typical yield of a 10-cm dish packaging of lenti-sgRNA using pW212 backbone is 500 µL at 1.5 x 10<sup>8</sup> IFU/mL.
+
+- Store at -80°C.
+	- Aliquoting is not necessary, as PEG provides cryoprotection for the solution, and data has shown freeze-thaw for up to 5 times do not seem to affect the virus titer.
