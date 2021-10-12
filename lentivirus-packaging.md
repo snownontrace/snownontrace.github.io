@@ -18,9 +18,12 @@ For tissue culture:
 - 200 mM L-glutamine (e.g., Thermo Fisher, 25030081)
 - 100x PenStrep (10,000 units/mL penicillin, 10,000 µg/mL streptomycin; e.g., Thermo Fisher, 15140163)
 - DMEM/F-12 (e.g., Thermo Fisher, 11039047)
-- Chloroquine
+- 25 mM chloroquine in PBS (e.g., MilliporeSigma, C6628)
 
 1. To make _DMEM Complete_ medium for 293 cells, add 50 mL FBS, 5 mL L-Glutamine and 5 mL 100x PenStrep to 500 mL DMEM. Filter sterilize and store at 4°C.
+
+1. To make ~20 mL 25 mM chloroquine in PBS, weigh ~250 mg chloroquine diphosphate salt in a 50 mL tube. Assuming X mg is weighed, the volume (mL) of PBS to add:
+V = X / 12.8965. Fully dissolve by vortexing, filter sterilize, divide into 100 µL or 1 mL aliquots and store at -20°C.
 
 Plasmids for transfection:
 
@@ -69,11 +72,16 @@ After adjusting pH and volume, filter sterilize and keep at 4°C. Periodically c
 - If cells are ready:
 	- Warm up 2x HBS (pH = 7.10) and 0.3 M CaCl2 solution to room temperature.
 	- Thaw the stock plasmid DNAs: your lentiviral vector, the packaging plasmid psPAX2 and the envelope plasmid pMD2.G.
-	- Warm up enough DMEM complete.
-	- Thaw an aliquot of 25 mM chloroquine.
+	- Warm up enough DMEM Complete medium at 37°C. Each 10-cm dish will cost 24 mL medium in total, whereas each 15-cm dish will cost 60 mL medium in total.
+	- Thaw an aliquot of 25 mM chloroquine (1000x) that is sufficient for the medium.
 
-- Replace medium in each dish with 8 mL fresh media + 25 uM chloroquine.
-(3) In one set of 15 mL tubes, add 1 mL 2× HBS.  In another set of tubes, add 10 ug your lentiviral plasmid, 10 ug pR16 and 10 ug pR17.  Then proceed one by one for transfection.  For each plasmid to transfect, add 1 mL 0.3 M CaCl2, pipet to mix well.  Add this mixture into the tube containing 2× HBS dropwise.  Pipet to mix well.
+- In a tissue culture hood, add chloroquine to DMEM Complete medium for a final 25 µM concentration. Replace medium in each dish with 8 mL (for 10-cm dish) or 20 mL (for 15-cm dish) fresh medium with 25 uM chloroquine. Put the cells back in the incubator.
+- For each dish to transfect, prepare two 15 mL tubes: (1) remove their lids; (2) label one tube with the transfer plasmid to transfect.
+- In the unlabeled set of 15 mL tubes, add 1 mL 2x HBS (for 10-cm dish) or 2.25 mL 2x HBS (for 15-cm dish).
+- In the labeled set of 15 mL tubes, add 10 µg (for 10-cm dish) or 22.5 µg (for 15-cm dish) each of the lentiviral transfer plasmid, psPAX2 and pMD2.G.
+- Take up to 4 dishes each time to the hood. Proceed one by one for transfection.
+- For each dish to transfect, add 1 mL 0.3 M CaCl<sub>2</sub> to the 15 mL tube containing the plasmid DNA mixture, pipet to mix well.
+- Add this mixture into the tube containing 2× HBS dropwise.  Pipet to mix well.
 (5) Immediately add this mixture dropwise into a 10-cm dish for transfection.  Replace medium with 8 mL fresh medium + 25 uM chloroquine after 6-12 hours of transfections (can be overnight).
 
 Day 3-4: Collect virus-containing supernatant
@@ -82,6 +90,7 @@ Day 3-4: Collect virus-containing supernatant
 For new constructs, the lenti-Go-Stix can be used as a handy tool to estimate the viral titer at this point.
 (3) Filter the pooled supernatant through a 0.45 um filter (use SteriFlip for convenience).  If not concentrating, the filtered solution can be directly used, or stored at -80°C after freezing in liquid N2 or dry ice.
 (4) Add ~4 mL 5× PEG-it reagent (System Biosciences, LV825A-1), mix well by pipetting.  Refrigerate for at least 12 hours at 4°C.  Virus solution with PEG is stable for up to 5 days at 4°C.
+
 Day 5: Collect concentrated virus
 (1) Pre-cool the swinging-bucket centrifuge in the equipment room to 4°C.  Spin at 1500× g for 30 min at 4°C to collect the virus.  *Keep the tube on ice during transfer.
 (2) Remove the supernatant as much as possible by aspirating.
