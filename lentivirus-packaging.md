@@ -6,7 +6,7 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2021-10-12
 ---
 
-If you are new to lentivirus, please read this very helpful [guide article on lentivirus](https://www.addgene.org/guides/lentivirus/). For safety reasons, lentiviral vectors used for research purpose has been engineered to replication incompetent and often also self-inactivating after integration. Please use biosafety procedures BSL2 or higher for lentivirus work.
+If you are new to lentivirus, please read this very helpful [guide article on lentivirus](https://www.addgene.org/guides/lentivirus/). For safety reasons, lentiviral vectors used for research purpose has been engineered to be replication incompetent and often also self-inactivating after integration. Please use biosafety procedures BSL2 or higher for lentivirus work.
 
 ## Reagents
 
