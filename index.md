@@ -24,7 +24,8 @@ date: 2020-12-01
 ## Cell line transgenesis
 
 * ### [Lentivirus packaging](./lentivirus-packaging.html)
-* ### [Lentivirus transduction](./lentivirus-transduction.html)
+* ### [Lentivirus transduction of cell lines](./lentivirus-transduction-cell-lines.html)
+* ### [Lentivirus transduction of salivary gland epithelial buds](./lentivirus-transduction-SMG-epi-bud.html)
 
 
 ## Transcription modulation
