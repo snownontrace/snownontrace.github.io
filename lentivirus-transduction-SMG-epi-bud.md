@@ -6,7 +6,7 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2021-10-12
 ---
 
-This protocol demonstrates the scenario of transfecting 20 buds for with two different viruses (10 buds per virus). Adjust according to your needs.
+This protocol demonstrates the transduction of 20 buds with 2 different viruses (10 buds per virus). Adjust according to your needs.
 
 1. Materials
 	- Timed pregnant mice at E13 for isolating embryonic salivary glands
