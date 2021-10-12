@@ -6,18 +6,81 @@ author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2021-10-12
 ---
 
-- Wash single buds isolated by trituration by rinsing sequentially in ~150 µL media in a spot plate.
-- Prepare viruses. Mixing ratio 2:1 (longer collagen IV 2 parts with smaller Rab/Strep 1 parts).
-- For each bud in 5 µL media, treat with 15 µL virus mix + polybrene.
-* 10 buds treated with LV-222 + 254; 5 buds each for the other 2 groups.
-* In retrospect, I realized I used a little too much polybrene (intended final 1:2 dilution, but it is 3:4, so I used 1.5x of what I typically use).
-- Treatment was done for 1.5 hours (~2:30 PM to 4 PM) at 37 C.
-- Towards the end of virus incubation, prepare 2x Matrigel and growth factor treatment mix. 50 µL is needed per well, so I need 1 mL total.
-Component			Volume for 500 µL	Volume for 1 mL
-DMEM/F12			430 µL			860 µL
-FGF7 (20 µg/mL)		10 µL			20 µL
-ITS-G (100x)			10 µL			20 µL
-Matrigel (~10 mg/mL)		50 µL			100 µL
--  After virus treatment, wash the virus off sequentially in 100 µL media and finally transfer into 47 µL media with 3 µL carryover volume (for a final volume of 50 µL).
-- Aliquot 50 µL 2x treatment mix prepared above to each well.
-- Incubate at 37 C with 5% CO2.
+This protocol demonstrates the scenario of transfecting 20 buds for with two different viruses (10 buds per virus). Adjust according to your needs.
+
+1. Materials
+	- Timed pregnant mice at E13 for isolating embryonic salivary glands
+	- DMEM/F-12 (e.g., Thermo Fisher, 11039047)
+	- 100x PenStrep (10,000 units/mL penicillin, 10,000 µg/mL streptomycin; e.g., Thermo Fisher, 15140163)
+	- DMEM/F-12 + 1x PenStrep (referred to as "__medium__" throughout this protocol): add 5 mL 100x PenStrep to 500 mL DMEM/F-12
+	- Polybrene (4 mg/mL in water; Millipore- Sigma, H9268)
+	- 20 µg/mL FGF7 (R&D Systems, 5028-KG-025)
+	- 100x ITS supplement (Thermo Fisher, 41400045)
+	- Growth factor-reduced Matrigel (Corning, 356231; stock is usually 9-10 mg/mL)
+	- Ultra-low attachment 96-well V-bottom plate (S-bio, MS-9096VZ)
+
+1. Thaw at least 105 µL Matrigel on ice or in a fridge before dissection.
+	- Each bud will need 5 µL Matrigel stock for culture. Adjust amount based on your needs.
+	- Matrigel stock has to be thawed at low temperature to prevent premature solidification, and it can take several hours to completely thaw.
+
+1. Please follow the following protocols to obtain single epithelial buds of embryonic salivary glands from E13-E13.5 mice.
+	- [Salivary gland isolation and culture](./salivary-gland-isolation-and-culture.html)
+	- [Isolation of salivary gland epithelial buds](./isolate-salivary-gland-epithelial-buds.html)
+
+1. Once buds are ready and stored in 5% BSA in medium, thaw the two viruses stored at -80°C.
+	- Each bud will need 10 µL virus stock, so make sure there is at least 105 µL of each virus.
+
+1. Dilute 1 µL 4 mg/mL polybrene 1:25 in medium to obtain 160 µg/mL polybrene.
+
+1. Make a master mix of each virus. Each bud will be treated in a final volume of 20 µL with 8 µg/mL polybrene in a well of the ultra-low attachment 96-well V-bottom plate. 5 µL carryover volume is assumed for each bud during transfer.
+
+	| Stock | µL for one well | 10.5x (make 0.5 extra) |
+	|:---|---:|---:|
+	| virus stock | 10 |	105 |
+	| 160 µg/mL polybrene | 1 | 10.5 |
+	| medium | 4	| 42 |
+
+1. Prepare an ultra-low attachment 96-well V-bottom plate by filling in different amounts of medium using a multichannel pipette:
+
+	| Wells | Usage | Amount of medium to fill (µL) |
+	|:---|:---|---:|
+	| A1-H1 & A12-H12 | edge wells to fill in medium to prevent evaporation | 150 |
+	| A2-A11 | virus 1 treatment | 0 |
+	| B2-C11 | virus 1 washes | 150 |
+	| D2-D11 | culture of virus 1 treated buds | 47 |
+	| E2-E11 | culture of virus 2 treated buds | 47 |
+	| F2-G11 | virus 2 washes | 150 |
+	| H2-H11 | virus 2 treatment | 0 |
+
+1. In the Pyrex 9-well glass spot plate (Fisher Scientific, 13-748B) used for dissection, wash single epithelial buds twice in medium without BSA.
+	- Use 20 µL low-retention tips (cut for larger opening; Rainin, 30389190) to transfer buds.
+
+1. Transfer one bud into each well for virus treatment with 5 µL carryover volume.
+	- These are wells A2-A11 and H2-H11 of the ultra-low attachment 96-well V-bottom plate).
+	- Use 20 µL low-retention tips (cut for larger opening; Rainin, 30389190) to transfer buds.
+
+1. For each bud, treat with 15 µL virus master mix containing polybrene.
+
+1. For transduction, incubate the plate in a humidified 37°C incubator for 1-2 hours. The incubator does not need to have CO<sub>2</sub>.
+
+1. During the incubation, prepare 2x culture mix.
+
+	| Stock | µL for one well | 21x (make one extra) |
+	|:---|---:|---:|
+	| medium | 43	| 903 |
+	| FGF7 (20 µg/mL, 100x) | 1 |	21 |
+	| ITS (100x) | 1 | 21 |
+	| Matrigel (~10 mg/mL) | 5 | 105 |
+
+1. After the incubation, wash off the virus by transferring the bud into the wash wells containing 150 µL medium.
+	- Use 20 µL low-retention tips (cut for larger opening; Rainin, 30389190) to transfer buds.
+	- Triturate thoroughly in each well for the wash.
+
+1. After the washes, transfer the bud into the 47 µL medium in the culture wells with 3 µL carryover volume.
+	- Use 20 µL low-retention tips (cut for larger opening; Rainin, 30389190) to transfer buds.
+
+1. To each culture well, add 50 µL 2x culture mix prepared above.
+
+1. Incubate the plate at 37°C with 5% CO<sub>2</sub>.
+	- Fluorescence should be readily detectable after 24 hours of culture.
+	- For CRISPR/Cas9-mediated knockout, culture for 2-3 days before analysis of protein expressing and/or phenotype.
