@@ -19,7 +19,8 @@ date: 2020-12-01
 ## Cell and organ culture
 
 * ### [Useful cell numbers in various culture formats](./useful-cell-numbers-in-various-culture-formats.html)
-
+* ### [Salivary gland isolation and culture](./salivary-gland-isolation-and-culture.html)
+* ### [Isolation of salivary gland epithelial buds](./isolate-salivary-gland-epithelial-buds.html)
 
 ## Cell line transgenesis
 
