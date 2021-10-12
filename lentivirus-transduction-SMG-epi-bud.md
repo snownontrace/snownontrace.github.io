@@ -1,6 +1,6 @@
 ---
 layout: protocols
-title: Lentivirus transduction on SMG epithelial buds
+title: Lentivirus transduction of SMG epithelial buds
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
 date: 2021-10-12
