@@ -42,7 +42,7 @@ This protocol demonstrates the scenario of transfecting 20 buds for with two dif
 
 1. Prepare an ultra-low attachment 96-well V-bottom plate by filling in different amounts of medium using a multichannel pipette:
 
-	| Wells | Usage | Amount of medium to fill (µL) |
+	| Wells | Usage | µL of medium to fill |
 	|:---|:---|---:|
 	| A1-H1 & A12-H12 | edge wells to fill in medium to prevent evaporation | 150 |
 	| A2-A11 | virus 1 treatment | 0 |
