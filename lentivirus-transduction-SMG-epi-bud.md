@@ -9,7 +9,7 @@ date: 2021-10-12
 This protocol demonstrates the transduction of 20 buds with 2 different viruses (10 buds per virus). Adjust according to your needs.
 
 1. Materials
-	- Timed pregnant mice at E13 for isolating embryonic salivary glands
+	- Timed pregnant mice at E13-E13.5 for isolating embryonic salivary glands
 	- DMEM/F-12 (e.g., Thermo Fisher, 11039047)
 	- 100x PenStrep (10,000 units/mL penicillin, 10,000 µg/mL streptomycin; e.g., Thermo Fisher, 15140163)
 	- DMEM/F-12 + 1x PenStrep (referred to as "__medium__" throughout this protocol): add 5 mL 100x PenStrep to 500 mL DMEM/F-12
@@ -23,7 +23,7 @@ This protocol demonstrates the transduction of 20 buds with 2 different viruses 
 	- Each bud will need 5 µL Matrigel stock for culture. Adjust amount based on your needs.
 	- Matrigel stock has to be thawed at low temperature to prevent premature solidification, and it can take several hours to completely thaw.
 
-1. Please follow the following protocols to obtain single epithelial buds of embryonic salivary glands from E13-E13.5 mice.
+1. Please follow the protocols below to obtain single epithelial buds of embryonic salivary glands.
 	- [Salivary gland isolation and culture](./salivary-gland-isolation-and-culture.html)
 	- [Isolation of salivary gland epithelial buds](./isolate-salivary-gland-epithelial-buds.html)
 
