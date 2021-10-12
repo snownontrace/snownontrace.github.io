@@ -27,8 +27,9 @@ This protocol demonstrates the scenario of transfecting 20 buds for with two dif
 	- [Salivary gland isolation and culture](./salivary-gland-isolation-and-culture.html)
 	- [Isolation of salivary gland epithelial buds](./isolate-salivary-gland-epithelial-buds.html)
 
-1. Once buds are ready and stored in 5% BSA in medium, thaw the two viruses stored at -80°C.
+1. Thaw the two viruses stored at -80°C, when buds are ready and stored in 5% BSA in medium.
 	- Each bud will need 10 µL virus stock, so make sure there is at least 105 µL of each virus.
+	- The titer of the virus stock is usually ~1.5 x 10<sup>8</sup> IFU/mL.
 
 1. Dilute 1 µL 4 mg/mL polybrene 1:25 in medium to obtain 160 µg/mL polybrene.
 
