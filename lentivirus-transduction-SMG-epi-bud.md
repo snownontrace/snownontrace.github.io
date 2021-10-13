@@ -13,6 +13,10 @@ This protocol demonstrates the transduction of 20 buds with 2 different viruses 
 	- DMEM/F-12 (e.g., Thermo Fisher, 11039047)
 	- 100x PenStrep (10,000 units/mL penicillin, 10,000 µg/mL streptomycin; e.g., Thermo Fisher, 15140163)
 	- DMEM/F-12 + 1x PenStrep (referred to as "__medium__" throughout this protocol): add 5 mL 100x PenStrep to 500 mL DMEM/F-12
+	- Pyrex spot plate (Fisher Scientific 13-748B)
+	- Dumont \#5 Forceps (Fine Science Tools, 11254-20)
+	- Dispase (Thermo Fisher, 17105041; diluted in DMEM/F-12)
+	- 5% BSA (MilliporeSigma, A8577; diluted in DMEM/F-12)
 	- Polybrene (4 mg/mL in water; Millipore- Sigma, H9268)
 	- 20 µg/mL FGF7 (R&D Systems, 5028-KG-025)
 	- 100x ITS supplement (Thermo Fisher, 41400045)
@@ -24,8 +28,8 @@ This protocol demonstrates the transduction of 20 buds with 2 different viruses 
 	- Matrigel stock has to be thawed at low temperature to prevent premature solidification, and it can take several hours to completely thaw.
 
 1. Please follow the protocols below to obtain single epithelial buds of embryonic salivary glands.
-	- [Salivary gland isolation and culture](./salivary-gland-isolation-and-culture.html)
-	- [Isolation of salivary gland epithelial buds](./isolate-salivary-gland-epithelial-buds.html)
+	- [Salivary gland isolation and culture](./isolation-and-culture-of-mouse-embryonic-salivary-glands.html)
+	- [Isolation of salivary gland epithelial buds](./isolation-and-culture-of-salivary-gland-epithelial-buds.html)
 
 1. Thaw the two viruses stored at -80°C, when buds are ready and stored in 5% BSA in medium.
 	- Each bud will need 10 µL virus stock, so make sure there is at least 105 µL of each virus.
