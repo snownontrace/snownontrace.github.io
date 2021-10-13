@@ -8,20 +8,31 @@ date: 2021-10-12
 
 1. Materials
 	- Timed pregnant mice at E13-E13.5 for isolating embryonic salivary glands
+	- 70% ethanol spray bottle
+	- Standard forceps (e.g. Fine Science Tools, 11000-12)
+	- Fine sharp scissors (Fine Science Tools, 14060-10)
 	- DMEM/F-12 (e.g., Thermo Fisher, 11039047)
 	- 100x PenStrep (10,000 units/mL penicillin, 10,000 µg/mL streptomycin; e.g., Thermo Fisher, 15140163)
 	- DMEM/F-12 + 1x PenStrep (referred to as "__medium__" throughout this protocol): add 5 mL 100x PenStrep to 500 mL DMEM/F-12
+	- Dissecting microscope (e.g., Leica M80; any common dissecting microscopes should work)
+	- Dumont \#5 forceps (Fine Science Tools, 11251-20)
+	- Dumont \#5 fine forceps (Fine Science Tools, 11254-20)
+	- Scalpel (Fine Science Tools, 10011-00 and 10003-12)
+	- 10-cm dish (e.g., Corning 430167)
+	- 35-mm dish (e.g., Corning, 430165)
 	- Pyrex spot plate (Fisher Scientific 13-748B)
-	- Dumont \#5 Fine Forceps (Fine Science Tools, 11254-20)
 	- Dispase (Thermo Fisher, 17105041; diluted in DMEM/F-12)
 	- 5% BSA (MilliporeSigma, A8577; diluted in DMEM/F-12)
-	- Polybrene (4 mg/mL in water; Millipore- Sigma, H9268)
+	- 200 µL low-retention pipette tips (Rainin, 30389187)
+	- 20 µL low-retention tips (Rainin, 30389190)
 	- 20 µg/mL FGF7 (R&D Systems, 5028-KG-025)
 	- 100x ITS supplement (Thermo Fisher, 41400045)
 	- Growth factor-reduced Matrigel (Corning, 356231; stock is usually 9-10 mg/mL)
 	- Ultra-low attachment 96-well V-bottom plate (S-bio, MS-9096VZ)
 
-1. Please follow
+1. Please follow [this protocol](./isolation-and-culture-of-mouse-embryonic-salivary-glands.html) to isolate intact salivary glands.
+
+
 - Treat SMGs with 2.5 units/mL dispase II in media (DMEM/F12 + P/S) for 15 min at 37 C.
 - Following dispase treatment, replace dispase solution with 5% BSA in media for twice to quench dispase activity.
 - Isolate single epithelial buds by trituration using low-retention tips (P200 set at 100 µL).
