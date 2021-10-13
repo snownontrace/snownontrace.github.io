@@ -28,8 +28,8 @@ This protocol demonstrates the transduction of 20 buds with 2 different viruses 
 	- Matrigel stock has to be thawed at low temperature to prevent premature solidification, and it can take several hours to completely thaw.
 
 1. Please follow the protocols below to obtain single epithelial buds of embryonic salivary glands.
-	- [Salivary gland isolation and culture](./isolation-and-culture-of-mouse-embryonic-salivary-glands.html)
-	- [Isolation of salivary gland epithelial buds](./isolation-and-culture-of-salivary-gland-epithelial-buds.html)
+	- [Isolation and culture of mouse embryonic salivary glands](./isolation-and-culture-of-mouse-embryonic-salivary-glands.html)
+	- [Isolation and culture of salivary gland epithelial buds](./isolation-and-culture-of-salivary-gland-epithelial-buds.html)
 
 1. Thaw the two viruses stored at -80°C, when buds are ready and stored in 5% BSA in medium.
 	- Each bud will need 10 µL virus stock, so make sure there is at least 105 µL of each virus.
