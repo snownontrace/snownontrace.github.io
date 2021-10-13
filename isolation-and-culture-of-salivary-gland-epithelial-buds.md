@@ -59,7 +59,7 @@ date: 2021-10-12
 
 	| Stock | µL for one well | 21x (make 1 extra) |
 	|:---|---:|---:|
-	| medium | 43	| 903 |
+	| Medium | 43	| 903 |
 	| FGF7 (20 µg/mL, 100x) | 1 |	21 |
 	| ITS (100x) | 1 | 21 |
 	| Matrigel (~10 mg/mL) | 5 | 105 |
