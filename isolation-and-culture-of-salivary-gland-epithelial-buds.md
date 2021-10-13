@@ -56,11 +56,11 @@ date: 2021-10-12
 	- Wash isolated epithelial buds twice in medium without BSA. Use 20 µL low-retention tips (cut for larger opening) to transfer buds.
 	- Use 20 µL low-retention tips (cut for larger opening) to transfer one bud into each well for culture with 3 µL carryover volume.
 	- Prepare 2x culture mix (assuming 20 bud cultures). FGF7 aliquot is quick to thaw in hand or on the bench.
-		| Stock | µL for one well | 21x (make 1 extra) |
-		|:---|---:|---:|
-		| medium | 43	| 903 |
-		| FGF7 (20 µg/mL, 100x) | 1 |	21 |
-		| ITS (100x) | 1 | 21 |
-		| Matrigel (~10 mg/mL) | 5 | 105 |
+	| Stock | µL for one well | 21x (make 1 extra) |
+	|:---|---:|---:|
+	| medium | 43	| 903 |
+	| FGF7 (20 µg/mL, 100x) | 1 |	21 |
+	| ITS (100x) | 1 | 21 |
+	| Matrigel (~10 mg/mL) | 5 | 105 |
 	- To each culture well, add 50 µL 2x culture mix prepared above.
 	- Incubate the plate at 37°C with 5% CO<sub>2</sub>.
