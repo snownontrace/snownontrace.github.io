@@ -26,7 +26,7 @@ date: 2021-10-12
 	- 5% BSA (MilliporeSigma, A8577; diluted in DMEM/F-12)
 	- 200 µL low-retention pipette tips (Rainin, 30389187)
 	- 20 µL low-retention tips (Rainin, 30389190)
-	- 20 µg/mL FGF7 (R&D Systems, 5028-KG-025)
+	- 20 µg/mL FGF7 (R&D Systems, 5028-KG-025); divide into 25 µL aliquots and store at -20°C
 	- 100x ITS supplement (Thermo Fisher, 41400045)
 	- Growth factor-reduced Matrigel (Corning, 356231; stock is usually 9-10 mg/mL)
 	- Ultra-low attachment 96-well V-bottom plate (S-bio, MS-9096VZ)
