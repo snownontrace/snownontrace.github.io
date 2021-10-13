@@ -14,7 +14,7 @@ This protocol demonstrates the transduction of 20 buds with 2 different viruses 
 	- 100x PenStrep (10,000 units/mL penicillin, 10,000 µg/mL streptomycin; e.g., Thermo Fisher, 15140163)
 	- DMEM/F-12 + 1x PenStrep (referred to as "__medium__" throughout this protocol): add 5 mL 100x PenStrep to 500 mL DMEM/F-12
 	- Pyrex spot plate (Fisher Scientific 13-748B)
-	- Dumont \#5 Forceps (Fine Science Tools, 11254-20)
+	- Dumont \#5 Fine Forceps (Fine Science Tools, 11254-20)
 	- Dispase (Thermo Fisher, 17105041; diluted in DMEM/F-12)
 	- 5% BSA (MilliporeSigma, A8577; diluted in DMEM/F-12)
 	- Polybrene (4 mg/mL in water; Millipore- Sigma, H9268)
