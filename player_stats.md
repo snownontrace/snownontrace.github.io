@@ -7,7 +7,7 @@ date: 2021-10-02
 ---
 
 #### [Spreadsheet](https://docs.google.com/spreadsheets/d/1So3PBr9gV3I0LzApZOgJlQew2QjM1wAiWhR50rAnHRg/edit#gid=2137801449)
-#### [Play Room](https://playingcards.io/uersg5)
+#### [Play Room](https://playingcards.io/nnsr75)
 #### [Zoom](https://ucsf.zoom.us/j/93836015092?pwd=RVJ1UUJVdTZhdVA4Y3o4NDRTbWRHQT09)
 
 <div class="table-wrapper" markdown="block">
