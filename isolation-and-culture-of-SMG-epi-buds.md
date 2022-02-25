@@ -47,7 +47,7 @@ date: 2021-10-12
 	- Incubate for 15 min at 37°C.
 	- For each well, replace dispase solution with 150 µL 5% BSA for twice to quench dispase activity.
 	- Isolate single epithelial buds by trituration using 200 µL low-retention tips (P200 set at 100 µL).
-		- At this point, mesenchymal cells will dissociate into single cells, while the epithelial buds and ducts will remain relatively intact.
+		- At this point, mesenchymal cells will dissociate into single cells, while the epithelial buds and ducts will remain largely intact.
 	- Rinse epithelial buds twice by transferring them sequentially into new wells with 150 µL 5% BSA using 20 µL low-retention	tips. Cover the wells not being used with 22x22 mm coverslips during the transfers and washes.
 	- Keep epithelial buds in 5% BSA while preparing for the next steps.
 
