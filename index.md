@@ -20,7 +20,7 @@ date: 2020-12-01
 
 * ### [Useful cell numbers in various culture formats](./useful-cell-numbers-in-various-culture-formats.html)
 * ### [Isolation and culture of mouse embryonic salivary glands](./isolation-and-culture-of-mouse-embryonic-salivary-glands.html)
-* ### [Isolation and culture of salivary gland epithelial buds](./isolation-and-culture-of-salivary-gland-epithelial-buds.html)
+* ### [Isolation and culture of salivary gland epithelial buds](./isolation-and-culture-of-SMG-epi-buds.html)
 
 ## Cell line transgenesis
 
