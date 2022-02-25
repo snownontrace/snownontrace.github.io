@@ -22,21 +22,17 @@ date: 2020-12-01
 * ### [Isolation and culture of mouse embryonic salivary glands](./isolation-and-culture-of-mouse-embryonic-salivary-glands.html)
 * ### [Isolation and culture of salivary gland epithelial buds](./isolation-and-culture-of-SMG-epi-buds.html)
 
-## Cell line transgenesis
+
+## Lentivirus packaging and transduction
 
 * ### [Lentivirus packaging](./lentivirus-packaging.html)
 * ### [Lentivirus transduction of cell lines](./lentivirus-transduction-cell-lines.html)
 * ### [Lentivirus transduction of salivary gland epithelial buds](./lentivirus-transduction-SMG-epi-buds.html)
 
 
-## Transcription modulation
-
-* ### [Inducible CRISPRi and CRISPRa](./inducible-CRISPRi-and-CRISPRa.html)
-* ### [Guide RNA design for CRISPRi and CRISPRa](./guide-RNA-design-CRISPRi-CRISPRa.html)
-
 ## Genome engineering
 
-* ### [Guide RNA design](./guide-RNA-design.html)
+* ### [Guide RNA design for gene knockout](./guide-RNA-design-KO.html)
 * ### [Gene knockout in cell lines](./gene-knockout-in-cell-lines.html)
 * ### [Small fragment knockin in cell lines](./small-fragment-knockin-in-cell-lines.html)
 * ### [Large fragment knockin in cell lines](./large-fragment-knockin-in-cell-lines.html)
@@ -51,8 +47,3 @@ date: 2020-12-01
 
 * ### [smFISH for tissue culture cells](./smFISH-for-tissue-culture-cells.html)
 * ### [smFISH for whole-mount mouse embryonic organs](./smFISH-for-whole-mount-mouse-embryonic-organs.html)
-
-
-## Fluorescence dye labeling
-* ### [Fluorescence dye labeling of proteins](./fluorescence-dye-labeling-of-proteins.html)
-* ### [Fluorescence dye labeling of DNA oligos](./fluorescence-dye-labeling-of-DNA-oligos.html)
