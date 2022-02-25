@@ -90,6 +90,7 @@ This protocol demonstrates the transduction of 20 buds with 2 different viruses 
 	| Matrigel (~10 mg/mL) | 5 | 105 |
 
 1. After the incubation, wash off the virus by transferring the bud into the wash wells containing 150 µL medium.
+  - During the incubation, it is normal that viral particles precipitate and form a thin film that appears brownish under the dissecting microscope. Washing off the film requires thorough trituration.
 	- Use 20 µL low-retention tips (cut for larger opening; Rainin, 30389190) to transfer buds.
 	- Triturate thoroughly in each well for the wash.
 
