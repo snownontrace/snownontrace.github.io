@@ -46,10 +46,7 @@ date: 2022-06-06
 
     If it works OK, you should see this message:
     ```
-    Hi {account_1 name}! You've successfully authenticated, but GitHub does not provide shell access.
-    ```
-    ```
-    Hi {account_2 name}! You've successfully authenticated, but GitHub does not provide shell access.
+    Hi {account name}! You've successfully authenticated, but GitHub does not provide shell access.
     ```
 
 1. Now you are ready to use the configured gh1 and gh2 hosts for your different GitHub accounts.
