@@ -42,8 +42,3 @@ date: 2020-12-01
 
 * ### [smFISH for tissue culture cells](./smFISH-for-tissue-culture-cells.html)
 * ### [smFISH for whole-mount mouse embryonic organs](./smFISH-for-whole-mount-mouse-embryonic-organs.html)
-
-
-## Tips for git and coding
-
-* ### [Using multiple ssh keys for different GitHub accounts](./multiple-ssh-keys.html)
