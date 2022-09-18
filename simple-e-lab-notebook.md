@@ -26,6 +26,7 @@ The rendered output looks like this:
   | aa | ab | ac |
   | ba | bb | bc |
   | ca | cb | cc |
+
 * Use Markdown to link an image (or other files):
 ```
 ![image alt text (displays when image fails to load)](/path/to/image.png)
