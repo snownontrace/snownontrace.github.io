@@ -21,6 +21,7 @@ The most commonly used elements in a lab notebook are text, tables and images, w
   | ca | cb | cc |
 ```
 The rendered output looks like this:
+
   | Col 1 (left aligned) | Col 2 (center aligned) | Col 3 (right aligned) |
   |:---|:---:|---:|
   | aa | ab | ac |
