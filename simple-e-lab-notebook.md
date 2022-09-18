@@ -1,6 +1,6 @@
 ---
 layout: protocols
-title: A simple electronic lab notebook system using Markdown and Git
+title: A simple electronic lab notebook using Markdown and Git
 author: Shaohe Wang
 author_url: https://shaohewanglab.org
 date: 2022-09-17
