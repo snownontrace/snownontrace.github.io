@@ -4,6 +4,11 @@ title: Prototols
 date: 2020-12-01
 ---
 
+## Record keeping
+
+* ### [A simple electronic lab notebook](./simple-e-lab-notebook.html)
+* ### [Data management](./data-management.html)
+
 ## Molecular cloning
 
 * ### [Gibson assembly](./gibson-assembly.html)
