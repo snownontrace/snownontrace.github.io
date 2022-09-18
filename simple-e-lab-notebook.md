@@ -38,7 +38,7 @@ The rendered output looks like this:
 
 ### 2. Use Git and GitHub for version control and cloud backup.
 
-If you are new to Git, I highly recommend [this Software Carpentry Lesson](https://swcarpentry.github.io/git-novice/index.html). Specifically, you can:
+If you are new to Git, I highly recommend [the Software Carpentry Lesson for Git](https://swcarpentry.github.io/git-novice/index.html). Specifically, you can:
 * Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics/index.html).
 * [Install Git](https://carpentries.github.io/workshop-template/#git) on Windows, Mac or Linux systems.
 * [Set up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html) on your computer.
