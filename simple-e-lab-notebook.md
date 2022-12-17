@@ -47,7 +47,7 @@ If you are new to Git, I highly recommend [the Software Carpentry Lesson for Git
 * Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics/index.html).
 * Install Git.
   * If you are using a new Mac, you probably have a quite new version of Git installed. Check by typing `git --version` in your terminal. If the version number is close to [the current version](https://git-scm.com/downloads), you can just use the pre-installed version.
-  * Otherwise, follow instructions here to [install Git](https://carpentries.github.io/workshop-template/#git) on Windows, Mac or Linux systems.
+  * Otherwise, follow instructions [here](https://carpentries.github.io/workshop-template/#git) to install Git on Windows, Mac or Linux systems.
 * [Set up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html) on your computer.
 * [Use GitHub](https://swcarpentry.github.io/git-novice/07-github/index.html) for cloud backup.
   * It is recommended to use [SSH connections](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
