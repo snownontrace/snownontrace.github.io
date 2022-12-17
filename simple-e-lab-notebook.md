@@ -14,15 +14,15 @@ The most commonly used elements in a lab notebook are text, tables and images, w
 * Practice markdown following [this tutorial](https://www.markdowntutorial.com/).
 * Use Markdown to make a table:
 
-```Markdown
+  ```Markdown
   | Col 1 (left aligned) | Col 2 (center aligned) | Col 3 (right aligned) |
   |:---|:---:|---:|
   | aa | ab | ac |
   | ba | bb | bc |
   | ca | cb | cc |
-```
+  ```
 
-The rendered output looks like this:
+  The rendered output looks like this:
 
   | Col 1 (left aligned) | Col 2 (center aligned) | Col 3 (right aligned) |
   |:---|:---:|---:|
@@ -30,14 +30,15 @@ The rendered output looks like this:
   | ba | bb | bc |
   | ca | cb | cc |
 
-* Use Markdown to link an image (or other files):
+* Use Markdown to link an image (or any other files):
 
-```Markdown
-![image alt text (displays when image fails to load)](/path/to/image.png)
-```
-
-* Most modern text editors have excellent support for markdown editing.
-  * A popular choice is [Visual Studio Code (VS Code)](https://code.visualstudio.com/).
+  ```Markdown
+  ![image alt text (displays when image fails to load)](/path/to/image.png)
+  ```
+  
+* It is highly recommended to use a modern text editor, such as the [Visual Studio Code (VS Code)](https://code.visualstudio.com/), to facilitate markdown editing.
+  * For example, in VS Code, you can drag a picture (or any other file) into the markdown file while holding the <kbd>Shift</kbd> key to insert the formatted text.
+  * There are also many -- probably too many -- choices of extensions for markdown. I have been using "Markdown All in One", "Markdown PDF", and "markdownlint".
 
 ### 2. Use Git and GitHub for version control and cloud backup
 
