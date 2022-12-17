@@ -3,7 +3,7 @@ layout: protocols
 title: A simple electronic lab notebook using Markdown and Git
 author: Shaohe Wang
 author_url: https://shaohewanglab.org
-date: 2022-09-17
+date: 2022-12-16
 ---
 
 The most commonly used elements in a lab notebook are text, tables and images, which can be easily organized in Markdown files. This can be greatly facilitated by a modern text editor, such as **Visual Studio Code**. The most important feature of an electronic lab notebook is to trace editing history, which can be conveniently achieved by **Git**.
@@ -38,15 +38,16 @@ The rendered output looks like this:
 
 * Most modern text editors have excellent support for markdown editing.
   * A popular choice is [Visual Studio Code (VS Code)](https://code.visualstudio.com/).
-  * I previously used [Atom](https://atom.io/), but it will be discontinued in December 2022. I then switched to VS Code.
 
 ### 2. Use Git and GitHub for version control and cloud backup
 
 If you are new to Git, I highly recommend [the Software Carpentry Lesson for Git](https://swcarpentry.github.io/git-novice/index.html). Specifically, you can:
 
 * Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics/index.html).
-* [Install Git](https://carpentries.github.io/workshop-template/#git) on Windows, Mac or Linux systems.
+* Install Git.
   * If you are using a new Mac, you probably have a quite new version of Git installed. Check by typing `git --version` in your terminal. If the version number is close to [the current version](https://git-scm.com/downloads), you can just use the pre-installed version.
+  * Otherwise, follow instructions here to [install Git](https://carpentries.github.io/workshop-template/#git) on Windows, Mac or Linux systems.
 * [Set up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html) on your computer.
-* [Using GitHub](https://swcarpentry.github.io/git-novice/07-github/index.html) for cloud backup.
+* [Use GitHub](https://swcarpentry.github.io/git-novice/07-github/index.html) for cloud backup.
   * It is recommended to use [SSH connections](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
+* If you are using VS Code, you could easily commit and sync changes within the VS Code interface. If it keeps asking for the SSH passphrase, you can open a terminal window and run `ssh-add`, which will ask for the SSH passphrase once and VS Code should no longer ask for it.
