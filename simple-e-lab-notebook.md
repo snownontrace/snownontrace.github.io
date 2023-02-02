@@ -41,7 +41,7 @@ The most commonly used elements in a lab notebook are text, tables and images, w
 
 * It is highly recommended to use a modern text editor, such as the [Visual Studio Code (VS Code)](https://code.visualstudio.com/), to facilitate markdown editing.
   * For example, in VS Code, you can drag a picture (or any other file) into the markdown file while holding the `Shift` key to insert the formatted text.
-  * There are also many -- probably too many -- choices of extensions for markdown. I have been using "Markdown All in One", "Markdown PDF", and "markdownlint".
+  * There are also many -- probably too many -- choices of extensions for markdown. I have been using "Markdown All in One," "Markdown PDF," "markdownlint," and "Selection Word Count."
 
 ### 2. Use Git and GitHub for version control and cloud backup
 
