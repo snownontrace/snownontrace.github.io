@@ -58,4 +58,4 @@ If you are new to Git, I highly recommend [the Software Carpentry Lesson for Git
 * [Use GitHub](https://swcarpentry.github.io/git-novice/07-github/index.html) for cloud backup.
   * It is recommended to use [SSH connections](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
-* If you are using VS Code, you could easily commit and sync changes within the VS Code interface. If it keeps asking for the SSH passphrase, you can open a terminal window and run `ssh-add`, which will ask for the SSH passphrase once and VS Code should no longer ask for it.
+* If you are using VS Code, you could easily commit and sync changes within the VS Code interface. If it keeps asking for the SSH passphrase, you can open a terminal window (inside VS code) and run `ssh-add`, which will ask for the SSH passphrase once and VS Code should no longer ask for it.
