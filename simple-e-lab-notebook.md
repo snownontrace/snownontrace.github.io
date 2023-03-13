@@ -18,19 +18,21 @@ The most commonly used elements in a lab notebook are text, tables and images, w
 
   ```Markdown
   | Col 1 (left aligned) | Col 2 (center aligned) | Col 3 (right aligned) |
-  |:---|:---:|---:|
-  | aa | ab | ac |
-  | ba | bb | bc |
-  | ca | cb | cc |
+  | :------------------- | :--------------------: | --------------------: |
+  | aa                   |           ab           |                    ac |
+  | ba                   |           bb           |                    bc |
+  | ca                   |           cb           |                    cc |
   ```
 
   The rendered output looks like this:
 
   | Col 1 (left aligned) | Col 2 (center aligned) | Col 3 (right aligned) |
-  |:---|:---:|---:|
-  | aa | ab | ac |
-  | ba | bb | bc |
-  | ca | cb | cc |
+  | :------------------- | :--------------------: | --------------------: |
+  | aa                   |           ab           |                    ac |
+  | ba                   |           bb           |                    bc |
+  | ca                   |           cb           |                    cc |
+
+  The "Markdown Table" extension by Takumi Ishii is very helpful to facilitate table editing and formatting in Markdown files. It also enables copying from an Excel spreadsheet and formatting the TSV content into a Markdown formatted table, among other features.
 
 * Use Markdown to link an image (or any other files):
 
@@ -40,7 +42,7 @@ The most commonly used elements in a lab notebook are text, tables and images, w
 
 * It is highly recommended to use a modern text editor, such as the [Visual Studio Code (VS Code)](https://code.visualstudio.com/), to facilitate markdown editing.
   * For example, in VS Code, you can drag a picture (or any other file) into the markdown file while holding the `Shift` key to insert the formatted text.
-  * There are also many -- probably too many -- choices of extensions for markdown. I have been using "Markdown All in One," "Markdown PDF," "markdownlint," and "Selection Word Count."
+  * There are also many -- probably too many -- choices of extensions for markdown. I have been using "Markdown All in One," "Markdown PDF," "markdownlint," "Selection Word Count," "Markdown Table," "Rainbow CSV," and "Excel Viewer."
 
 ### 2. Use Git and GitHub for version control and cloud backup
 
