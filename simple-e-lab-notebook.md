@@ -18,21 +18,21 @@ The most commonly used elements in a lab notebook are text, tables and images, w
 
   ```Markdown
   | Col 1 (left aligned) | Col 2 (center aligned) | Col 3 (right aligned) |
-  | :------------------- | :--------------------: | --------------------: |
-  | aa                   |           ab           |                    ac |
-  | ba                   |           bb           |                    bc |
-  | ca                   |           cb           |                    cc |
+  | :--- | :---: | ---: |
+  | aa | ab | ac |
+  | ba | bb | bc |
+  | ca | cb | cc |
   ```
 
   The rendered output looks like this:
 
   | Col 1 (left aligned) | Col 2 (center aligned) | Col 3 (right aligned) |
-  | :------------------- | :--------------------: | --------------------: |
-  | aa                   |           ab           |                    ac |
-  | ba                   |           bb           |                    bc |
-  | ca                   |           cb           |                    cc |
+  | :--- | :---: | ---: |
+  | aa | ab | ac |
+  | ba | bb | bc |
+  | ca | cb | cc |
 
-  The "Markdown Table" extension by Takumi Ishii is very helpful to facilitate table editing and formatting in Markdown files. It also enables copying from an Excel spreadsheet and formatting the TSV content into a Markdown formatted table, among other features.
+  The ["Markdown Table" extension by Takumi Ishii](https://marketplace.visualstudio.com/items?itemName=TakumiI.markdowntable) is very helpful to facilitate table editing and formatting in Markdown files. It also enables copying from an Excel spreadsheet and formatting the TSV content into a Markdown formatted table, among other features.
 
 * Use Markdown to link an image (or any other files):
 
