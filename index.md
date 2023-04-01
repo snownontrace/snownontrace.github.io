@@ -14,6 +14,8 @@ date: 2020-12-01
 
 * ### [Gibson assembly](./gibson-assembly.html)
 
+* ### [repp-assisted plasmid design](./repp-plasmid-design.html)
+
 * ### [Golden gate assembly](./golden-gate-assembly.html)
 
 * ### [Freezing and streaking bacteria](./freezing-and-streaking-bacteria.html)
