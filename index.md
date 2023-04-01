@@ -14,7 +14,7 @@ date: 2020-12-01
 
 * ### [Gibson assembly](./gibson-assembly.html)
 
-* ### [repp-assisted plasmid design](./repp-plasmid-design.html)
+* ### [repp-assisted plasmid design](./repp-assisted-plasmid-design.html)
 
 * ### [Golden gate assembly](./golden-gate-assembly.html)
 
