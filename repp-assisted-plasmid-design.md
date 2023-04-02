@@ -150,4 +150,6 @@ Git is a powerful tool for version control. You don't need Git for installing an
   | oS13         | CCGATCCGTCGACGTCAGGTGGCACTTTTCG            |
   | pW256_3_syn  | TGGTGGTGG...(long sequence)...AGCTGTACAAGT |
 
-  The table in "pW256.output-strategy.csv" can be directly printed out for benchwork, while the reagent list in "pW256.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist). Note that the primers found in primer_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet.
+  The table in "pW256.output-strategy.csv" can be directly printed out for benchwork, while the reagent list in "pW256.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist).
+  
+  Note that the primers found in primer_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet.
