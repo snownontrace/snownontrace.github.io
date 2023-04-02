@@ -6,53 +6,24 @@ author_url: https://shaohewanglab.org
 date: 2023-04-01
 ---
 
-`repp` is a command line tool that helps automate some steps in plasmid design. See [Timmons, J.J. & Densmore D. Repository-based plasmid design. PLOS One.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223935). [Cristian Goina](https://www.janelia.org/people/cristian-goina) from the Janelia Scientific Computing Software team has helped us to implement several important features to adapt this tool for our everyday molecular cloning work flow.
+`repp` stands for repository-based plasmid design. It is a command line tool that is very useful to automate some steps in plasmid design. See [Timmons, J.J. & Densmore D. Repository-based plasmid design. PLOS One.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223935). Because `repp` is currently only available as a command line tool, the instructions below assumes some familiarity with the command line interface. If not, please see [this page](https://swcarpentry.github.io/shell-novice/setup.html).
 
-We mainly use it to generate a cloning strategy table and a reagent list (primers and synthetic DNA fragments) after we put together the sequence of a target plasmid. For example, after installation and importing existing plasmids from the lab as a database ("lab"), we can run a one-line command like this:
-
-```bash
-repp make sequence -i pS1.gb --dbs lab -m ./primer_database.csv
-```
-
-The above command will generate two csv files, "pS1.output-strategy.csv" and "pS1.output-reagents.csv":
-
-| # 2023/04/01 15:40:16 |                  |            |                  |      |           |
-| :-------------------- | :--------------- | :--------- | :--------------- | :--- | :-------- |
-| # Solution 1          |                  |            |                  |      |           |
-| # Fragments:4         | Cost: 139.570000 |            |                  |      |           |
-| Frag ID               | Fwd Primer       | Rev Primer | Template         | Size | Match Pct |
-| pS1_1_pcr             | oS25             | oS26       | pW219_lenti_pEF1 | 873  | 100       |
-| pS1_2_syn             | N/A              | N/A        | N/A              | 514  | N/A       |
-| pS1_3_pcr             | oS27             | oS2        | pW84_pSpCas9_BB_ | 2728 | 100       |
-| pS1_4_syn             | N/A              | N/A        | N/A              | 601  | N/A       |
-
-| # Solution 1 |                                       |
-| :----------- | :------------------------------------ |
-| Reagent ID   | Seq                                   |
-| *oS2         | GTGAGCAAAAGGCCAGCAAA                  |
-| oS25         | ACTGGCTTTCCATTCGACCC                  |
-| oS26         | GGAAATCTCGAGCGTCGACA                  |
-| oS27         | CCCTAGTGATGGAGTTGGCC                  |
-| pS1_2_syn    | CTGTCG...(long sequence)...GGCCA      |
-| pS1_4_syn    | TTTTGCTG...(long sequence)...TCGACCCC |
-
-The table in "pS1.output-strategy.csv" can be directly printed out for benchwork, while the reagent list in "pS1.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist).
-
-Because `repp` is currently only available as a command line tool, the instructions below assumes that you are facimilar with command line interface or unix shell. See [this page](https://swcarpentry.github.io/shell-novice/setup.html) to set up shell on your specific system.
+The original `repp` needs a multi-FASTA format sequence to build a database and the output is in json format, which is not convenient for typical molecular cloning work flow. [Cristian Goina](https://www.janelia.org/people/cristian-goina) from the Janelia Scientific Computing Software team has helped us to implement several important i/o features to adapt for our typical cloning work flow, including building a database from a directory of plasmid seuqences in FASTA or GenBank format, re-using existing primers, and outputting convenient csv format spreadsheets.
 
 ### 1. (Optional) Install and set up Git
 
-You don't need Git for installing and using `repp`, but it is a powerful tool for version control and I encourage you to learn it if you are unfamiliar with it. I highly recommend [the Software Carpentry Lesson for Git](https://swcarpentry.github.io/git-novice/index.html). Specifically, you can:
+Git is a powerful tool for version control. You don't need Git for installing and using `repp`, but I encourage you to learn about it if unfamiliar. I highly recommend [the Software Carpentry Lesson for Git](https://swcarpentry.github.io/git-novice/index.html).
 
 * Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics/index.html).
 
 * Install Git.
+
   * If you are using a new Mac, you probably have a quite new version of Git installed. Check by typing `git --version` in your terminal. If the version number is close to [the current version](https://git-scm.com/downloads), you can just use the pre-installed version.
   * Otherwise, follow instructions [here](https://carpentries.github.io/workshop-template/#git) to install Git on Windows, Mac or Linux systems.
 
 * [Set up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html) on your computer.
 
-### 2. Install repp
+### 2. Install the Janelia SciComp version of repp
 
 `repp` has 3 dependencies: `go`, `primer3` and `blast`, which need to be installed first.
   
@@ -84,7 +55,7 @@ You don't need Git for installing and using `repp`, but it is a powerful tool fo
 
   * Check whether installation is OK by running `which primer3_core`, which should print out the path to the `primer3_core` program (e.g. /usr/local/bin/primer3_core).
 
-* Install `repp`.
+* Install the Janelia SciComp version of `repp`.
 
   * If you use Git, run `git clone https://github.com/JaneliaSciComp/repp.git`.
   * If you don't use Git, go to [the Janelia SciComp GitHub page](https://github.com/JaneliaSciComp/repp), click on the green button `Code` and `Download ZIP`. Unzip it.
@@ -98,4 +69,85 @@ You don't need Git for installing and using `repp`, but it is a powerful tool fo
 
   * Check whether installation is OK by running `which repp`, which should print out the path to the `repp` program (e.g. /usr/local/bin/repp).
 
-### 3. Using repp
+### 3. Use repp in your plasmid design work flow
+
+* Download [repp_test.zip](assets/repp_test.zip) for testing.
+
+* Add sequence databases using existing plasmids from repositories (e.g., Addgene, iGEM, DNASU) and local collections.
+
+  For repository sequence collections, the original `repp` author has assembled FASTA files that are available from their S3 bucket. Run the following command to download and add them to the `repp` sequence database on your computer:
+
+  ```bash
+  # download repository FASTA files
+  for db in igem addgene dnasu; do
+    curl -o "$db.fa.gz" "https://repp.s3.amazonaws.com/$db.fa.gz"
+    gzip -d "$db.fa.gz"
+  done
+
+  # add sequence DBs with the cost of ordering a plasmid from each source
+  repp add database --name igem --cost 0.0 < igem.fa
+  repp add database --name addgene --cost 65.0 < addgene.fa
+  repp add database --name dnasu --cost 55.0 < dnasu.fa
+  ```
+
+  For local collections, put all sequence files (GenBank or FASTA format) in a directory. In the repp_test example, this directory is called "lab-plasmid-collection". Run the following command to add them:
+
+  ```bash
+  # -n is shorthand to --name
+  # -c is shorthand for --cost
+  # use "repp add database --help" to see more options
+  repp add database -n lab -c 0.0 lab-plasmid-collection
+  ```
+
+  Note that adding sequence database is a one-time operation that stores the database files in a hidden directory (On Mac, they are in "~/.repp/dbs").
+
+* It is optional to have a primer database, but it is good practice to have an organized local collection for re-using primers. In the repp_test example, the primer database is called "primer_database.csv", which has two columns, "primer_id" and "sequence". This particular file looks like this:
+
+  | primer_id | sequence                         |
+  | :-------- | :------------------------------- |
+  | oS1       | ACTTTTCGGGGAAATGTGCG             |
+  | oS2       | GTGAGCAAAAGGCCAGCAAA             |
+  | oS3       | GTGCCAGTGGTCTCTTGTTG             |
+  | oS4       | GTGCCACCTGACGTCGACGGATCGGGAGATCT |
+  | oS5       | GCCGGGTCCGCCATGGTGGCAGCGCTCTAG   |
+  | oS6       | GGCATGGACGAGCTGTACAA             |
+  | oS7       | TTCAAGTCTGTTCACACGCC             |
+  | oS8       | CTTGCAGCAGATTCAGACCC             |
+  | oS9       | CCACGTGGGCTTTATCTTCC             |
+
+* Put together the target plasmid sequence with desired features in GenBank format. In the repp_test example, the target plasmid is called "pW256.gb".
+
+  We use [ApE (A plasmid Editor)](https://jorgensen.biology.utah.edu/wayned/ape/) to edit and annotate DNA sequences. ApE is a free software written by M. Wayne Davis from University of Utah. You can use whatever software you prefer, but make sure to save it in GenBank format. Note that the default .ape file uses GenBank format and is compatible with `repp`.
+
+* Run the `repp make sequence` command.
+
+  The simpliest command is `repp make sequence -i pW256.gb`, which will use all available databases (in this case, "igem,addgene,dnasu,lab").
+
+  To specify the database (e.g., only use local collection "lab"), use `repp make sequence -i pW256.gb -d lab`.
+
+  To also specify the primer database, use `repp make sequence -i pW256.gb -d lab -m primer_database.csv`. This result in two csv files: "pW256.output-strategy.csv" and "pW256.output-reagents.csv". The "pW256.output-strategy.csv" looks like this:
+
+  | # 2023/04/02 11:37:01 |                  |            |          |      |           |
+  | :-------------------- | :--------------- | :--------- | :------- | :--- | :-------- |
+  | # Solution 1          |                  |            |          |      |           |
+  | # Fragments:4         | Cost: 161.800000 |            |          |      |           |
+  | Frag ID               | Fwd Primer       | Rev Primer | Template | Size | Match Pct |
+  | pW256_1_pcr           | oS4              | oS5        | pW222    | 2911 | 100       |
+  | pW256_2_pcr           | oS10             | oS11       | pR92     | 2888 | 100       |
+  | pW256_3_syn           | N/A              | N/A        | N/A      | 743  | N/A       |
+  | pW256_4_pcr           | oS12             | oS13       | pW222    | 4948 | 100       |
+
+  The "pW256.output-reagents.csv" looks like this:
+
+  | # Solution 1 |                                            |
+  | :----------- | :----------------------------------------- |
+  | Reagent ID   | Seq                                        |
+  | *oS4         | GTGCCACCTGACGTCGACGGATCGGGAGATCT           |
+  | *oS5         | GCCGGGTCCGCCATGGTGGCAGCGCTCTAG             |
+  | oS10         | CGCTGCCACCATGGCGGACCCGGCGGAG               |
+  | oS11         | GACTGCTTGCCTCCACCAC                        |
+  | oS12         | GCATGGACGAGCTGTACAAG                       |
+  | oS13         | CCGATCCGTCGACGTCAGGTGGCACTTTTCG            |
+  | pW256_3_syn  | TGGTGGTGG...(long sequence)...AGCTGTACAAGT |
+
+  The table in "pW256.output-strategy.csv" can be directly printed out for benchwork, while the reagent list in "pW256.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist). Note that the primers found in primer_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet.
