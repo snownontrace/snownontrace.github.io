@@ -33,27 +33,46 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   * Go to [the NCBI website](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) to download the BLAST+ software.
     * From this website, follow this [ftp download link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/).
-  * If you are using a Mac with M1 or M2 chip, download the "ncbi-blast-2.13.0+.dmg" file.
-    * (Optional but good practice) Check the md5 sum of the downloaded installation package by `cd` into the download folder and run `md5 ncbi-blast-2.13.0+.dmg`.
-    * Check if the md5 matches the ncbi-blast-2.13.0+.dmg.md5 in the ftp download list.
-  * Open the dmg file to install blast.
+  * For __Mac__ (M1 or M2 chip OK), download "ncbi-blast-2.13.0+.dmg" for installation.
+    * (Optional but good practice) Check the md5 sum of the downloaded installation package by `cd` into the download folder and run `md5 ncbi-blast-2.13.0+.dmg`. Make sure the md5 sum matches the ncbi-blast-2.13.0+.dmg.md5 in the ftp download list.
+    * Open the dmg file to install blast.
     * Mac will warn you about this file is from "unidentified developer" and cannot be opened. You will need to go to "Security and Privacy" settings and click "Open Anyway" to open this installer.
-  * Check whether installation is OK by running `which blastn`, which should print out the path to the `blastn` program (e.g., /usr/local/ncbi/blast/bin/blastn).
+    * Check whether installation is OK by running `which blastn`, which should print out the path to the `blastn` program (e.g., /usr/local/ncbi/blast/bin/blastn).
+  * For __Windows__, download "ncbi-blast-2.13.0+-win64.exe"
+    * (Optional but good practice) Check the md5 sum of the downloaded installation package by `cd` into the download folder and run `md5sum ncbi-blast-2.13.0+-win64.exe` in Git Bash. Make sure the md5 sum matches what is listed in ncbi-blast-2.13.0+-win64.exe.md5 in the ftp download list.
+    * Open the exe file to install blast.
+    * Check whether installation is OK by running `blastn -h` in Git Bash, which should print out the help message of the blastn program.
 
 * Install `primer3`.
 
   * If you use Git, run `git clone https://github.com/primer3-org/primer3.git`.
   * If you don't use Git, go to [the Primer3 GitHub page](https://github.com/primer3-org/primer3), click on the green button `Code` and `Download ZIP`. Unzip it.
-  * Assuming the source code of `primer3` is in the Downloads folder, run the following to install `primer3`:
+  * For __Mac__ or __Linux__:
+    * Assuming the source code of `primer3` is in the Downloads folder, run the following to compile, test, and install `primer3`:
 
-    ```bash
-    cd ~/Downloads/primer3/src
-    make
-    make test
-    sudo make install
-    ```
+      ```bash
+      cd ~/Downloads/primer3/src
+      make
+      make test
+      sudo make install
+      ```
 
-  * Check whether installation is OK by running `which primer3_core`, which should print out the path to the `primer3_core` program (e.g. /usr/local/bin/primer3_core).
+    * Check whether installation is OK by running `which primer3_core`, which should print out the path to the `primer3_core` program (e.g. /usr/local/bin/primer3_core).
+
+  * For __Windowns__:
+    * Download and install [TDM-GCC MinGW Compiler](https://sourceforge.net/projects/tdm-gcc/).
+    * For testing, install [ActiveState perl](http://www.activestate.com/products/activeperl/).
+    * Assuming the source code of `primer3` is in the Downloads folder, run the following to compile and test `primer3`:
+
+      ```bash
+      cd ~/Downloads/primer3/src
+      mingw32-make TESTOPTS=--windows
+      cd ../test
+      mingw32-make TESTOPTS=--windows
+      ```
+
+    * Copy the "primer3/src" folder that contains the compiled binaries to your preferred location, e.g., "C:\Program Files\primer3\src".
+    * Add the above folder to your Environment Variables (Advanced system settings -> Environment Variables -> Select "Path" and click "Edit" -> add the above folder).
 
 * Install the Janelia SciComp version of `repp`.
 
