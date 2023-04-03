@@ -6,7 +6,7 @@ author_url: https://shaohewanglab.org
 date: 2023-04-01
 ---
 
-`repp` stands for repository-based plasmid design. It is a command line tool that is very useful to automate some steps in plasmid design. See [Timmons, J.J. & Densmore D. Repository-based plasmid design. PLOS One.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223935). Because `repp` is currently only available as a command line tool, the instructions below assumes some familiarity with the command line interface. If not, please see [this page](https://swcarpentry.github.io/shell-novice/setup.html).
+`repp` stands for repository-based plasmid design. It is a command line tool that is very useful to automate some steps in plasmid design. See [Timmons, J.J. & Densmore D. Repository-based plasmid design. PLOS One.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223935). Because `repp` is currently only available as a command line tool, the instructions below assumes some familiarity with the command line interface. Otherwise, please see [this page](https://swcarpentry.github.io/shell-novice/setup.html). We assume Windows users use the Git Bash program for their command line interface.
 
 The original `repp` needs a multi-FASTA format sequence to build a database and the output is in json format, which is not convenient for typical molecular cloning work flow. [Cristian Goina](https://www.janelia.org/people/cristian-goina) from the Janelia Scientific Computing Software team has helped us to implement several important i/o features to adapt for our typical cloning work flow, including building a database from a directory of plasmid seuqences in FASTA or GenBank format, re-using existing primers, and outputting convenient csv format spreadsheets.
 
@@ -47,7 +47,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   * If you use Git, run `git clone https://github.com/primer3-org/primer3.git`.
   * If you don't use Git, go to [the Primer3 GitHub page](https://github.com/primer3-org/primer3), click on the green button `Code` and `Download ZIP`. Unzip it.
-  * For __Mac__ or __Linux__:
+  * For __Mac__:
     * Assuming the source code of `primer3` is in the Downloads folder, run the following to compile, test, and install `primer3`:
 
       ```bash
@@ -59,7 +59,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
     * Check whether installation is OK by running `which primer3_core`, which should print out the path to the `primer3_core` program (e.g. /usr/local/bin/primer3_core).
 
-  * For __Windowns__:
+  * For __Windows__:
     * Download and install [TDM-GCC MinGW Compiler](https://sourceforge.net/projects/tdm-gcc/).
     * For testing, install [ActiveState perl](http://www.activestate.com/products/activeperl/).
     * Assuming the source code of `primer3` is in the Downloads folder, run the following to compile and test `primer3`:
@@ -72,19 +72,28 @@ Git is a powerful tool for version control. You don't need Git for installing an
       ```
 
     * Copy the "primer3/src" folder that contains the compiled binaries to your preferred location, e.g., "C:\Program Files\primer3\src".
-    * Add the above folder to your Environment Variables (Advanced system settings -> Environment Variables -> Select "Path" and click "Edit" -> add the above folder).
+    * Add the above folder to your `Path` Environment Variable.
+      * Open Start Menu then type `Advanced system settings` and press Enter.
+      * Click `Environment Variables` towards the bottom of the dialogue.
+      * Select `Path` in the variable list and click `Edit...` to add the above directory.
 
 * Install the Janelia SciComp version of `repp`.
 
   * If you use Git, run `git clone https://github.com/JaneliaSciComp/repp.git`.
   * If you don't use Git, go to [the Janelia SciComp GitHub page](https://github.com/JaneliaSciComp/repp), click on the green button `Code` and `Download ZIP`. Unzip it.
-  * Assuming the source code of `repp` is in the Downloads folder, run the following to install `repp`:
+  * Assuming the source code of `repp` is in the Downloads folder, run the following to compile `repp`:
 
     ```bash
     cd ~/Downloads/repp/cmd/repp
     go build
-    sudo mv repp /usr/local/bin/.
     ```
+  
+  * The above generates an executable in the same folder.
+    * For __Mac__, run `sudo mv repp /usr/local/bin/.` to move the executable to the `/usr/local/bin` folder. Type your password to give permission when prompted.
+    * For __Windows__, copy the "repp.exe" file to your preferred location, e.g., "C:\Program Files\repp". Add this folder to your `Path` Environment Variable.
+      * Open Start Menu then type `Advanced system settings` and press Enter.
+      * Click `Environment Variables` towards the bottom of the dialogue.
+      * Select `Path` in the variable list and click `Edit...` to add the above directory.
 
   * Check whether installation is OK by running `which repp`, which should print out the path to the `repp` program (e.g. /usr/local/bin/repp).
 
@@ -169,6 +178,6 @@ Git is a powerful tool for version control. You don't need Git for installing an
   | oS13         | CCGATCCGTCGACGTCAGGTGGCACTTTTCG            |
   | pW256_3_syn  | TGGTGGTGG...(long sequence)...AGCTGTACAAGT |
 
-  The table in "pW256.output-strategy.csv" can be directly printed out for benchwork, while the reagent list in "pW256.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist).
-  
-  Note that the primers found in primer_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet.
+  The table in "pW256.output-strategy.csv" can be directly printed out for benchwork, while the reagent list in "pW256.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist). Sometimes more than one solution is given, where the solution with the lowest may have more fragments than the solution with fewer fragments.
+
+  Note that the primers found in primer_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet. New primers can also be copied into primer_database.csv for future usage.
