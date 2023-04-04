@@ -114,8 +114,8 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   # add sequence DBs with the cost of ordering a plasmid from each source
   repp add database --name igem --cost 0.0 < igem.fa
-  repp add database --name addgene --cost 65.0 < addgene.fa
-  repp add database --name dnasu --cost 55.0 < dnasu.fa
+  repp add database --name addgene --cost 85.0 < addgene.fa
+  repp add database --name dnasu --cost 99.0 < dnasu.fa
   ```
 
   For local collections, put all sequence files (GenBank or FASTA format) in a directory. In the repp_test example, this directory is called "lab-plasmid-collection". Run the following command to add them:
