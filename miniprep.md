@@ -3,10 +3,8 @@ layout: protocols
 title: Miniprep (regular)
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-date: 2020-10-25
+date: 2023-06-10
 ---
-
-Sometimes we still fall back to the good old regular Miniprep, when RNA contamination gets out of control using [Miraprep](./miraprep.html). Although the yield is lower, the quality from regular Miniprep is robust.
 
 ### 1. Reagents
 

@@ -3,8 +3,10 @@ layout: protocols
 title: Miraprep (enhanced miniprep)
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-date: 2020-10-25
+date: 2023-06-10
 ---
+
+Note: We found it is often necessary to add extra fresh RNase to the P1 buffer to prevent excessive RNA contamination using the simplified version of miraprep. Thus, we have stopped using miraprep as our routine DNA prep.
 
 [Miraprep](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0160509) uses a simple trick to greatly improve the DNA yield using a miniprep kit. From 2 mL terrific broth (TB) culture, we routinely get 30-50 µg plasmid DNA. For comparison, the average yield of a regular miniprep from 2 mL TB culture is 10-20 µg.
 
