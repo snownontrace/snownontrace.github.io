@@ -12,16 +12,16 @@ The original `repp` needs a multi-FASTA format sequence to build a database and 
 
 ### 1. (Optional) Install and set up Git
 
-Git is a powerful tool for version control. You don't need Git for installing and using `repp`, but I encourage you to learn about it if unfamiliar. I highly recommend [the Software Carpentry Lesson for Git](https://swcarpentry.github.io/git-novice/index.html).
+Git is a powerful tool for version control. You don't need Git for installing and using `repp`, but I encourage you to learn about it if unfamiliar. I highly recommend [the Software Carpentry Lesson for Git](https://swcarpentry.github.io/git-novice).
 
-* Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics/index.html).
+* Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics.html).
 
 * Install Git.
 
   * If you are using a new Mac, you probably have a quite new version of Git installed. Check by typing `git --version` in your terminal. If the version number is close to [the current version](https://git-scm.com/downloads), you can just use the pre-installed version.
   * Otherwise, follow instructions [here](https://carpentries.github.io/workshop-template/#git) to install Git on Windows, Mac or Linux systems.
 
-* [Set up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html) on your computer.
+* [Set up Git](https://swcarpentry.github.io/git-novice/02-setup.html) on your computer.
 
 ### 2. Install the Janelia SciComp version of repp
 
