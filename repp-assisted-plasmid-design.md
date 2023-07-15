@@ -61,20 +61,17 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   * For __Windows__:
     * Download and install [TDM-GCC MinGW Compiler](https://sourceforge.net/projects/tdm-gcc/).
-    * For testing, install [ActiveState perl](http://www.activestate.com/products/activeperl/).
     * Assuming the source code of `primer3` is in the Downloads folder, run the following to compile and test `primer3`:
 
       ```bash
       cd ~/Downloads/primer3/src
-      mingw32-make TESTOPTS=--windows
-      cd ../test
       mingw32-make TESTOPTS=--windows
       ```
 
     * Copy the "primer3/src" folder that contains the compiled binaries to your preferred location, e.g., "C:\Program Files\primer3\src".
     * Add the above folder to your `Path` Environment Variable.
       * Open Start Menu then type `Advanced system settings` and press Enter.
-      * Click `Environment Variables` towards the bottom of the dialogue.
+      * Click `Environment Variables`.
       * Select `Path` in the variable list and click `Edit...` to add the above directory.
 
 * Install the Janelia SciComp version of `repp`.
