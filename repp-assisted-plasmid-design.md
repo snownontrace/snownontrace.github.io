@@ -142,9 +142,9 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
 * Similarly, if you want to re-use synthesized fragments from your lab collection, you could provide a csv file with your existing synthesized fragments. In the repp_test example, the fragment database is called "frag_database.csv", which has two columns, "frag_id" and "sequence":
 
-  | frag_id | sequence                         |
-  | :------ | :------------------------------- |
-  | f1      | TGGTGGTGGAGGCA...CTGTACAAGT      |
+  | frag_id | sequence                                   |
+  | :------ | :----------------------------------------- |
+  | f1      | TGGTGGTGG...(long sequence)...AGCTGTACAAGT |
 
 * Put together the target plasmid sequence with desired features in GenBank format. In the repp_test example, the target plasmid is called "pW256.gb".
 
