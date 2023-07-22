@@ -126,7 +126,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   Note that adding sequence database is a one-time operation that stores the database files in a hidden directory (On Mac, they are in "~/.repp/dbs").
 
-* It is optional to have a primer database, but it is good practice to have an organized local collection for re-using primers. In the repp_test example, the primer database is called "primer_database.csv", which has two columns, "primer_id" and "sequence". This particular file looks like this:
+* It is optional to have a primer database, but it is good practice to have an organized local collection for re-using primers. In the repp_test example, the primer database is called "primer_database.csv", which has two columns, "primer_id" and "sequence":
 
   | primer_id | sequence                         |
   | :-------- | :------------------------------- |
@@ -140,6 +140,12 @@ Git is a powerful tool for version control. You don't need Git for installing an
   | oS8       | CTTGCAGCAGATTCAGACCC             |
   | oS9       | CCACGTGGGCTTTATCTTCC             |
 
+* Similarly, if you want to re-use synthesized fragments from your lab collection, you could provide a csv file with your existing synthesized fragments. In the repp_test example, the fragment database is called "frag_database.csv", which has two columns, "frag_id" and "sequence":
+
+  | frag_id | sequence                         |
+  | :------ | :------------------------------- |
+  | f1      | TGGTGGTGGAGGCA...CTGTACAAGT      |
+
 * Put together the target plasmid sequence with desired features in GenBank format. In the repp_test example, the target plasmid is called "pW256.gb".
 
   We use [ApE (A plasmid Editor)](https://jorgensen.biology.utah.edu/wayned/ape/) to edit and annotate DNA sequences. ApE is a free software written by M. Wayne Davis from University of Utah. You can use whatever software you prefer, but make sure to save it in GenBank format. Note that the default .ape file uses GenBank format and is compatible with `repp`.
@@ -150,7 +156,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   To specify the database (e.g., only use local collection "lab"), use `repp make sequence -i pW256.gb -d lab`.
 
-  To also specify the primer database, use `repp make sequence -i pW256.gb -d lab -m primer_database.csv`. This result in two csv files: "pW256.output-strategy.csv" and "pW256.output-reagents.csv". The "pW256.output-strategy.csv" looks like this:
+  To also specify the primer database and a fragment database, use `repp make sequence -i pW256.gb -d lab -m primer_database.csv -s frag_database.csv`. This result in two csv files: "pW256.output-strategy.csv" and "pW256.output-reagents.csv". The "pW256.output-strategy.csv" looks like this:
 
   | # 2023/04/02 11:37:01 |                  |            |          |      |           |
   | :-------------------- | :--------------- | :--------- | :------- | :--- | :-------- |
@@ -159,7 +165,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
   | Frag ID               | Fwd Primer       | Rev Primer | Template | Size | Match Pct |
   | pW256_1_pcr           | oS4              | oS5        | pW222    | 2911 | 100       |
   | pW256_2_pcr           | oS10             | oS11       | pR92     | 2888 | 100       |
-  | pW256_3_syn           | N/A              | N/A        | N/A      | 743  | N/A       |
+  | syn1                  | N/A              | N/A        | N/A      | 743  | N/A       |
   | pW256_4_pcr           | oS12             | oS13       | pW222    | 4948 | 100       |
 
   The "pW256.output-reagents.csv" looks like this:
@@ -173,8 +179,8 @@ Git is a powerful tool for version control. You don't need Git for installing an
   | oS11         | GACTGCTTGCCTCCACCAC                        |
   | oS12         | GCATGGACGAGCTGTACAAG                       |
   | oS13         | CCGATCCGTCGACGTCAGGTGGCACTTTTCG            |
-  | pW256_3_syn  | TGGTGGTGG...(long sequence)...AGCTGTACAAGT |
+  | *syn1        | TGGTGGTGG...(long sequence)...AGCTGTACAAGT |
 
   The table in "pW256.output-strategy.csv" can be directly printed out for benchwork, while the reagent list in "pW256.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist). Sometimes more than one solution is given, where the solution with the lowest may have more fragments than the solution with fewer fragments.
 
-  Note that the primers found in primer_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet. New primers can also be copied into primer_database.csv for future usage.
+  Note that the primers found in primer_database.csv and the fragments found in frag_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet. New primers can also be copied into primer_database.csv for future usage.
