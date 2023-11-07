@@ -25,54 +25,54 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
 ### 2. Install the Janelia SciComp version of repp
 
-`repp` has 3 dependencies: `go`, `primer3` and `blast`, which need to be installed first.
-  
-* Install `go` (version >= 1.19) following instructions [here](https://go.dev/doc/install).
+* Install 3 dependencies: `go`, `primer3`, and `blast`. Skip this part if you are updating `repp`.
 
-* Install `blast`:
+  * Install `go` (version >= 1.19) following instructions [here](https://go.dev/doc/install).
 
-  * Go to [the NCBI website](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) to download the BLAST+ software.
-    * From this website, follow this [ftp download link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/).
-  * For __Mac__ (M1 or M2 chip OK), download "ncbi-blast-2.13.0+.dmg" for installation.
-    * (Optional but good practice) Check the md5 sum of the downloaded installation package by `cd` into the download folder and run `md5 ncbi-blast-2.13.0+.dmg`. Make sure the md5 sum matches the ncbi-blast-2.13.0+.dmg.md5 in the ftp download list.
-    * Open the dmg file to install blast.
-    * Mac will warn you about this file is from "unidentified developer" and cannot be opened. You will need to go to "Security and Privacy" settings and click "Open Anyway" to open this installer.
-    * Check whether installation is OK by running `which blastn`, which should print out the path to the `blastn` program (e.g., /usr/local/ncbi/blast/bin/blastn).
-  * For __Windows__, download "ncbi-blast-2.13.0+-win64.exe"
-    * (Optional but good practice) Check the md5 sum of the downloaded installation package by `cd` into the download folder and run `md5sum ncbi-blast-2.13.0+-win64.exe` in Git Bash. Make sure the md5 sum matches what is listed in ncbi-blast-2.13.0+-win64.exe.md5 in the ftp download list.
-    * Open the exe file to install blast.
-    * Check whether installation is OK by running `blastn -h` in Git Bash, which should print out the help message of the blastn program.
+  * Install `blast`:
 
-* Install `primer3`.
+    * Go to [the NCBI website](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) to download the BLAST+ software.
+      * From this website, follow this [ftp download link](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/).
+    * For __Mac__ (M1 or M2 chip OK), download "ncbi-blast-2.13.0+.dmg" for installation.
+      * (Optional but good practice) Check the md5 sum of the downloaded installation package by `cd` into the download folder and run `md5 ncbi-blast-2.13.0+.dmg`. Make sure the md5 sum matches the ncbi-blast-2.13.0+.dmg.md5 in the ftp download list.
+      * Open the dmg file to install blast.
+      * Mac will warn you about this file is from "unidentified developer" and cannot be opened. You will need to go to "Security and Privacy" settings and click "Open Anyway" to open this installer.
+      * Check whether installation is OK by running `which blastn`, which should print out the path to the `blastn` program (e.g., /usr/local/ncbi/blast/bin/blastn).
+    * For __Windows__, download "ncbi-blast-2.13.0+-win64.exe"
+      * (Optional but good practice) Check the md5 sum of the downloaded installation package by `cd` into the download folder and run `md5sum ncbi-blast-2.13.0+-win64.exe` in Git Bash. Make sure the md5 sum matches what is listed in ncbi-blast-2.13.0+-win64.exe.md5 in the ftp download list.
+      * Open the exe file to install blast.
+      * Check whether installation is OK by running `blastn -h` in Git Bash, which should print out the help message of the blastn program.
 
-  * If you use Git, run `git clone https://github.com/primer3-org/primer3.git`.
-  * If you don't use Git, go to [the Primer3 GitHub page](https://github.com/primer3-org/primer3), click on the green button `Code` and `Download ZIP`. Unzip it.
-  * For __Mac__:
-    * Assuming the source code of `primer3` is in the Downloads folder, run the following to compile, test, and install `primer3`:
+  * Install `primer3`.
 
-      ```bash
-      cd ~/Downloads/primer3/src
-      make
-      make test
-      sudo make install
-      ```
+    * If you use Git, run `git clone https://github.com/primer3-org/primer3.git`.
+    * If you don't use Git, go to [the Primer3 GitHub page](https://github.com/primer3-org/primer3), click on the green button `Code` and `Download ZIP`. Unzip it.
+    * For __Mac__:
+      * Assuming the source code of `primer3` is in the Downloads folder, run the following to compile, test, and install `primer3`:
 
-    * Check whether installation is OK by running `which primer3_core`, which should print out the path to the `primer3_core` program (e.g. /usr/local/bin/primer3_core).
+        ```bash
+        cd ~/Downloads/primer3/src
+        make
+        make test
+        sudo make install
+        ```
 
-  * For __Windows__:
-    * Download and install [TDM-GCC MinGW Compiler](https://sourceforge.net/projects/tdm-gcc/).
-    * (Optional) Assuming the source code of `primer3` is in the Downloads folder, run the following to compile and test `primer3`:
+      * Check whether installation is OK by running `which primer3_core`, which should print out the path to the `primer3_core` program (e.g. /usr/local/bin/primer3_core).
 
-      ```bash
-      cd ~/Downloads/primer3/src
-      mingw32-make TESTOPTS=--windows
-      ```
+    * For __Windows__:
+      * Download and install [TDM-GCC MinGW Compiler](https://sourceforge.net/projects/tdm-gcc/).
+      * (Optional) Assuming the source code of `primer3` is in the Downloads folder, run the following to compile and test `primer3`:
 
-    * Copy the "primer3/src" folder that contains the compiled binaries to your preferred location, e.g., "C:\Program Files\primer3\src".
-    * Add the above folder to your `Path` Environment Variable.
-      * Open Start Menu then type `Advanced system settings` and press Enter.
-      * Click `Environment Variables`.
-      * Select `Path` in the variable list and click `Edit...` to add the above directory.
+        ```bash
+        cd ~/Downloads/primer3/src
+        mingw32-make TESTOPTS=--windows
+        ```
+
+      * Copy the "primer3/src" folder that contains the compiled binaries to your preferred location, e.g., "C:\Program Files\primer3\src".
+      * Add the above folder to your `Path` Environment Variable.
+        * Open Start Menu then type `Advanced system settings` and press Enter.
+        * Click `Environment Variables`.
+        * Select `Path` in the variable list and click `Edit...` to add the above directory.
 
 * Install the Janelia SciComp version of `repp`.
 
@@ -86,7 +86,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
     ```
   
   * The above generates an executable in the same folder.
-    * For __Mac__, run `sudo mv repp /usr/local/bin/.` to move the executable to the `/usr/local/bin` folder. Type your password to give permission when prompted.
+    * For __Mac__, run `sudo mv repp /usr/local/bin/.` to move the executable to `/usr/local/bin` or your preferred location. Type your password to give permission if prompted.
     * For __Windows__, copy the "repp.exe" file to your preferred location, e.g., "C:\Program Files\repp". Add this folder to your `Path` Environment Variable.
       * Open Start Menu then type `Advanced system settings` and press Enter.
       * Click `Environment Variables` towards the bottom of the dialogue.
