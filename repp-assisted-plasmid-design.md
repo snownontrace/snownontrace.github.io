@@ -3,7 +3,7 @@ layout: protocols
 title: repp-assisted plasmid design
 author: Shaohe Wang
 author_url: https://shaohewanglab.org
-date: 2023-10-30
+date: 2023-11-08
 ---
 
 `repp` stands for repository-based plasmid design. It is a command line tool that is very useful to automate some steps in plasmid design. See [Timmons, J.J. & Densmore D. Repository-based plasmid design. PLOS One.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0223935). Because `repp` is currently only available as a command line tool, the instructions below assumes some familiarity with the command line interface. Otherwise, please see [this page](https://swcarpentry.github.io/shell-novice/). We assume Windows users use the Git Bash program for their command line interface.
