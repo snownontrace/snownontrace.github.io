@@ -174,7 +174,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   To specify the database (e.g., only use local collection "lab"), use `repp make sequence -i pW256.gb -d lab`.
 
-  To also specify the primer database and a fragment database, use `repp make sequence -i pW256.gb -d lab -m primer_database -s frag_database`. This result in two csv files: "pW256.output-strategy.csv" and "pW256.output-reagents.csv".
+  To also specify the primer database and a synthesized fragment database, use `repp make sequence -i pW256.gb -d lab -m primer_database -s frag_database`. This result in two csv files: "pW256.output-strategy.csv" and "pW256.output-reagents.csv".
   
   The first 5 columns of "pW256.output-strategy.csv" is shown below. Other columns (Match Pct, GC%, 50 low GC%, 50 high GC%, and Homopolymer) can help users decide whether certain fragments may be difficult to PCR or to synthesize.
 
@@ -192,31 +192,31 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   The "pW256.output-reagents.csv" is shown below. The priming region and Tm columns can help users optimize PCR amplification conditions.
 
-  | # Solution 1 |                                     |                         |       |       |
-  | :----------- | :---------------------------------- | :---------------------- | :---- | :---- |
-  | Reagent ID   | Seq                                 | Priming Region          | Tm    | Notes |
-  | *oS44        | CTATTACCATGGTGATGCGGTTTTGGCAGTAC    | TGATGCGGTTTTGGCAGTAC    | 59.12 |       |
-  | *oS45        | ACTGGATCTCTGCTGTCCCT                | ACTGGATCTCTGCTGTCCCT    | 59.96 |       |
-  | oS50         | GCGGAGTGCAACATCAAAGT                | GCGGAGTGCAACATCAAAGT    | 59.41 |       |
-  | oS51         | GACTGCTTGCCTCCACCAC                 | GACTGCTTGCCTCCACCAC     | 60.97 |       |
-  | oS52         | ACGCGTTAAGTCGACAATCA                | ACGCGTTAAGTCGACAATCA    | 57.95 |       |
-  | oS53         | CAAAACCGCATCACCATGGTAATAGCGATGACTAA | ACCATGGTAATAGCGATGACTAA | 57.2  |       |
-  | *syn5        | CAGGGA...(long sequence)...CAAAGTG  | N/A                     | N/A   |       |
-  | syn6         | TGGTGG...(long sequence)...CAATCAA  | N/A                     | N/A   |       |
+  | # Solution 1 |                                     |                         |       |
+  | :----------- | :---------------------------------- | :---------------------- | :---- |
+  | Reagent ID   | Seq                                 | Priming Region          | Tm    |
+  | *oS44        | CTATTACCATGGTGATGCGGTTTTGGCAGTAC    | TGATGCGGTTTTGGCAGTAC    | 59.12 |
+  | *oS45        | ACTGGATCTCTGCTGTCCCT                | ACTGGATCTCTGCTGTCCCT    | 59.96 |
+  | oS50         | GCGGAGTGCAACATCAAAGT                | GCGGAGTGCAACATCAAAGT    | 59.41 |
+  | oS51         | GACTGCTTGCCTCCACCAC                 | GACTGCTTGCCTCCACCAC     | 60.97 |
+  | oS52         | ACGCGTTAAGTCGACAATCA                | ACGCGTTAAGTCGACAATCA    | 57.95 |
+  | oS53         | CAAAACCGCATCACCATGGTAATAGCGATGACTAA | ACCATGGTAATAGCGATGACTAA | 57.2  |
+  | *syn5        | CAGGGA...(long sequence)...CAAAGTG  | N/A                     | N/A   |
+  | syn6         | TGGTGG...(long sequence)...CAATCAA  | N/A                     | N/A   |
   
   Note that pre-existing primers and synthesized fragments are marked with an asterisk. The IDs of new primers and synthesized fragments are incremented from the last entry of the last spreadsheet of the database.
 
   Sometimes `repp` generates multiple solutions, because some solution may have a larger cost but fewer fragments. You can choose your favorite solution to move forward.
 
-* Order reagents (primers and synthesized fragments).
+* Order new reagents in the "output-reagents.csv" file.
 
-  For new primers, you can copy the first two columns from the "*output-reagents.csv" file into the active primer database spreadsheet, and order them from your favorite vendor. We routinely order primers from IDT.
+  For primers, copy the first two columns of new primers (those not marked with an asterisk) from the to the active primer database spreadsheet. These can then be ordered from your preferred supplier; our standard choice is IDT.
 
-  Similarly, for new fragments that need to be synthesized, you can copy the first two columns into the active spreadsheet of the synthesized fragments database, and order them from your favorite DNA fragment vendor. We use Twist for its unparalleled low cost (9 cents per bp).
+  Likewise, for synthesized fragments, copy the first two columns of the new entries (again, those without an asterisk) to the active synthesized fragment database spreadsheet. You can order these from your favorite DNA fragment provider. We recommend Twist for its exceptionally low cost of 9 cents per base pair.
 
 * PCR amplification and Gibson Assembly.
 
-  Print the table in "*output-strategy.csv" for bench work reference.
+  Print the table in "output-strategy.csv" for bench work reference.
   
   Follow [this protocol](https://snownontrace.github.io/PCR-amplification.html) for PCR amplification using a high-fidelity DNA polymerase.
 
