@@ -25,7 +25,7 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
 ### 2. Install the Janelia SciComp version of repp
 
-* Install 3 dependencies: `go`, `primer3`, and `blast`. Skip this part if you are updating `repp`.
+* Install 3 dependencies: `go`, `primer3`, and `blast`. Skip to the next step if you are updating `repp`.
 
   * Install `go` (version >= 1.19) following instructions [here](https://go.dev/doc/install).
 
@@ -98,9 +98,11 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
 * Download [repp_test.zip](assets/repp_test.zip) for testing.
 
-* (Optional) Add sequence databases using existing plasmids from repositories (e.g., Addgene, iGEM, DNASU). However, since it's getting increasingly popular to simply synthesize the fragments, this step can be skipped.
+* (Optional) Add sequence databases from remote repositories (e.g., Addgene, iGEM, DNASU).
 
-  The original `repp` author has assembled FASTA files that are available from their S3 bucket. Run the following command to download and add them to the `repp` sequence database on your computer:
+  As direct synthesis of DNA fragments becomes more affordable, the advantage of PCR amplification from existing plasmids diminishes. Moreover, acquiring a plasmid from repositories introduces additional time costs. If you have access to basic plasmid backbones, you may omit this step.
+
+  The original `repp` author has assembled FASTA files from Addgene, iGEM, and DNASU, and made it available from the S3 bucket. Run the following command to download and add them to the `repp` sequence database on your computer:
 
   ```bash
   # download repository FASTA files
@@ -114,83 +116,108 @@ Git is a powerful tool for version control. You don't need Git for installing an
   repp add database --name addgene --cost 85.0 < addgene.fa
   repp add database --name dnasu --cost 99.0 < dnasu.fa
   ```
-* Add sequence databases from local collections
+
+* Add sequence databases from local collections.
+
   Put all sequence files (GenBank or FASTA format) in a directory. In the repp_test example, this directory is called "lab-plasmid-collection". Run the following command to add them:
 
   ```bash
-  # -n is shorthand to --name
+  # -n is shorthand for --name
   # -c is shorthand for --cost
-  # use "repp add database --help" to see more options
-  repp add database -n lab -c 0.0 lab-plasmid-collection
+  # run "repp add database --help" for more options
+  repp add database -n lab -c 0 lab-plasmid-collection
   ```
 
-Note that adding sequence database is a one-time operation that stores the database files in a hidden directory. Adding a new directory to a database with the same name(e.g., -n lab) will overwrite it.
+  Note that adding sequence database is a one-time operation that stores the database files in a hidden directory. Adding a new directory to a database with the same name(e.g., -n lab) will overwrite it.
+
   * On Mac, they are in "~/.repp/dbs".
   * On Windows, they are in "C:/users/username/.repp/dbs".
 
-* It is optional to have a primer database, but it is good practice to have an organized local collection for re-using primers. In the repp_test example, the primer database is called "primer_database.csv", which has two columns, "primer_id" and "sequence":
+* (Recommened) Organize your primer database.
+
+  Although not strictly required, it is highly recommended to create an organized primer database for re-using primers. The primer database parameter "-m" of the Janelia version of repp accpets either a single spreadsheet or a folder containing multiple spreadsheets. When your primer database contains hundred or thousands of primers, it can be cumbersome to scroll down to the bottom of the spreadsheet to add new primers. Instead, it is much easier to maintain a small active spreadsheet with one or more archived spreadsheets. The primer database spreadsheet must have the "primer_id" and "sequence" columns, and optionally other columns for additional notes.
+
+  In the repp_test example, the "primer_database" folder has two spreadsheets: "1_archived_primer.csv" and "2_active_primer.csv". This is how the "2_active_primer.csv" looks like:
 
   | primer_id | sequence                         |
   | :-------- | :------------------------------- |
-  | oS1       | ACTTTTCGGGGAAATGTGCG             |
-  | oS2       | GTGAGCAAAAGGCCAGCAAA             |
-  | oS3       | GTGCCAGTGGTCTCTTGTTG             |
-  | oS4       | CTATTACCATGGTGATGCGGTTTTGGCAGTAC |
-  | oS5       | GACTGCTTGCCTCCACCAC              |
-  | oS6       | GGCATGGACGAGCTGTACAA             |
-  | oS7       | TTCAAGTCTGTTCACACGCC             |
-  | oS8       | CTTGCAGCAGATTCAGACCC             |
-  | oS9       | CCACGTGGGCTTTATCTTCC             |
+  | oS41      | ACTTTTCGGGGAAATGTGCG             |
+  | oS42      | GTGAGCAAAAGGCCAGCAAA             |
+  | oS43      | GTGCCAGTGGTCTCTTGTTG             |
+  | oS44      | CTATTACCATGGTGATGCGGTTTTGGCAGTAC |
+  | oS45      | ACTGGATCTCTGCTGTCCCT             |
+  | oS46      | GGCATGGACGAGCTGTACAA             |
+  | oS47      | TTCAAGTCTGTTCACACGCC             |
+  | oS48      | CTTGCAGCAGATTCAGACCC             |
+  | oS49      | CCACGTGGGCTTTATCTTCC             |
 
-* Similarly, if you want to re-use synthesized fragments from your lab collection, you could provide a csv file with your existing synthesized fragments. In the repp_test example, the fragment database is called "frag_database.csv", which has two columns, "frag_id" and "sequence":
+* (Optional) Organize your fragment database.
+  
+  Following the same logic of re-using primers, you may also wish to re-use synthesized fragments. For this purpose, you can organize your synthesized fragment database similarly as the primer database. Similar to the primer database parameter, the synthesized fragment database parameter "-s" can also accpet a single spreadsheet or a folder containing multiple spreadsheets.
 
-  | frag_id | sequence              |
-  | :------ | :-------------------- |
-  | f1      | ...(long sequence)... |
-  |         |                       |
+  In the repp_test example, the "fragment database" folder has two spreadsheets: "1_archived_frag.csv" and "2_active_frag.csv". This is how the "2_active_frag.csv" looks like:
 
-* Put together the target plasmid sequence with desired features in GenBank format. In the repp_test example, the target plasmid is called "pW256.gb".
+  | frag_id | sequence                          |
+  | :------ | :-------------------------------- |
+  | syn4    | atgtca...(long sequence)...ataacc |
+  | syn5    | CAGGGA...(long sequence)...TCAAAG |
+
+* Put together the target plasmid sequence in GenBank format.
+
+  In the repp_test example, the target plasmid is called "pW256.gb".
 
   We use [ApE (A plasmid Editor)](https://jorgensen.biology.utah.edu/wayned/ape/) to edit and annotate DNA sequences. ApE is a free software written by M. Wayne Davis from University of Utah. You can use whatever software you prefer, but make sure to save it in GenBank format. Note that the default .ape file uses GenBank format and is compatible with `repp`.
 
 * Run the `repp make sequence` command.
 
-  The simpliest command is `repp make sequence -i pW256.gb`, which will use all available databases (in this case, "igem,addgene,dnasu,lab").
+  The simpliest command is `repp make sequence -i pW256.gb`, which uses all available databases (in this case, "igem,addgene,dnasu,lab") and default parameters.
 
   To specify the database (e.g., only use local collection "lab"), use `repp make sequence -i pW256.gb -d lab`.
 
-  To also specify the primer database and a fragment database, use `repp make sequence -i pW256.gb -d lab -m primer_database.csv -s frag_database.csv`. This result in two csv files: "pW256.output-strategy.csv" and "pW256.output-reagents.csv". The "pW256.output-strategy.csv" looks like this:
-
-  | # 2023/04/02 11:37:01 |                            |            |          |      |           |
-  | :-------------------- | :------------------------- | :--------- | :------- | :--- | :-------- |
-  | # Solution 1          |                            |            |          |      |           |
-  | # Fragments:5 3-pcr   | 2-synth                    |            |          |      |           |
-  | # Cost: 179.510000    | # AdjustedCost: 179.510000 |            |          |      |           |
-  | Frag ID               | Fwd Primer                 | Rev Primer | Template | Size | Match Pct |
-  | pW256_1_pcr           | oS4                        | oS5        | pW212    | 1983 | 100       |
-  | syn1                  | N/A                        | N/A        | N/A      | 350  | N/A       |
-  | pW256_3_pcr           | oS10                       | oS11       | pR92     | 2876 | 100       |
-  | syn2                  | N/A                        | N/A        | N/A      | 766  | N/A       |
-  | pW256_5_pcr           | oS12                       | oS13       | pW212    | 5555 | 100       |
-
-  (The latest version of repp generates 4 extra columns: GC%, 50lowGC%, 50highGC and Homopolymer for more specific usage.)
-
-  The "pW256.output-reagents.csv" looks like this:
-
-  | # Solution 1 |                                     |
-  | :----------- | :---------------------------------- |
-  | Reagent ID   | Seq                                 |
-  | *oS4         | CTATTACCATGGTGATGCGGTTTTGGCAGTAC    |
-  | *oS5         | ACTGGATCTCTGCTGTCCCT                |
-  | oS10         | GCGGAGTGCAACATCAAAGT                |
-  | oS11         | GACTGCTTGCCTCCACCAC                 |
-  | oS12         | ACGCGTTAAGTCGACAATCA                |
-  | oS13         | CAAAACCGCATCACCATGGTAATAGCGATGACTAA |
-  | *syn1        | ...(long sequence)...               |
-  | syn2         | ...(long sequence)...               |
+  To also specify the primer database and a fragment database, use `repp make sequence -i pW256.gb -d lab -m primer_database -s frag_database`. This result in two csv files: "pW256.output-strategy.csv" and "pW256.output-reagents.csv".
   
-  (The latest version of repp also generates columns of Priming Region and Tm. Priming region refers to the part of primer binding to template which doesn't include the extension part. Tm is what you will use for PCR reaction, referring to the annealing temperature of priming region rather than the whole fragment. Note that Tm here is calculated by Primer3 which normally you can directly bring to use. However, there could be a Tm difference depending on what Polymerase Enzyme/Kit you use and the reaction system like the concentration of primers. So check the Tm if you really mind.)
+  The first 5 columns of "pW256.output-strategy.csv" is shown below. Other columns (Match Pct, GC%, 50 low GC%, 50 high GC%, and Homopolymer) can help users decide whether certain fragments may be difficult to PCR or to synthesize.
 
-  The table in "pW256.output-strategy.csv" can be directly printed out for bench work, while the reagent list in "pW256.output-reagents.csv" can be copied directly into the vendors for ordering primers (e.g., IDT) or synthetic fragments (e.g., Twist). Sometimes more than one solution is given, where the solution with the lowest may have more fragments than the solution with fewer fragments.
+  | # 2023/11/08 13:37:36  |                           |            |          |      |
+  | :--------------------- | :------------------------ | :--------- | :------- | :--- |
+  | # Solution 1           |                           |            |          |      |
+  | # Fragments:5 (3 - pcr | 2 - synth)                |            |          |      |
+  | # Cost: 179.510000     | Adjusted Cost: 179.510000 |            |          |      |
+  | Frag ID                | Fwd Primer                | Rev Primer | Template | Size |
+  | pW256_1_pcr            | oS44                      | oS45       | pW212    | 1983 |
+  | syn5                   | N/A                       | N/A        | N/A      | 350  |
+  | pW256_3_pcr            | oS50                      | oS51       | pR92     | 2876 |
+  | syn6                   | N/A                       | N/A        | N/A      | 766  |
+  | pW256_5_pcr            | oS52                      | oS53       | pW212    | 5555 |
 
-  Note that the primers found in primer_database.csv and the fragments found in frag_database.csv are marked with an asterisk, while new primers are numbered by incrementing from the last entry in the primer database spreadsheet. New primers can also be copied into primer_database.csv for future usage. In the latest version of repp, you can designate a folder of primer csv files as input, and repp will go through all the files.
+  The "pW256.output-reagents.csv" is shown below. The priming region and Tm columns can help users optimize PCR amplification conditions.
+
+  | # Solution 1 |                                     |                         |       |       |
+  | :----------- | :---------------------------------- | :---------------------- | :---- | :---- |
+  | Reagent ID   | Seq                                 | Priming Region          | Tm    | Notes |
+  | *oS44        | CTATTACCATGGTGATGCGGTTTTGGCAGTAC    | TGATGCGGTTTTGGCAGTAC    | 59.12 |       |
+  | *oS45        | ACTGGATCTCTGCTGTCCCT                | ACTGGATCTCTGCTGTCCCT    | 59.96 |       |
+  | oS50         | GCGGAGTGCAACATCAAAGT                | GCGGAGTGCAACATCAAAGT    | 59.41 |       |
+  | oS51         | GACTGCTTGCCTCCACCAC                 | GACTGCTTGCCTCCACCAC     | 60.97 |       |
+  | oS52         | ACGCGTTAAGTCGACAATCA                | ACGCGTTAAGTCGACAATCA    | 57.95 |       |
+  | oS53         | CAAAACCGCATCACCATGGTAATAGCGATGACTAA | ACCATGGTAATAGCGATGACTAA | 57.2  |       |
+  | *syn5        | CAGGGA...(long sequence)...CAAAGTG  | N/A                     | N/A   |       |
+  | syn6         | TGGTGG...(long sequence)...CAATCAA  | N/A                     | N/A   |       |
+  
+  Note that pre-existing primers and synthesized fragments are marked with an asterisk. The IDs of new primers and synthesized fragments are incremented from the last entry of the last spreadsheet of the database.
+
+  Sometimes `repp` generates multiple solutions, because some solution may have a larger cost but fewer fragments. You can choose your favorite solution to move forward.
+
+* Order reagents (primers and synthesized fragments).
+
+  For new primers, you can copy the first two columns from the "*output-reagents.csv" file into the active primer database spreadsheet, and order them from your favorite vendor. We routinely order primers from IDT.
+
+  Similarly, for new fragments that need to be synthesized, you can copy the first two columns into the active spreadsheet of the synthesized fragments database, and order them from your favorite DNA fragment vendor. We use Twist for its unparalleled low cost (9 cents per bp).
+
+* PCR amplification and Gibson Assembly.
+
+  Print the table in "*output-strategy.csv" for bench work reference.
+  
+  Follow [this protocol](https://snownontrace.github.io/PCR-amplification.html) for PCR amplification using a high-fidelity DNA polymerase.
+
+  Follow [this protocol](https://snownontrace.github.io/gibson-assembly.html) for assembling the fragments using Gibson Assembly.
