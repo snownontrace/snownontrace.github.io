@@ -48,15 +48,23 @@ The most commonly used elements in a lab notebook are text, tables and images, w
 
 If you are new to Git, I highly recommend [the Software Carpentry Lesson for Git](https://swcarpentry.github.io/git-novice/index.html). Specifically, you can:
 
-* Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics/index.html).
+* Learn basic concepts of Git [here](https://swcarpentry.github.io/git-novice/01-basics.html).
 
 * Install Git.
   * If you are using a new Mac, you probably have a quite new version of Git installed. Check by typing `git --version` in your terminal. If the version number is close to [the current version](https://git-scm.com/downloads), you can just use the pre-installed version.
   * Otherwise, follow instructions [here](https://carpentries.github.io/workshop-template/#git) to install Git on Windows, Mac or Linux systems.
 
-* [Set up Git](https://swcarpentry.github.io/git-novice/02-setup/index.html) on your computer.
+* [Set up Git](https://swcarpentry.github.io/git-novice/02-setup.html) on your computer. Briefly:
+  * Set your user name: `git config --global user.name "Your Name"`
+  * Set your email (it's recommended to use a no-reply email, such as those provided by GitHub): `git config --global user.email "ID+username@users.noreply.github.com"`
+  * Set line endings:
+    * On Mac and Linux: `git config --global core.autocrlf input`
+    * On Windows: `git config --global core.autocrlf true`
+  * Set your text editor (assuming you use VS code): `git config --global core.editor "code --wait"`
+  * Set default new branch name to be main: `git config --global init.defaultBranch main`
+  * In addition to the general settings mentioned, you should also make sure file mode (e.g., whether it's executable) is ignored, since this can cause headaches when your git repo is on a shared drive. Run the following in your terminal: `git config --global core.fileMode false`
 
-* [Use GitHub](https://swcarpentry.github.io/git-novice/07-github/index.html) for cloud backup.
+* [Use GitHub](https://swcarpentry.github.io/git-novice/07-github.html) for cloud backup.
   * It is recommended to use [SSH connections](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
 * If you are using VS Code, you could easily commit and sync changes within the VS Code interface. If it keeps asking for the SSH passphrase, you can open a terminal window (inside VS code) and run `ssh-add`, which will ask for the SSH passphrase once and VS Code should no longer ask for it.
