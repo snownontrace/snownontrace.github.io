@@ -206,6 +206,8 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
   Sometimes `repp` generates multiple solutions, because some solution may have a larger cost but fewer fragments. You can choose your favorite solution to move forward.
 
+  If you choose a strategy with synthetic fragment, it is good practice to enter the synthetic fragment sequence(s) in Twist to test whether they are OK for synthesis. Sometimes they could be rejected due to repeats and/or extreme GC contents. In those cases, you may need to adjust the cloning strategy accordingly.
+
 * Order new reagents in the "output-reagents.csv" file.
 
   For primers, copy the first two columns of new primers (those not marked with an asterisk) from the to the active primer database spreadsheet. These can then be ordered from your preferred supplier; our standard choice is IDT.
