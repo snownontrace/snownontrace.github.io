@@ -23,9 +23,9 @@ Git is a powerful tool for version control. You don't need Git for installing an
 
 * [Set up Git](https://swcarpentry.github.io/git-novice/02-setup.html) on your computer.
 
-### 2. Install the Janelia SciComp version of repp
+### 2. Install `repp` dependencies: `go`, `primer3`, and `blast`.
 
-* Install 3 dependencies: `go`, `primer3`, and `blast`. Skip to the next step if you are updating `repp`.
+* Skip to the next step if you are updating `repp`.
 
   * Install `go` (version >= 1.19) following instructions [here](https://go.dev/doc/install).
 
@@ -74,33 +74,33 @@ Git is a powerful tool for version control. You don't need Git for installing an
         * Click `Environment Variables`.
         * Select `Path` in the variable list and click `Edit...` to add the above directory.
 
-* Install the Janelia SciComp version of `repp`.
+### 3. Install the Janelia SciComp version of `repp`
 
-  * If you use Git, run `git clone https://github.com/JaneliaSciComp/repp.git`.
-  * If you don't use Git, go to [the Janelia SciComp GitHub page](https://github.com/JaneliaSciComp/repp), click on the green button `Code` and `Download ZIP`. Unzip it.
-  * Assuming the source code of `repp` is in the Downloads folder, run the following to compile `repp`:
+* If you use Git, run `git clone https://github.com/JaneliaSciComp/repp.git`.
+* If you don't use Git, go to [the Janelia SciComp GitHub page](https://github.com/JaneliaSciComp/repp), click on the green button `Code` and `Download ZIP`. Unzip it.
+* Assuming the source code of `repp` is in the Downloads folder, run the following to compile `repp`:
 
-    ```bash
-    cd ~/Downloads/repp/cmd/repp
-    go build
-    ```
-  
-  * The above generates an executable in the same folder.
-    * For __Mac__, run `sudo mv repp /usr/local/bin/.` to move the executable to `/usr/local/bin` or your preferred location. Type your password to give permission if prompted.
-    * For __Windows__, copy the "repp.exe" file to your preferred location, e.g., "C:\Program Files\repp". Add this folder to your `Path` Environment Variable.
-      * Open Start Menu then type `Advanced system settings` and press Enter.
-      * Click `Environment Variables` towards the bottom of the dialogue.
-      * Select `Path` in the variable list and click `Edit...` to add the above directory.
+  ```bash
+  cd ~/Downloads/repp/cmd/repp
+  go build
+  ```
 
-  * Check whether installation is OK by running `which repp`, which should print out the path to the `repp` program (e.g. /usr/local/bin/repp).
+* The above generates an executable in the same folder.
+  * For __Mac__, run `sudo mv repp /usr/local/bin/.` to move the executable to `/usr/local/bin` or your preferred location. Type your password to give permission if prompted.
+  * For __Windows__, copy the "repp.exe" file to your preferred location, e.g., "C:\Program Files\repp". Add this folder to your `Path` Environment Variable.
+    * Open Start Menu then type `Advanced system settings` and press Enter.
+    * Click `Environment Variables` towards the bottom of the dialogue.
+    * Select `Path` in the variable list and click `Edit...` to add the above directory.
 
-### 3. Use repp in your plasmid design work flow
+* Check whether installation is OK by running `where repp`, which should print out the path to the `repp` program (e.g. /usr/local/bin/repp).
+
+### 4. Use repp in your plasmid design work flow
 
 * Download [repp_test.zip](assets/repp_test.zip) for testing.
 
 * (Optional) Add sequence databases from remote repositories (e.g., Addgene, iGEM, DNASU).
 
-  As direct synthesis of DNA fragments becomes more affordable, the advantage of PCR amplification from existing plasmids diminishes. Moreover, acquiring a plasmid from repositories introduces additional time costs. If you have access to basic plasmid backbones, you may omit this step.
+  As direct synthesis of DNA fragments becomes more affordabl (e.g., by Twist Bioscience), the advantage of PCR amplification from existing plasmids has become less and less important. Moreover, acquiring a plasmid from repositories introduces additional time cost. If you have access to basic plasmid backbones, you may omit this step.
 
   The original `repp` author has assembled FASTA files from Addgene, iGEM, and DNASU, and made it available from the S3 bucket. Run the following command to download and add them to the `repp` sequence database on your computer:
 
@@ -133,9 +133,13 @@ Git is a powerful tool for version control. You don't need Git for installing an
   * On Mac, they are in "~/.repp/dbs".
   * On Windows, they are in "C:/users/username/.repp/dbs".
 
-* (Recommened) Organize your primer database.
+* (Recommened) Organize your primer database for re-using primers.
 
-  Although not strictly required, it is highly recommended to create an organized primer database for re-using primers. The primer database parameter "-m" of the Janelia version of repp accpets either a single spreadsheet or a folder containing multiple spreadsheets. When your primer database contains hundred or thousands of primers, it can be cumbersome to scroll down to the bottom of the spreadsheet to add new primers. Instead, it is much easier to maintain a small active spreadsheet with one or more archived spreadsheets. The primer database spreadsheet must have the "primer_id" and "sequence" columns, and optionally other columns for additional notes.
+  It is highly recommended to create a shared primer database among your group for re-using primers. The primer database parameter `-m` accpets either a single spreadsheet or a folder containing multiple spreadsheets. If a required primer is found in the primer database, it will re-use this primer and prefix the primer id with an asterisk to indicate that it's already in the lab collection.
+
+  It is preferred to maintain archived primers and active priemrs in separate spreadsheets. In labs with multiple users, each user can have their own archived and active primers, with user-specific primer prefix. You can specify your primer prefix with `-x`.
+
+  The primer database spreadsheet must have the "primer_id" and "sequence" columns, and optionally additional columns for other information.
 
   In the repp_test example, the "primer_database" folder has two spreadsheets: "1_archived_primer.csv" and "2_active_primer.csv". This is how the "2_active_primer.csv" looks like:
 
@@ -151,9 +155,11 @@ Git is a powerful tool for version control. You don't need Git for installing an
   | oS48      | CTTGCAGCAGATTCAGACCC             |
   | oS49      | CCACGTGGGCTTTATCTTCC             |
 
-* (Optional) Organize your fragment database.
+* (Optional) Organize your fragment database for re-using synthesized fragments.
   
   Following the same logic of re-using primers, you may also wish to re-use synthesized fragments. For this purpose, you can organize your synthesized fragment database similarly as the primer database. Similar to the primer database parameter, the synthesized fragment database parameter "-s" can also accpet a single spreadsheet or a folder containing multiple spreadsheets.
+
+  In practice, however, we found in most cases it is quite unlikely to re-use synthetic fragments. Thus, we stopped doing this by default. We leave this as an option in case it might be useful for you.
 
   In the repp_test example, the "fragment database" folder has two spreadsheets: "1_archived_frag.csv" and "2_active_frag.csv". This is how the "2_active_frag.csv" looks like:
 
@@ -178,33 +184,25 @@ Git is a powerful tool for version control. You don't need Git for installing an
   
   The first 5 columns of "pW256.output-strategy.csv" is shown below. Other columns (Match Pct, GC%, 50 low GC%, 50 high GC%, and Homopolymer) can help users decide whether certain fragments may be difficult to PCR or to synthesize.
 
-  | # 2023/11/08 13:37:36  |                           |            |          |      |
+  | # 2025/09/22 23:56:15  |                           |            |          |      |
   | :--------------------- | :------------------------ | :--------- | :------- | :--- |
   | # Solution 1           |                           |            |          |      |
-  | # Fragments:5 (3 - pcr | 2 - synth)                |            |          |      |
-  | # Cost: 179.510000     | Adjusted Cost: 179.510000 |            |          |      |
+  | # Fragments:2 (1 - pcr | 1 - synth)                |            |          |      |
+  | # Cost: 291.980000     | Adjusted Cost: 291.980000 |            |          |      |
   | Frag ID                | Fwd Primer                | Rev Primer | Template | Size |
-  | pW256_1_pcr            | oS44                      | oS45       | pW212    | 1983 |
-  | syn5                   | N/A                       | N/A        | N/A      | 350  |
-  | pW256_3_pcr            | oS50                      | oS51       | pR92     | 2876 |
-  | syn6                   | N/A                       | N/A        | N/A      | 766  |
-  | pW256_5_pcr            | oS52                      | oS53       | pW212    | 5555 |
+  | pW256_pcr1             | oS46                      | oS50       | pW222    | 7824 |
+  | pW256_syn1             | N/A                       | N/A        | N/A      | 3639 |
 
   The "pW256.output-reagents.csv" is shown below. The priming region and Tm columns can help users optimize PCR amplification conditions.
 
-  | # Solution 1 |                                     |                         |       |
-  | :----------- | :---------------------------------- | :---------------------- | :---- |
-  | Reagent ID   | Seq                                 | Priming Region          | Tm    |
-  | *oS44        | CTATTACCATGGTGATGCGGTTTTGGCAGTAC    | TGATGCGGTTTTGGCAGTAC    | 59.12 |
-  | *oS45        | ACTGGATCTCTGCTGTCCCT                | ACTGGATCTCTGCTGTCCCT    | 59.96 |
-  | oS50         | GCGGAGTGCAACATCAAAGT                | GCGGAGTGCAACATCAAAGT    | 59.41 |
-  | oS51         | GACTGCTTGCCTCCACCAC                 | GACTGCTTGCCTCCACCAC     | 60.97 |
-  | oS52         | ACGCGTTAAGTCGACAATCA                | ACGCGTTAAGTCGACAATCA    | 57.95 |
-  | oS53         | CAAAACCGCATCACCATGGTAATAGCGATGACTAA | ACCATGGTAATAGCGATGACTAA | 57.2  |
-  | *syn5        | CAGGGA...(long sequence)...CAAAGTG  | N/A                     | N/A   |
-  | syn6         | TGGTGG...(long sequence)...CAATCAA  | N/A                     | N/A   |
+  | # Solution 1 |                      |                      |       |
+  | :----------- | :------------------- | :------------------- | :---- |
+  | Reagent ID   | Seq                  | Priming Region       | Tm    |
+  | *oS46        | GGCATGGACGAGCTGTACAA | GGCATGGACGAGCTGTACAA | 60.39 |
+  | oS50         | GCTCTAGAACCGGTCCTGTG | GCTCTAGAACCGGTCCTGTG | 59.83 |
+  | pW256_syn1   | ACACAGG...TGTACAAG   | N/A                  | N/A   |
   
-  Note that pre-existing primers and synthesized fragments are marked with an asterisk. The IDs of new primers and synthesized fragments are incremented from the last entry of the last spreadsheet of the database.
+  Note that pre-existing primers and synthesized fragments are marked with an asterisk. The IDs of new primers and synthesized fragments are incremented from the maximum number with the specified primer prefix found in the database.
 
   Sometimes `repp` generates multiple solutions, because some solution may have a larger cost but fewer fragments. You can choose your favorite solution to move forward.
 
