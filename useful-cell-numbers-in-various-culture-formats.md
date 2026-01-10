@@ -10,16 +10,19 @@ Different cell lines can have different sizes and growth properties that will af
 
 ### 1. Cell number for indicated confluence levels
 
-| Culture format | Area (cm<sup>2</sup>) | 100% | 30% | 20% |
-|:---|---:|---:|---:|---:|
-| 10-cm dish | 78 | 1×10<sup>7</sup> | 3×10<sup>6</sup> | 2×10<sup>6</sup> |
-| T75 flask | 75 | 1×10<sup>7</sup> | 3×10<sup>6</sup> | 2×10<sup>6</sup> |
-| 35-mm dish | 9.6 | 1.2×10<sup>6</sup> | 3.6×10<sup>5</sup> | 2.4×10<sup>5</sup> |
-| 6-well plate | 9.6 | 1.2×10<sup>6</sup> | 3.6×10<sup>5</sup> | 2.4×10<sup>5</sup> |
-| 12-well plate | 3.5 | 4.3×10<sup>5</sup> | 1.3×10<sup>5</sup> | 8.6×10<sup>4</sup> |
-| 24-well plate | 1.9 | 2.4×10<sup>5</sup> | 7.2×10<sup>4</sup> | 4.8×10<sup>4</sup> |
-| 96-well plate | 0.32 | 4×10<sup>4</sup> | 1.2×10<sup>4</sup> | 8×10<sup>3</sup> |
-| 8-well ibidi chamber | 1 | 1.3×10<sup>5</sup> | 3.9×10<sup>4</sup> | 2.5×10<sup>4</sup> |
+| Culture format                       | Area (cm<sup>2</sup>) |               100% |                30% |                20% | Culture volume (mL) |
+| :----------------------------------- | --------------------: | -----------------: | -----------------: | -----------------: | ------------------- |
+| 10-cm dish                           |                    78 |   1×10<sup>7</sup> |   3×10<sup>6</sup> |   2×10<sup>6</sup> | 10 mL               |
+| T75 flask                            |                    75 |   1×10<sup>7</sup> |   3×10<sup>6</sup> |   2×10<sup>6</sup> | 10 mL               |
+| 35-mm dish                           |                   9.6 | 1.2×10<sup>6</sup> | 3.6×10<sup>5</sup> | 2.4×10<sup>5</sup> | 3 mL                |
+| 6-well plate                         |                   9.6 | 1.2×10<sup>6</sup> | 3.6×10<sup>5</sup> | 2.4×10<sup>5</sup> | 2 mL                |
+| 12-well plate                        |                   3.5 | 4.3×10<sup>5</sup> | 1.3×10<sup>5</sup> | 8.6×10<sup>4</sup> | 1 mL                |
+| 24-well plate                        |                   1.9 | 2.4×10<sup>5</sup> | 7.2×10<sup>4</sup> | 4.8×10<sup>4</sup> | 0.5 mL              |
+| 96-well plate                        |                  0.32 |   4×10<sup>4</sup> | 1.2×10<sup>4</sup> |   8×10<sup>3</sup> | 100 µL              |
+| 8-well ibidi chamber                 |                     1 | 1.3×10<sup>5</sup> | 3.9×10<sup>4</sup> | 2.5×10<sup>4</sup> | 300 µL              |
+| 18-well ibidi chamber                |                  0.34 | 4.4×10<sup>4</sup> | 1.3×10<sup>4</sup> | 8.5×10<sup>3</sup> | 100 µL              |
+| 4-well chamber <br> ibidi 35-mm dish |                  0.35 | 4.6×10<sup>4</sup> | 1.4×10<sup>4</sup> | 8.7×10<sup>3</sup> | 110 µL              |
+| 2-well chamber <br> ibidi 35-mm dish |                  0.22 | 2.9×10<sup>4</sup> | 8.6×10<sup>3</sup> | 5.5×10<sup>3</sup> | 70 µL              |
 
 ### 2. Cheat sheet for 8-well ibidi chamber seeding
 
