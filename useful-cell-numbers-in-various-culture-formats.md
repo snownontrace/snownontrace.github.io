@@ -3,7 +3,7 @@ layout: protocols
 title: Useful cell numbers in various culture formats
 author: Shaohe Wang
 author_url: https://scholar.google.com/citations?user=R_-kJV4AAAAJ&hl=en
-date: 2020-08-07
+date: 2026-01-09
 ---
 
 Different cell lines can have different sizes and growth properties that will affect the accuracy of this estimate, but it can serve as a starting point to guide experimental design.
