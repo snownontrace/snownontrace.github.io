@@ -15,7 +15,7 @@ The choice of fixatives depends on what you want to stain. In most cases, 4% PFA
   | Stock | for 1 mL | for 10 mL |
   |:---|---:|---:|
   | Water | 650 µL | 6.5 mL |
-  | [16% PFA](https://www.emsdiasum.com/microscopy/products/chemicals/paraformaldehyde.aspx) (EMS, 15170) | 250 µL | 2.5 mL |
+  | [16% PFA](https://www.emsdiasum.com/paraformaldehyde-16-aqueous-sol-em-grade-2) (EMS, 15710) | 250 µL | 2.5 mL |
   | [10× PBS](https://www.fishersci.com/shop/products/lonza-accugene-pbs-10x-pbs-1l/bma51226) (e.g., Lonza, 51226) | 100 µL | 1 mL |
 
 * To fix mouse embryonic organs such as salivary glands cultured on polycarbonate filters:
